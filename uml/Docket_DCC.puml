@@ -1,0 +1,17 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+interface Doclet {
+    + init(locale : Locale, reporter : Reporter)
+    + getName() : String
+    + SourceVersion getSupportedSourceVersion()
+    + run(environment : DocletEnvironment) : Boolean
+}
+
+enum Kind {
+    EXTENDED
+    STANDARD
+    OTHER
+}
+
+@enduml

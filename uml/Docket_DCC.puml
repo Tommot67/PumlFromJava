@@ -8,10 +8,21 @@ interface Doclet {
     + run(environment : DocletEnvironment) : Boolean
 }
 
-enum Kind {
-    EXTENDED
-    STANDARD
-    OTHER
+class Locale {
 }
+
+interface DocletEnvironment {
+}
+
+interface Reporter {
+}
+
+enum SourceVersion {
+}
+
+Doclet --> Locale : "Use">
+Doclet --> DocletEnvironment : "Use">
+Doclet --> Reporter : "Use">
+Doclet --> SourceVersion : "Use">
 
 @enduml

@@ -4,7 +4,7 @@ import java.util.spi.ToolProvider;
 
 public class Java2Puml
 {
-    String[] javadocArgs = {"-private", "-sourcepath", "./exemples/", "-doclet", "fr.pumlfromjava.sample.FirstDoclet", "-docletpath", "", "western"};
+    //String[] javadocArgs = {"-private", "-sourcepath", "./exemples/", "-doclet", "fr.pumlfromjava.sample.FirstDoclet", "-docletpath", "", "western"};
 
     public static void main(String[] args)
     {

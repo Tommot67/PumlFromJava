@@ -1,0 +1,19 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+skinparam style strictuml
+
+[o-> FirstDoclet ++ : javadoc
+
+participant "FirstDoclet.class" as FirstDoclet
+participant "<<interface>> Doclet" as InterfaceDoclet
+
+FirstDoclet -> InterfaceDoclet ++ : init(locale : Locale, reporter : Reporter)
+return
+FirstDoclet -> InterfaceDoclet ++ : getSupportedOptions()
+return Set<? extends Option>
+FirstDoclet -> InterfaceDoclet ++ : getName();
+return String getClass().getSimpleName()
+FirstDoclet -> InterfaceDoclet ++ : run(environment : DocletEnvironment)
+return Boolean true
+return
+@enduml

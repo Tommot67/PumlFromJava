@@ -4,7 +4,7 @@ import java.util.spi.ToolProvider;
 
 public class Java2Puml
 {
-
+    /*
     String[] perso_args = new String[]{
                 "-private",
                 "-sourcepath",
@@ -15,6 +15,22 @@ public class Java2Puml
                 "",
                 "Lib"
         };
+    */
+
+    String[] perso_args = new String[]{
+        "-private",
+        "-sourcepath",
+        "./exemples/Western/",
+        "-doclet",
+        "pumlFromJava.PumlDoclet",
+        "-d",
+        "./",
+        "-out",
+        "Diagram_test1",
+        "-docletpath",
+        "",
+        "Lib",
+    };
 
     public static void main(String[] args)
     {

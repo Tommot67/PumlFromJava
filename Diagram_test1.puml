@@ -1,0 +1,35 @@
+@startuml
+'https://plantuml.com/class-diagram
+class Ripou {
+}
+class Dame {
+}
+class Maison {
+}
+class Cowboy {
+}
+class Prison {
+}
+interface Hors_La_Loi {
+}
+class Narrateur {
+}
+class Bar {
+}
+class Brigand {
+}
+class Substantif {
+}
+class Personnage {
+}
+enum Genre {
+}
+class Lieu {
+}
+class Location {
+}
+class Boisson {
+}
+class Sherif {
+}
+@enduml

@@ -31,7 +31,10 @@ public class PumlDiagram {
     public static void genereStart(String name_file , String dir_file) throws IOException {
         createFile(name_file,dir_file);
         if(file != null) {
-            file.write("@startuml\n'https://plantuml.com/class-diagram\n");
+            file.write("@startuml\n'https://plantuml.com/class-diagram\nskinparam classAttributeIconSize 0\n" +
+                    "skinparam classFontStyle Bold\n" +
+                    "skinparam style strictuml\n" +
+                    "hide empty members\n");
         }
         /*
         @startuml

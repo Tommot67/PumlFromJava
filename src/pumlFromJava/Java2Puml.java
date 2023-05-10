@@ -17,7 +17,10 @@ public class Java2Puml
         };
     */
 
-    String[] perso_args = new String[]{
+    public static void main(String[] args)
+    {
+
+        String[] perso_args = new String[]{
         "-private",
         "-sourcepath",
         "./exemples/Western/",
@@ -32,8 +35,6 @@ public class Java2Puml
         "Lib",
     };
 
-    public static void main(String[] args)
-    {
         ToolProvider toolProvider = ToolProvider.findFirst("javadoc").get();
         System.out.println(toolProvider.name());
 

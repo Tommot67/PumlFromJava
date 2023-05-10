@@ -1,0 +1,28 @@
+@startuml
+'https://plantuml.com/class-diagram
+skinparam classAttributeIconSize 0
+skinparam classFontStyle Bold
+skinparam style strictuml
+hide empty members
+
+
+
+package "javax.lang.model.element"
+{
+    interface Element extends AnnotatedConstruct
+    {
+        +accept(ElementVisitor<R,P> v, P p)
+        +asType(): TypeMirror
+        +equals(Object obj) : Boolean
+        +getAnnotation(Class<A> annotationType) : <A extends Annotation> A
+        +getAnnotationMirrors() : List<? extends AnnotationMirror>
+        +getAnnotationsByType(Class<A> annotationType) : getAnnotationsByType(Class<A> annotationType)
+        +getEnclosedElements() : List<? extends Element>
+        +getEnclosingElement() : Element
+        +getKind() : ElementKind
+        +getModifiers() : Set<Modifier>
+        +getSimpleName() : Name
+        +hashCode() : int
+    }
+}
+@enduml

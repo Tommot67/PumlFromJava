@@ -9,6 +9,7 @@ import javax.lang.model.element.Element;
 import java.util.Collections;
 import java.util.Locale;
 import java.util.Set;
+import javax.lang.model.element.Element;
 
 /**
  * Doclets : https://openjdk.org/groups/compiler/processing-code.html
@@ -68,6 +69,8 @@ public class FirstDoclet implements Doclet {
         }
         return true;
     }
+
+
 
     private void dumpElement(Element element)
     {

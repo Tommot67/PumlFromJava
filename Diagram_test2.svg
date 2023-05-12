@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="514px" preserveAspectRatio="none" style="width:558px;height:514px;background:#FFFFFF;" version="1.1" viewBox="0 0 558 514" width="558px" zoomAndPan="magnify"><defs/><g><!--MD5=[5cbff45808aa0b349d270201c19fb1ef]
+cluster Lib--><g id="cluster_Lib"><path d="M8.5,6 L31.5,6 A3.75,3.75 0 0 1 34,8.5 L41,28.0986 L548.5,28.0986 A2.5,2.5 0 0 1 551,30.5986 L551,504.5 A2.5,2.5 0 0 1 548.5,507 L8.5,507 A2.5,2.5 0 0 1 6,504.5 L6,8.5 A2.5,2.5 0 0 1 8.5,6 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="6" x2="41" y1="28.0986" y2="28.0986"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="22" x="10" y="21.1318">Lib</text></g><!--MD5=[1ede453f63785d170d39918e488360b5]
+class Lib.Ripou--><g id="elem_Lib.Ripou"><rect codeLine="7" fill="#F1F1F1" height="26.0986" id="Lib.Ripou" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="47" x="76.5" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="41" x="79.5" y="71.1318">Ripou</text></g><!--MD5=[c050a296f7c0826b1167158407203749]
+class Lib.Dame--><g id="elem_Lib.Dame"><rect codeLine="9" fill="#F1F1F1" height="50.1973" id="Lib.Dame" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="62" x="159" y="41"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="38" x="171" y="59.1318">Dame</text><line style="stroke:#181818;stroke-width:0.5;" x1="160" x2="220" y1="67.0986" y2="67.0986"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="50" x="165" y="84.2305">captive</text></g><!--MD5=[51d3a22715aaff37adaefdb945e1ece9]
+class Lib.Maison--><g id="elem_Lib.Maison"><rect codeLine="12" fill="#F1F1F1" height="26.0986" id="Lib.Maison" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="56" x="256" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="50" x="259" y="71.1318">Maison</text></g><!--MD5=[cd8e3e2cf156c0166e262edc22df8c68]
+class Lib.Cowboy--><g id="elem_Lib.Cowboy"><rect codeLine="14" fill="#F1F1F1" height="50.1973" id="Lib.Cowboy" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="96" x="347" y="41"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="56" x="367" y="59.1318">Cowboy</text><line style="stroke:#181818;stroke-width:0.5;" x1="348" x2="442" y1="67.0986" y2="67.0986"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="84" x="353" y="84.2305">récompense</text></g><!--MD5=[b1c74a98ff06a22334600e8ea2324dd7]
+class Lib.Prison--><g id="elem_Lib.Prison"><rect codeLine="17" fill="#F1F1F1" height="26.0986" id="Lib.Prison" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="50" x="75" y="158"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="44" x="78" y="176.1318">Prison</text></g><!--MD5=[ee230915e7a86ad48afb0d6dca2e9a8b]
+class Lib.Hors_La_Loi--><g id="elem_Lib.Hors_La_Loi"><rect codeLine="19" fill="#F1F1F1" height="39.8975" id="Lib.Hors_La_Loi" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="93" x="160.5" y="151"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="61" x="176.5" y="167.2559">«interface»</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="87" x="163.5" y="182.9307">Hors_La_Loi</text></g><!--MD5=[72183b2cd82d26a3409e15a10029443a]
+class Lib.Narrateur--><g id="elem_Lib.Narrateur"><rect codeLine="21" fill="#F1F1F1" height="26.0986" id="Lib.Narrateur" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="69" x="288.5" y="158"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="63" x="291.5" y="176.1318">Narrateur</text></g><!--MD5=[b30b77f7a6923a4e78a71c7a90d22a50]
+class Lib.Bar--><g id="elem_Lib.Bar"><rect codeLine="23" fill="#F1F1F1" height="26.0986" id="Lib.Bar" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="29" x="392.5" y="158"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="23" x="395.5" y="176.1318">Bar</text></g><!--MD5=[7048b37a6101a3ef7f5799689318a995]
+class Lib.Brigand--><g id="elem_Lib.Brigand"><rect codeLine="25" fill="#F1F1F1" height="98.4932" id="Lib.Brigand" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="156" x="22" y="251"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="54" x="73" y="269.1318">Brigand</text><line style="stroke:#181818;stroke-width:0.5;" x1="23" x2="177" y1="277.0986" y2="277.0986"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="144" x="28" y="294.2305">capture_récompense</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="140" x="28" y="310.3291">récompense_default</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="84" x="28" y="326.4277">récompense</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="57" x="28" y="342.5264">capturer</text></g><!--MD5=[2efd18043cad818f2fd81d344c54bb7e]
+class Lib.Substantif--><g id="elem_Lib.Substantif"><rect codeLine="31" fill="#F1F1F1" height="50.1973" id="Lib.Substantif" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="77" x="213.5" y="275"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="71" x="216.5" y="293.1318">Substantif</text><line style="stroke:#181818;stroke-width:0.5;" x1="214.5" x2="289.5" y1="301.0986" y2="301.0986"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="30" x="219.5" y="318.2305">nom</text></g><!--MD5=[157aad5f5060c86f6f90db1a630ed730]
+class Lib.Personnage--><g id="elem_Lib.Personnage"><rect codeLine="34" fill="#F1F1F1" height="66.2959" id="Lib.Personnage" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="88" x="326" y="267"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="82" x="329" y="285.1318">Personnage</text><line style="stroke:#181818;stroke-width:0.5;" x1="327" x2="413" y1="293.0986" y2="293.0986"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="30" x="332" y="310.2305">nom</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="52" x="332" y="326.3291">pseudo</text></g><!--MD5=[b4de937ecf49656002e4baeb207fcac6]
+class Lib.Genre--><g id="elem_Lib.Genre"><rect codeLine="38" fill="#F1F1F1" height="80.0947" id="Lib.Genre" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="86" x="449" y="260"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="83" x="450.5" y="276.2559">«enumeration»</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="41" x="471.5" y="291.9307">Genre</text><line style="stroke:#181818;stroke-width:0.5;" x1="450" x2="534" y1="299.8975" y2="299.8975"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="74" x="455" y="317.0293">MASCULIN</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="58" x="455" y="333.1279">FEMININ</text></g><!--MD5=[3785129f5f78360eefd545c39e10bf89]
+class Lib.Lieu--><g id="elem_Lib.Lieu"><rect codeLine="42" fill="#F1F1F1" height="50.1973" id="Lib.Lieu" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="42" x="79" y="425"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="30" x="85" y="443.1318">Lieu</text><line style="stroke:#181818;stroke-width:0.5;" x1="80" x2="120" y1="451.0986" y2="451.0986"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="30" x="85" y="468.2305">nom</text></g><!--MD5=[9237ddb635d7c4e0a31b522925f1bc6e]
+class Lib.Location--><g id="elem_Lib.Location"><rect codeLine="45" fill="#F1F1F1" height="82.3945" id="Lib.Location" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="94" x="156" y="409"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="61" x="172.5" y="427.1318">Location</text><line style="stroke:#181818;stroke-width:0.5;" x1="157" x2="249" y1="435.0986" y2="435.0986"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="66" x="162" y="452.2305">longitude</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="52" x="162" y="468.3291">latitude</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="82" x="162" y="484.4277">type_terrain</text></g><!--MD5=[93e988cc244d45eb4cb02bdcffe964fe]
+class Lib.Boisson--><g id="elem_Lib.Boisson"><rect codeLine="50" fill="#F1F1F1" height="66.2959" id="Lib.Boisson" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="63" x="285.5" y="417"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="57" x="288.5" y="435.1318">Boisson</text><line style="stroke:#181818;stroke-width:0.5;" x1="286.5" x2="347.5" y1="443.0986" y2="443.0986"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="30" x="291.5" y="460.2305">nom</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="26" x="291.5" y="476.3291">test</text></g><!--MD5=[e0c375f65c97c35a862d90b5e8851dbc]
+class Lib.Sherif--><g id="elem_Lib.Sherif"><rect codeLine="54" fill="#F1F1F1" height="26.0986" id="Lib.Sherif" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="46" x="384" y="437"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="40" x="387" y="455.1318">Sherif</text></g><!--MD5=[3fda2a816b8f47391e1e3d3075988dbc]
+@startuml
+'https://plantuml.com/class-diagram
+skinparam classAttributeIconSize 0
+skinparam classFontStyle Bold
+skinparam style strictuml
+hide empty members
+
+class Lib.Ripou {
+}
+class Lib.Dame {
+	captive
+}
+class Lib.Maison {
+}
+class Lib.Cowboy {
+	récompense
+}
+class Lib.Prison {
+}
+interface Lib.Hors_La_Loi <<interface>> {
+}
+class Lib.Narrateur {
+}
+class Lib.Bar {
+}
+class Lib.Brigand {
+	capture_récompense
+	récompense_default
+	récompense
+	capturer
+}
+class Lib.Substantif {
+	nom
+}
+class Lib.Personnage {
+	nom
+	pseudo
+}
+enum Lib.Genre <<enumeration>> {
+	MASCULIN
+	FEMININ
+}
+class Lib.Lieu {
+	nom
+}
+class Lib.Location {
+	longitude
+	latitude
+	type_terrain
+}
+class Lib.Boisson {
+	nom
+	test
+}
+class Lib.Sherif {
+}
+
+@enduml
+
+@startuml
+skinparam classAttributeIconSize 0
+skinparam classFontStyle Bold
+skinparam style strictuml
+hide empty members
+
+class Lib.Ripou {
+}
+class Lib.Dame {
+	captive
+}
+class Lib.Maison {
+}
+class Lib.Cowboy {
+	récompense
+}
+class Lib.Prison {
+}
+interface Lib.Hors_La_Loi <<interface>> {
+}
+class Lib.Narrateur {
+}
+class Lib.Bar {
+}
+class Lib.Brigand {
+	capture_récompense
+	récompense_default
+	récompense
+	capturer
+}
+class Lib.Substantif {
+	nom
+}
+class Lib.Personnage {
+	nom
+	pseudo
+}
+enum Lib.Genre <<enumeration>> {
+	MASCULIN
+	FEMININ
+}
+class Lib.Lieu {
+	nom
+}
+class Lib.Location {
+	longitude
+	latitude
+	type_terrain
+}
+class Lib.Boisson {
+	nom
+	test
+}
+class Lib.Sherif {
+}
+
+@enduml
+
+PlantUML version 1.2022.12(Sun Oct 23 20:12:26 CEST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

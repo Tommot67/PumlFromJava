@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="297px" preserveAspectRatio="none" style="width:392px;height:297px;background:#FFFFFF;" version="1.1" viewBox="0 0 392 297" width="392px" zoomAndPan="magnify"><defs/><g><!--MD5=[bbddabb45a6ffceaf3a01cefc4bb0c72]
+class Ripou--><g id="elem_Ripou"><rect codeLine="6" fill="#F1F1F1" height="26.0986" id="Ripou" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="47" x="13.5" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="41" x="16.5" y="25.1318">Ripou</text></g><!--MD5=[82ffe367b556fb92ea56c305083e3145]
+class Dame--><g id="elem_Dame"><rect codeLine="8" fill="#F1F1F1" height="26.0986" id="Dame" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="44" x="96" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="38" x="99" y="25.1318">Dame</text></g><!--MD5=[bc8ee41d77b41831ffdb80763c44d701]
+class Maison--><g id="elem_Maison"><rect codeLine="10" fill="#F1F1F1" height="26.0986" id="Maison" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="56" x="175" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="50" x="178" y="25.1318">Maison</text></g><!--MD5=[787f6e469c030c3d6895f0be0075eaa5]
+class Cowboy--><g id="elem_Cowboy"><rect codeLine="12" fill="#F1F1F1" height="26.0986" id="Cowboy" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="62" x="266" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="56" x="269" y="25.1318">Cowboy</text></g><!--MD5=[d5ed326062c9f0af01282b07a540e720]
+class Prison--><g id="elem_Prison"><rect codeLine="14" fill="#F1F1F1" height="26.0986" id="Prison" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="50" x="12" y="93"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="44" x="15" y="111.1318">Prison</text></g><!--MD5=[bdab90a9c4d2962ae073c5695673bcd1]
+class Hors_La_Loi--><g id="elem_Hors_La_Loi"><rect codeLine="16" fill="#F1F1F1" height="26.0986" id="Hors_La_Loi" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="93" x="97.5" y="93"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="87" x="100.5" y="111.1318">Hors_La_Loi</text></g><!--MD5=[b0a3fe75386c10bba45966fe064f1c40]
+class Narrateur--><g id="elem_Narrateur"><rect codeLine="18" fill="#F1F1F1" height="26.0986" id="Narrateur" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="69" x="225.5" y="93"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="63" x="228.5" y="111.1318">Narrateur</text></g><!--MD5=[fea15f7924bd848149aeb562f3a4d86b]
+class Bar--><g id="elem_Bar"><rect codeLine="20" fill="#F1F1F1" height="26.0986" id="Bar" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="29" x="329.5" y="93"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="23" x="332.5" y="111.1318">Bar</text></g><!--MD5=[9330793cdcf4faa5535717234a53a065]
+class Brigand--><g id="elem_Brigand"><rect codeLine="22" fill="#F1F1F1" height="26.0986" id="Brigand" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="60" x="7" y="179"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="54" x="10" y="197.1318">Brigand</text></g><!--MD5=[ba232499bd703469bcdfa3cc3fffdc68]
+class Substantif--><g id="elem_Substantif"><rect codeLine="24" fill="#F1F1F1" height="26.0986" id="Substantif" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="77" x="102.5" y="179"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="71" x="105.5" y="197.1318">Substantif</text></g><!--MD5=[82f78030d15708ad5ff33f19467d2e14]
+class Personnage--><g id="elem_Personnage"><rect codeLine="26" fill="#F1F1F1" height="26.0986" id="Personnage" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="88" x="215" y="179"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="82" x="218" y="197.1318">Personnage</text></g><!--MD5=[f375b3d0fae4d15774812e930c824519]
+class Genre--><g id="elem_Genre"><rect codeLine="28" fill="#F1F1F1" height="26.0986" id="Genre" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="47" x="338.5" y="179"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="41" x="341.5" y="197.1318">Genre</text></g><!--MD5=[127e3b8364e167fa42b348a854ee4d09]
+class Lieu--><g id="elem_Lieu"><rect codeLine="30" fill="#F1F1F1" height="26.0986" id="Lieu" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="36" x="19" y="265"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="30" x="22" y="283.1318">Lieu</text></g><!--MD5=[4f1f3706c1a355a8488e154afcaed5df]
+class Location--><g id="elem_Location"><rect codeLine="32" fill="#F1F1F1" height="26.0986" id="Location" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="67" x="90.5" y="265"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="61" x="93.5" y="283.1318">Location</text></g><!--MD5=[e692b9129d14a6056b5081d9360eda51]
+class Boisson--><g id="elem_Boisson"><rect codeLine="34" fill="#F1F1F1" height="26.0986" id="Boisson" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="63" x="192.5" y="265"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="57" x="195.5" y="283.1318">Boisson</text></g><!--MD5=[32cade0a071f545e921fc26e91a9a04c]
+class Sherif--><g id="elem_Sherif"><rect codeLine="36" fill="#F1F1F1" height="26.0986" id="Sherif" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="46" x="291" y="265"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="40" x="294" y="283.1318">Sherif</text></g><!--MD5=[40f85c94d3621a32b1996e0710a1a6d3]
+@startuml
+'https://plantuml.com/class-diagram
+skinparam classAttributeIconSize 0
+skinparam classFontStyle Bold
+skinparam style strictuml
+hide empty members
+class Ripou {
+}
+class Dame {
+}
+class Maison {
+}
+class Cowboy {
+}
+class Prison {
+}
+interface Hors_La_Loi {
+}
+class Narrateur {
+}
+class Bar {
+}
+class Brigand {
+}
+class Substantif {
+}
+class Personnage {
+}
+enum Genre {
+}
+class Lieu {
+}
+class Location {
+}
+class Boisson {
+}
+class Sherif {
+}
+@enduml
+
+@startuml
+skinparam classAttributeIconSize 0
+skinparam classFontStyle Bold
+skinparam style strictuml
+hide empty members
+class Ripou {
+}
+class Dame {
+}
+class Maison {
+}
+class Cowboy {
+}
+class Prison {
+}
+interface Hors_La_Loi {
+}
+class Narrateur {
+}
+class Bar {
+}
+class Brigand {
+}
+class Substantif {
+}
+class Personnage {
+}
+enum Genre {
+}
+class Lieu {
+}
+class Location {
+}
+class Boisson {
+}
+class Sherif {
+}
+@enduml
+
+PlantUML version 1.2022.12(Sun Oct 23 20:12:26 CEST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

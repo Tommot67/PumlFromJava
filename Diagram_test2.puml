@@ -1,0 +1,58 @@
+@startuml
+'https://plantuml.com/class-diagram
+skinparam classAttributeIconSize 0
+skinparam classFontStyle Bold
+skinparam style strictuml
+hide empty members
+
+class Lib.Ripou {
+}
+class Lib.Dame {
+	captive
+}
+class Lib.Maison {
+}
+class Lib.Cowboy {
+	récompense
+}
+class Lib.Prison {
+}
+interface Lib.Hors_La_Loi <<interface>> {
+}
+class Lib.Narrateur {
+}
+class Lib.Bar {
+}
+class Lib.Brigand {
+	capture_récompense
+	récompense_default
+	récompense
+	capturer
+}
+class Lib.Substantif {
+	nom
+}
+class Lib.Personnage {
+	nom
+	pseudo
+}
+enum Lib.Genre <<enumeration>> {
+	MASCULIN
+	FEMININ
+}
+class Lib.Lieu {
+	nom
+}
+class Lib.Location {
+	longitude
+	latitude
+	type_terrain
+}
+class Lib.Boisson {
+	nom
+	test
+}
+class Lib.Sherif {
+}
+
+@enduml

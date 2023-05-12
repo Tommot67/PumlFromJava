@@ -34,7 +34,7 @@ public class PumlDiagram {
             file.write("@startuml\n'https://plantuml.com/class-diagram\nskinparam classAttributeIconSize 0\n" +
                     "skinparam classFontStyle Bold\n" +
                     "skinparam style strictuml\n" +
-                    "hide empty members\n");
+                    "hide empty members\n\n");
         }
         /*
         @startuml
@@ -59,7 +59,7 @@ public class PumlDiagram {
 
     public  static void genereEnd() throws IOException {
         if(file != null) {
-            file.append("@enduml\n");
+            file.append("\n@enduml\n");
             file.close();
         }
         /*

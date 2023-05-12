@@ -120,7 +120,7 @@ CreateClassElement -- "*" CreateFieldElement : > fields
 
 'Java2Puml --> JavaDoc : "Use"'
 
-note "Launch javadac to PumlDoclet with args" as N2
+note "Launch javadoc to PumlDoclet with args" as N2
 Java2Puml .. N2
 N2 .. PumlDoclet
 

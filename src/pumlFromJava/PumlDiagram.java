@@ -42,19 +42,10 @@ public class PumlDiagram {
          */
     }
 
-    public static void generePrincipal(DocletEnvironment environment) throws IOException {
-        Iterator var_of_element = environment.getSpecifiedElements().iterator();
-        while (var_of_element.hasNext()){
-            Element element1 = (Element)var_of_element.next();
-            for (Element elemant2 : element1.getEnclosedElements()) {
-                createElementIntoFile(elemant2);
-            }
+    public static void generePrincipal(String element_string) throws IOException {
+        if(file != null) {
+            file.append(element_string);
         }
-    }
-
-    private static void createElementIntoFile(Element element) throws IOException {
-        file.append(element.getKind().toString().toLowerCase()+ " " + element.getSimpleName().toString() + " {\n");
-        file.append("}\n");
     }
 
     public  static void genereEnd() throws IOException {

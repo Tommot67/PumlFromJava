@@ -103,7 +103,12 @@ public class PumlDoclet implements Doclet {
     public boolean run(DocletEnvironment environment) {
         try{
             PumlDiagram.genereStart(out,d);
-            PumlDiagram.generePrincipal(environment);
+            Iterator var_of_element = environment.getSpecifiedElements().iterator();
+            while (var_of_element.hasNext()) {
+                Element element1 = (Element) var_of_element.next();
+                CreateFirstElement newFirstElement = new CreateFirstElement(element1);
+                PumlDiagram.generePrincipal(newFirstElement.getBuildUml());
+            }
             PumlDiagram.genereEnd();
         }
         catch (Exception err){

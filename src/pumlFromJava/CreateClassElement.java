@@ -21,6 +21,8 @@ public class CreateClassElement extends ElementDefault{
     public String getStringElementAll(){
         return this.getStringElementStart() + this.getStringFields() + this.getStringElementEnd();
     }
+
+    //Enregistre le contenu de l'élément
     public ArrayList<CreateFieldElement> getField(){
         if(this.fields == null){
             this.fields = new ArrayList<>();
@@ -33,6 +35,8 @@ public class CreateClassElement extends ElementDefault{
         }
         return this.fields;
     }
+
+    //Convertit l'array en String
     public String getStringFields(){
         String temp = "";
         for (CreateFieldElement fieldElement: this.getField()) {

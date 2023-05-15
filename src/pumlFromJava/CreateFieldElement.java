@@ -9,7 +9,7 @@ import java.util.Set;
 public class CreateFieldElement extends ElementDefault{
     private boolean isPrimitive;
     private Set<Modifier> modifiier = new HashSet();
-    private createFieldSpecialElement fieldSpecialElement;
+    private CreateFieldSpecialElement fieldSpecialElement;
     public CreateFieldElement(Element element){
         super(element);
         this.CheckPrimitive();
@@ -42,7 +42,7 @@ public class CreateFieldElement extends ElementDefault{
     }
     public void setFieldNotPrimitive(){
         if(!this.isPrimitive){
-            createFieldSpecialElement newFieldSpecialElement = new createFieldSpecialElement(super.getElement());
+            CreateFieldSpecialElement newFieldSpecialElement = new CreateFieldSpecialElement(super.getElement());
             this.fieldSpecialElement = newFieldSpecialElement;
         }
     }

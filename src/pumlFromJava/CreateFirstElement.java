@@ -17,13 +17,13 @@ public class CreateFirstElement extends ElementDefault {
                     //Crée une instance de classe
                     //builduml = l'entiereté de l'élément
                     CreateClassElement newClassElement = new CreateClassElement(element1);
-                    this.buildUml += newClassElement.getStringElementAll();
+                    this.buildUml += newClassElement.getStringElementAllPlus();
                     break;
                 case INTERFACE:
                     //Crée une instance d'interface
                     //builduml = juste les lignes de début et de fin de l'élément
                     CreateInterElement newInterElement = new CreateInterElement(element1);
-                    this.buildUml += newInterElement.getStringElementStartEnd();
+                    this.buildUml += newInterElement.getStringElementStartEndPlus();
                     break;
                 case ENUM:
                     //Crée une instance d'enum

@@ -12,6 +12,7 @@ public class PumlDiagram {
 
     private static FileWriter file = null;
 
+    //Crée le fichier pour le diagramme
     private static void createFile(String name_file , String dir_file){
         if(file == null){
             try{
@@ -28,6 +29,8 @@ public class PumlDiagram {
         }
     }
     }
+
+    //Ajoute les premières lignes
     public static void genereStart(String name_file , String dir_file) throws IOException {
         createFile(name_file,dir_file);
         if(file != null) {
@@ -42,12 +45,14 @@ public class PumlDiagram {
          */
     }
 
+    //Ajoute les résultats du JavaDoc
     public static void generePrincipal(String element_string) throws IOException {
         if(file != null) {
             file.append(element_string);
         }
     }
 
+    //Conclue le document
     public  static void genereEnd() throws IOException {
         if(file != null) {
             file.append("\n@enduml\n");

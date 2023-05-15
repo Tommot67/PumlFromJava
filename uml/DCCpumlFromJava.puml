@@ -118,8 +118,12 @@ pumlFromJava.ElementDefault <|-- pumlFromJava.CreateFirstElement
 
 CreateClassElement -- "*" CreateFieldElement : > fields
 
+'Java2Puml --> JavaDoc : "Use"'
 
-Java2Puml --> JavaDoc : "Use"
+note "Launch javadoc to PumlDoclet with args" as N2
+Java2Puml .. N2
+N2 .. PumlDoclet
+
 /'interface Doclet {
     + init(locale : Locale, reporter : Reporter)
     + getName() : String

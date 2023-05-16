@@ -1,0 +1,105 @@
+@startuml
+'https://plantuml.com/class-diagram
+skinparam classAttributeIconSize 0
+skinparam classFontStyle Bold
+skinparam style strictuml
+hide empty members
+
+class Lib.Ripou extends Lib.Cowboy implements Lib.Hors_La_Loi {
+}
+
+Lib.Ripou -- Lib.Brigand
+
+class Lib.Dame extends Lib.Personnage  {
+	captive
+}
+
+Lib.Dame -- Lib.Cowboy
+Lib.Dame -- Lib.Brigand
+
+class Lib.Maison extends Lib.Lieu  {
+}
+
+Lib.Maison -- Lib.Boisson
+Lib.Maison -- Lib.Boisson
+
+class Lib.Cowboy extends Lib.Personnage implements Lib.Hors_La_Loi {
+	récompense
+}
+
+Lib.Cowboy -- Lib.Hors_La_Loi
+
+class Lib.Prison extends Lib.Lieu  {
+}
+
+Lib.Prison -- Lib.Sherif
+Lib.Prison -- Lib.Brigand
+Lib.Prison -- Lib.Sherif
+
+interface Lib.Hors_La_Loi  <<interface>> {
+}
+class Lib.Narrateur extends Lib.Personnage  {
+}
+
+
+class Lib.Bar extends Lib.Lieu  {
+}
+
+Lib.Bar -- Lib.Boisson
+Lib.Bar -- Lib.Boisson
+
+class Lib.Brigand extends Lib.Personnage implements Lib.Hors_La_Loi {
+	capture_récompense
+	récompense_default
+	récompense
+	capturer
+}
+
+Lib.Brigand -- Lib.Cowboy
+Lib.Brigand -- Lib.Dame
+
+class Lib.Substantif   {
+	nom
+}
+
+Lib.Substantif -- Lib.Genre
+
+class Lib.Personnage   {
+	nom
+	pseudo
+}
+
+Lib.Personnage -- Lib.Boisson
+Lib.Personnage -- Lib.Boisson
+Lib.Personnage -- Lib.Lieu
+
+enum Lib.Genre <<enumeration>> {
+	MASCULIN
+	FEMININ
+}
+class Lib.Lieu   {
+	nom
+}
+
+Lib.Lieu -- Lib.Personnage
+Lib.Lieu -- Lib.Location
+
+class Lib.Location   {
+	longitude
+	latitude
+	type_terrain
+}
+
+
+class Lib.Boisson   {
+	nom
+}
+
+Lib.Boisson -- Lib.Substantif
+
+class Lib.Sherif extends Lib.Cowboy  {
+}
+
+
+
+@enduml

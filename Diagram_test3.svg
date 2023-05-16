@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="764px" preserveAspectRatio="none" style="width:589px;height:764px;background:#FFFFFF;" version="1.1" viewBox="0 0 589 764" width="589px" zoomAndPan="magnify"><defs/><g><!--MD5=[5cbff45808aa0b349d270201c19fb1ef]
+cluster Lib--><g id="cluster_Lib"><path d="M8.5,6 L31.5,6 A3.75,3.75 0 0 1 34,8.5 L41,28.0986 L579.5,28.0986 A2.5,2.5 0 0 1 582,30.5986 L582,754.5 A2.5,2.5 0 0 1 579.5,757 L8.5,757 A2.5,2.5 0 0 1 6,754.5 L6,8.5 A2.5,2.5 0 0 1 8.5,6 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="6" x2="41" y1="28.0986" y2="28.0986"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="22" x="10" y="21.1318">Lib</text></g><!--MD5=[1ede453f63785d170d39918e488360b5]
+class Lib.Ripou--><g id="elem_Lib.Ripou"><rect codeLine="7" fill="#F1F1F1" height="26.0986" id="Lib.Ripou" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="47" x="430.5" y="179"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="41" x="433.5" y="197.1318">Ripou</text></g><!--MD5=[cd8e3e2cf156c0166e262edc22df8c68]
+class Lib.Cowboy--><g id="elem_Lib.Cowboy"><rect codeLine="25" fill="#F1F1F1" height="50.1973" id="Lib.Cowboy" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="96" x="383" y="576"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="56" x="403" y="594.1318">Cowboy</text><line style="stroke:#181818;stroke-width:0.5;" x1="384" x2="478" y1="602.0986" y2="602.0986"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="84" x="389" y="619.2305">récompense</text></g><!--MD5=[ee230915e7a86ad48afb0d6dca2e9a8b]
+class Lib.Hors_La_Loi--><g id="elem_Lib.Hors_La_Loi"><rect codeLine="38" fill="#F1F1F1" height="39.8975" id="Lib.Hors_La_Loi" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="93" x="342.5" y="701"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="61" x="358.5" y="717.2559">«interface»</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="87" x="345.5" y="732.9307">Hors_La_Loi</text></g><!--MD5=[7048b37a6101a3ef7f5799689318a995]
+class Lib.Brigand--><g id="elem_Lib.Brigand"><rect codeLine="50" fill="#F1F1F1" height="98.4932" id="Lib.Brigand" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="156" x="336" y="293"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="54" x="387" y="311.1318">Brigand</text><line style="stroke:#181818;stroke-width:0.5;" x1="337" x2="491" y1="319.0986" y2="319.0986"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="144" x="342" y="336.2305">capture_récompense</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="140" x="342" y="352.3291">récompense_default</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="84" x="342" y="368.4277">récompense</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="57" x="342" y="384.5264">capturer</text></g><!--MD5=[c050a296f7c0826b1167158407203749]
+class Lib.Dame--><g id="elem_Lib.Dame"><rect codeLine="12" fill="#F1F1F1" height="50.1973" id="Lib.Dame" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="62" x="383" y="451"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="38" x="395" y="469.1318">Dame</text><line style="stroke:#181818;stroke-width:0.5;" x1="384" x2="444" y1="477.0986" y2="477.0986"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="50" x="389" y="494.2305">captive</text></g><!--MD5=[157aad5f5060c86f6f90db1a630ed730]
+class Lib.Personnage--><g id="elem_Lib.Personnage"><rect codeLine="66" fill="#F1F1F1" height="66.2959" id="Lib.Personnage" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="88" x="307" y="159"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="82" x="310" y="177.1318">Personnage</text><line style="stroke:#181818;stroke-width:0.5;" x1="308" x2="394" y1="185.0986" y2="185.0986"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="30" x="313" y="202.2305">nom</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="52" x="313" y="218.3291">pseudo</text></g><!--MD5=[51d3a22715aaff37adaefdb945e1ece9]
+class Lib.Maison--><g id="elem_Lib.Maison"><rect codeLine="19" fill="#F1F1F1" height="26.0986" id="Lib.Maison" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="56" x="151" y="179"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="50" x="154" y="197.1318">Maison</text></g><!--MD5=[3785129f5f78360eefd545c39e10bf89]
+class Lib.Lieu--><g id="elem_Lib.Lieu"><rect codeLine="79" fill="#F1F1F1" height="50.1973" id="Lib.Lieu" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="42" x="283" y="41"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="30" x="289" y="59.1318">Lieu</text><line style="stroke:#181818;stroke-width:0.5;" x1="284" x2="324" y1="67.0986" y2="67.0986"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="30" x="289" y="84.2305">nom</text></g><!--MD5=[93e988cc244d45eb4cb02bdcffe964fe]
+class Lib.Boisson--><g id="elem_Lib.Boisson"><rect codeLine="93" fill="#F1F1F1" height="50.1973" id="Lib.Boisson" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="63" x="22.5" y="317"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="57" x="25.5" y="335.1318">Boisson</text><line style="stroke:#181818;stroke-width:0.5;" x1="23.5" x2="84.5" y1="343.0986" y2="343.0986"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="30" x="28.5" y="360.2305">nom</text></g><!--MD5=[b1c74a98ff06a22334600e8ea2324dd7]
+class Lib.Prison--><g id="elem_Lib.Prison"><rect codeLine="31" fill="#F1F1F1" height="26.0986" id="Lib.Prison" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="50" x="514" y="179"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="44" x="517" y="197.1318">Prison</text></g><!--MD5=[e0c375f65c97c35a862d90b5e8851dbc]
+class Lib.Sherif--><g id="elem_Lib.Sherif"><rect codeLine="99" fill="#F1F1F1" height="26.0986" id="Lib.Sherif" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="46" x="520" y="708"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="40" x="523" y="726.1318">Sherif</text></g><!--MD5=[72183b2cd82d26a3409e15a10029443a]
+class Lib.Narrateur--><g id="elem_Lib.Narrateur"><rect codeLine="40" fill="#F1F1F1" height="26.0986" id="Lib.Narrateur" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="69" x="120.5" y="329"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="63" x="123.5" y="347.1318">Narrateur</text></g><!--MD5=[b30b77f7a6923a4e78a71c7a90d22a50]
+class Lib.Bar--><g id="elem_Lib.Bar"><rect codeLine="44" fill="#F1F1F1" height="26.0986" id="Lib.Bar" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="29" x="242.5" y="179"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="23" x="245.5" y="197.1318">Bar</text></g><!--MD5=[2efd18043cad818f2fd81d344c54bb7e]
+class Lib.Substantif--><g id="elem_Lib.Substantif"><rect codeLine="60" fill="#F1F1F1" height="50.1973" id="Lib.Substantif" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="77" x="24.5" y="451"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="71" x="27.5" y="469.1318">Substantif</text><line style="stroke:#181818;stroke-width:0.5;" x1="25.5" x2="100.5" y1="477.0986" y2="477.0986"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="30" x="30.5" y="494.2305">nom</text></g><!--MD5=[b4de937ecf49656002e4baeb207fcac6]
+class Lib.Genre--><g id="elem_Lib.Genre"><rect codeLine="75" fill="#F1F1F1" height="80.0947" id="Lib.Genre" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="86" x="22" y="561"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="83" x="23.5" y="577.2559">«enumeration»</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="41" x="44.5" y="592.9307">Genre</text><line style="stroke:#181818;stroke-width:0.5;" x1="23" x2="107" y1="600.8975" y2="600.8975"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="74" x="28" y="618.0293">MASCULIN</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="58" x="28" y="634.1279">FEMININ</text></g><!--MD5=[9237ddb635d7c4e0a31b522925f1bc6e]
+class Lib.Location--><g id="elem_Lib.Location"><rect codeLine="86" fill="#F1F1F1" height="82.3945" id="Lib.Location" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="94" x="22" y="151"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="61" x="38.5" y="169.1318">Location</text><line style="stroke:#181818;stroke-width:0.5;" x1="23" x2="115" y1="177.0986" y2="177.0986"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="66" x="28" y="194.2305">longitude</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="52" x="28" y="210.3291">latitude</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="82" x="28" y="226.4277">type_terrain</text></g><!--MD5=[a87021240ba6d978cbe0cfbde5c5ed1e]
+reverse link Lib.Cowboy to Lib.Ripou--><g id="link_Lib.Cowboy_Lib.Ripou"><path d="M455.51,558.09 C486.97,498.97 534.71,387.7 510,293 C500.96,258.34 476.95,222.98 463.49,205.04 " fill="none" id="Lib.Cowboy-backto-Lib.Ripou" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="461.58,561.58,445.79,575.71,449.33,554.82,461.58,561.58" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[32b75245177d0715693a1c80be0cf1ec]
+reverse link Lib.Hors_La_Loi to Lib.Ripou--><g id="link_Lib.Hors_La_Loi_Lib.Ripou"><path d="M365.92,683.52 C358.72,670.56 351.5,655.56 347,641 C313.61,533.09 289.56,346.72 319,293 C342.82,249.54 374.17,263.8 413,233 C423.75,224.47 434.83,213.51 442.75,205.23 " fill="none" id="Lib.Hors_La_Loi-backto-Lib.Ripou" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="371.96,680,376.11,700.78,359.91,687.12,371.96,680" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[b2e705daa53e1d0285303ea3d0798ada]
+link Lib.Ripou to Lib.Brigand--><g id="link_Lib.Ripou_Lib.Brigand"><path codeLine="10" d="M450.73,205.11 C445.6,224.1 435.38,261.89 427.02,292.81 " fill="none" id="Lib.Ripou-Lib.Brigand" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[3a7cb1d23ba5ba51295bc58a9c7fdd0a]
+reverse link Lib.Personnage to Lib.Dame--><g id="link_Lib.Personnage_Lib.Dame"><path d="M327.36,244.06 C311.79,285.33 297.85,344.07 319,391 C332.03,419.9 360.46,442.87 382.84,457.43 " fill="none" id="Lib.Personnage-backto-Lib.Dame" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="320.95,241.21,334.98,225.33,333.92,246.49,320.95,241.21" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[ed8c2f3a87d3f21010b1d244c4577707]
+link Lib.Dame to Lib.Cowboy--><g id="link_Lib.Dame_Lib.Cowboy"><path codeLine="16" d="M417.32,501.01 C420.29,522.54 424.64,553.99 427.63,575.63 " fill="none" id="Lib.Dame-Lib.Cowboy" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[f1753869ad88dcd08e00862cff764b09]
+link Lib.Dame to Lib.Brigand--><g id="link_Lib.Dame_Lib.Brigand"><path codeLine="17" d="M424.71,450.89 C427.32,434.19 428.1,411.37 427.04,391.03 " fill="none" id="Lib.Dame-Lib.Brigand" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[ecdcaf7d54529c3a00068d2ab92e717d]
+link Lib.Brigand to Lib.Dame--><g id="link_Lib.Brigand_Lib.Dame"><path codeLine="58" d="M401.68,391.03 C400.68,411.37 401.42,434.19 403.88,450.89 " fill="none" id="Lib.Brigand-Lib.Dame" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[27cd87266af96df7cabb84a4538cdba9]
+reverse link Lib.Lieu to Lib.Maison--><g id="link_Lib.Lieu_Lib.Maison"><path d="M268.59,102.13 C242.63,127.88 208.95,161.29 191.2,178.9 " fill="none" id="Lib.Lieu-backto-Lib.Maison" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="263.67,97.15,282.8,88.03,273.53,107.09,263.67,97.15" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[fde0fb46cc4d8ae52ef9f6fcf89e8eae]
+link Lib.Maison to Lib.Boisson--><g id="link_Lib.Maison_Lib.Boisson"><path codeLine="22" d="M161.38,205.11 C134.53,229.48 87,284.84 64.66,316.88 " fill="none" id="Lib.Maison-Lib.Boisson" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[fde0fb46cc4d8ae52ef9f6fcf89e8eae]
+link Lib.Maison to Lib.Boisson--><g id="link_Lib.Maison_Lib.Boisson"><path codeLine="23" d="M176.59,205.11 C162.64,229.48 116.71,284.84 84.66,316.88 " fill="none" id="Lib.Maison-Lib.Boisson-1" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[e0531e63ad4096bd70f2782094351ff4]
+reverse link Lib.Personnage to Lib.Cowboy--><g id="link_Lib.Personnage_Lib.Cowboy"><path d="M319.72,242.95 C311.67,258.41 304.11,275.89 300,293 C289.82,335.35 288.37,349.02 300,391 C320.69,465.7 377.61,539.25 409.18,575.93 " fill="none" id="Lib.Personnage-backto-Lib.Cowboy" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="313.74,239.3,329.61,225.25,325.97,246.13,313.74,239.3" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[d7e1d4fe8470fe8d87a065354dcd6f63]
+reverse link Lib.Hors_La_Loi to Lib.Cowboy--><g id="link_Lib.Hors_La_Loi_Lib.Cowboy"><path d="M414.85,682.89 C422.97,664.37 430.25,642.49 433.54,626.16 " fill="none" id="Lib.Hors_La_Loi-backto-Lib.Cowboy" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="421.11,686.02,406.04,700.92,408.53,679.88,421.11,686.02" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[c7cfe4f90dd13c5fa8a2fc69eadf315f]
+link Lib.Cowboy to Lib.Hors_La_Loi--><g id="link_Lib.Cowboy_Lib.Hors_La_Loi"><path codeLine="29" d="M411.88,626.16 C400.78,648.28 389.56,680.57 386.11,700.92 " fill="none" id="Lib.Cowboy-Lib.Hors_La_Loi" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[02d731457049ab7ca314cd279e8d1948]
+reverse link Lib.Lieu to Lib.Prison--><g id="link_Lib.Lieu_Lib.Prison"><path d="M344.13,80.33 C384.15,94.59 446.48,119.48 495,151 C507.12,158.87 519.14,170.1 527.55,178.65 " fill="none" id="Lib.Lieu-backto-Lib.Prison" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="341.8,86.93,325.18,73.78,346.37,73.7,341.8,86.93" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[c4078f1405f6767c4539d96011a5b70f]
+link Lib.Prison to Lib.Sherif--><g id="link_Lib.Prison_Lib.Sherif"><path codeLine="34" d="M534.88,205.25 C524.03,276.5 526.77,636.75 538.71,707.82 " fill="none" id="Lib.Prison-Lib.Sherif" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[c4078f1405f6767c4539d96011a5b70f]
+link Lib.Prison to Lib.Sherif--><g id="link_Lib.Prison_Lib.Sherif"><path codeLine="36" d="M543.55,205.25 C556.15,276.5 558.88,636.75 547.36,707.82 " fill="none" id="Lib.Prison-Lib.Sherif-1" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[fb3d14cda0ea9524236a5f422cec8af1]
+link Lib.Prison to Lib.Brigand--><g id="link_Lib.Prison_Lib.Brigand"><path codeLine="35" d="M528.77,205.11 C512.74,224.1 480.82,261.89 454.7,292.81 " fill="none" id="Lib.Prison-Lib.Brigand" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[84f150283b3e0c807025bfa9f61c5f66]
+reverse link Lib.Personnage to Lib.Narrateur--><g id="link_Lib.Personnage_Lib.Narrateur"><path d="M291.47,237.07 C268.17,254.41 241.27,274.55 217,293 C201.07,305.11 182.99,319.14 170.48,328.89 " fill="none" id="Lib.Personnage-backto-Lib.Narrateur" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="287.48,231.32,307.71,225.01,295.83,242.56,287.48,231.32" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[577f5ecd67b532e02fa28f41195c5c42]
+reverse link Lib.Lieu to Lib.Bar--><g id="link_Lib.Lieu_Lib.Bar"><path d="M287.61,110.24 C278.4,134.55 267.58,163.09 261.59,178.9 " fill="none" id="Lib.Lieu-backto-Lib.Bar" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="281.19,107.42,294.83,91.2,294.28,112.39,281.19,107.42" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[8923d5390fc5fd275de61a68f5cba992]
+link Lib.Bar to Lib.Boisson--><g id="link_Lib.Bar_Lib.Boisson"><path codeLine="47" d="M242.42,198.83 C231.23,207.27 220.48,222.98 208,233 C160.88,270.83 135.32,258.08 86,293 C76.28,299.88 66.68,308.71 59.6,316.92 " fill="none" id="Lib.Bar-Lib.Boisson" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[8923d5390fc5fd275de61a68f5cba992]
+link Lib.Bar to Lib.Boisson--><g id="link_Lib.Bar_Lib.Boisson"><path codeLine="48" d="M264.4,205.03 C261.62,213.65 252.85,225.09 243,233 C195.88,270.83 170.32,258.08 121,293 C108.85,301.6 96.88,313.25 85.72,322.91 " fill="none" id="Lib.Bar-Lib.Boisson-1" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[c109f7bcb0ff6d8526e795cc7aaa5eca]
+reverse link Lib.Personnage to Lib.Brigand--><g id="link_Lib.Personnage_Lib.Brigand"><path d="M372.52,243.56 C379.32,259.53 386.81,277.12 393.53,292.92 " fill="none" id="Lib.Personnage-backto-Lib.Brigand" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="366.06,246.26,364.67,225.11,378.94,240.77,366.06,246.26" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[d800c8aeb847eba7cc6f9c84a2f75676]
+reverse link Lib.Hors_La_Loi to Lib.Brigand--><g id="link_Lib.Hors_La_Loi_Lib.Brigand"><path d="M375.4,681.43 C371.56,668.72 367.91,654.41 366,641 C354.08,557.4 348.47,533.6 366,451 C370.34,430.53 378.85,409.22 387.5,391 " fill="none" id="Lib.Hors_La_Loi-backto-Lib.Brigand" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="382.19,679.67,381.77,700.86,368.89,684.03,382.19,679.67" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[ce170d8cfdefef961680b18e9c06143a]
+link Lib.Brigand to Lib.Cowboy--><g id="link_Lib.Brigand_Lib.Cowboy"><path codeLine="57" d="M441.17,391.21 C449.97,409.37 458.58,430.57 463,451 C472.53,495.09 455.17,546.54 442.51,576 " fill="none" id="Lib.Brigand-Lib.Cowboy" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[60f99e240f1bb59c3e33c34cdfc0ad7e]
+link Lib.Substantif to Lib.Genre--><g id="link_Lib.Substantif_Lib.Genre"><path codeLine="64" d="M63.39,501.01 C63.67,517.93 64.04,540.97 64.36,560.56 " fill="none" id="Lib.Substantif-Lib.Genre" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[dd6504e3ed62baae876a15d68701b4ea]
+link Lib.Personnage to Lib.Boisson--><g id="link_Lib.Personnage_Lib.Boisson"><path codeLine="71" d="M306.9,213.35 C295.57,220.21 283.58,227.51 272,233 C193.5,270.19 160.34,248.08 86,293 C75.6,299.28 65.71,308.18 58.65,316.61 " fill="none" id="Lib.Personnage-Lib.Boisson" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[dd6504e3ed62baae876a15d68701b4ea]
+link Lib.Personnage to Lib.Boisson--><g id="link_Lib.Personnage_Lib.Boisson"><path codeLine="72" d="M321.91,225.1 C317.03,227.95 311.98,230.64 307,233 C228.5,270.19 195.34,248.08 121,293 C108.36,300.64 96.47,312.14 85.52,321.97 " fill="none" id="Lib.Personnage-Lib.Boisson-1" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[ef9cda5a21c456952c3dcb4412526cfc]
+link Lib.Personnage to Lib.Lieu--><g id="link_Lib.Personnage_Lib.Lieu"><path codeLine="73" d="M350.82,158.87 C345.11,137.74 334.45,110.51 324.14,91.2 " fill="none" id="Lib.Personnage-Lib.Lieu" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[c88265239c29958cdf6854972f70c3a1]
+link Lib.Lieu to Lib.Personnage--><g id="link_Lib.Lieu_Lib.Personnage"><path codeLine="83" d="M302.82,91.2 C307.31,110.51 317.31,137.74 327.49,158.87 " fill="none" id="Lib.Lieu-Lib.Personnage" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[8b78af224818f56f56f9274b6c593129]
+link Lib.Lieu to Lib.Location--><g id="link_Lib.Lieu_Lib.Location"><path codeLine="84" d="M282.74,76.73 C250.23,91.78 186.43,122 134,151 C128.2,154.21 122.19,157.69 116.27,161.21 " fill="none" id="Lib.Lieu-Lib.Location" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[badcc7a311df25d5da87e7716c476f8c]
+link Lib.Boisson to Lib.Substantif--><g id="link_Lib.Boisson_Lib.Substantif"><path codeLine="97" d="M55.65,367.21 C57.27,391.03 59.74,427.18 61.36,450.94 " fill="none" id="Lib.Boisson-Lib.Substantif" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[88934704014f2e68d0f4879136ae5309]
+reverse link Lib.Cowboy to Lib.Sherif--><g id="link_Lib.Cowboy_Lib.Sherif"><path d="M467.95,640.93 C490.01,664.17 516.54,692.12 531.42,707.8 " fill="none" id="Lib.Cowboy-backto-Lib.Sherif" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="462.63,645.49,453.94,626.16,472.78,635.85,462.63,645.49" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[213cf6ac306319745a8919362f07a78a]
+@startuml
+'https://plantuml.com/class-diagram
+skinparam classAttributeIconSize 0
+skinparam classFontStyle Bold
+skinparam style strictuml
+hide empty members
+
+class Lib.Ripou extends Lib.Cowboy implements Lib.Hors_La_Loi {
+}
+
+Lib.Ripou - - Lib.Brigand
+
+class Lib.Dame extends Lib.Personnage  {
+	captive
+}
+
+Lib.Dame - - Lib.Cowboy
+Lib.Dame - - Lib.Brigand
+
+class Lib.Maison extends Lib.Lieu  {
+}
+
+Lib.Maison - - Lib.Boisson
+Lib.Maison - - Lib.Boisson
+
+class Lib.Cowboy extends Lib.Personnage implements Lib.Hors_La_Loi {
+	récompense
+}
+
+Lib.Cowboy - - Lib.Hors_La_Loi
+
+class Lib.Prison extends Lib.Lieu  {
+}
+
+Lib.Prison - - Lib.Sherif
+Lib.Prison - - Lib.Brigand
+Lib.Prison - - Lib.Sherif
+
+interface Lib.Hors_La_Loi  <<interface>> {
+}
+class Lib.Narrateur extends Lib.Personnage  {
+}
+
+
+class Lib.Bar extends Lib.Lieu  {
+}
+
+Lib.Bar - - Lib.Boisson
+Lib.Bar - - Lib.Boisson
+
+class Lib.Brigand extends Lib.Personnage implements Lib.Hors_La_Loi {
+	capture_récompense
+	récompense_default
+	récompense
+	capturer
+}
+
+Lib.Brigand - - Lib.Cowboy
+Lib.Brigand - - Lib.Dame
+
+class Lib.Substantif   {
+	nom
+}
+
+Lib.Substantif - - Lib.Genre
+
+class Lib.Personnage   {
+	nom
+	pseudo
+}
+
+Lib.Personnage - - Lib.Boisson
+Lib.Personnage - - Lib.Boisson
+Lib.Personnage - - Lib.Lieu
+
+enum Lib.Genre <<enumeration>> {
+	MASCULIN
+	FEMININ
+}
+class Lib.Lieu   {
+	nom
+}
+
+Lib.Lieu - - Lib.Personnage
+Lib.Lieu - - Lib.Location
+
+class Lib.Location   {
+	longitude
+	latitude
+	type_terrain
+}
+
+
+class Lib.Boisson   {
+	nom
+}
+
+Lib.Boisson - - Lib.Substantif
+
+class Lib.Sherif extends Lib.Cowboy  {
+}
+
+
+
+@enduml
+
+@startuml
+skinparam classAttributeIconSize 0
+skinparam classFontStyle Bold
+skinparam style strictuml
+hide empty members
+
+class Lib.Ripou extends Lib.Cowboy implements Lib.Hors_La_Loi {
+}
+
+Lib.Ripou - - Lib.Brigand
+
+class Lib.Dame extends Lib.Personnage  {
+	captive
+}
+
+Lib.Dame - - Lib.Cowboy
+Lib.Dame - - Lib.Brigand
+
+class Lib.Maison extends Lib.Lieu  {
+}
+
+Lib.Maison - - Lib.Boisson
+Lib.Maison - - Lib.Boisson
+
+class Lib.Cowboy extends Lib.Personnage implements Lib.Hors_La_Loi {
+	récompense
+}
+
+Lib.Cowboy - - Lib.Hors_La_Loi
+
+class Lib.Prison extends Lib.Lieu  {
+}
+
+Lib.Prison - - Lib.Sherif
+Lib.Prison - - Lib.Brigand
+Lib.Prison - - Lib.Sherif
+
+interface Lib.Hors_La_Loi  <<interface>> {
+}
+class Lib.Narrateur extends Lib.Personnage  {
+}
+
+
+class Lib.Bar extends Lib.Lieu  {
+}
+
+Lib.Bar - - Lib.Boisson
+Lib.Bar - - Lib.Boisson
+
+class Lib.Brigand extends Lib.Personnage implements Lib.Hors_La_Loi {
+	capture_récompense
+	récompense_default
+	récompense
+	capturer
+}
+
+Lib.Brigand - - Lib.Cowboy
+Lib.Brigand - - Lib.Dame
+
+class Lib.Substantif   {
+	nom
+}
+
+Lib.Substantif - - Lib.Genre
+
+class Lib.Personnage   {
+	nom
+	pseudo
+}
+
+Lib.Personnage - - Lib.Boisson
+Lib.Personnage - - Lib.Boisson
+Lib.Personnage - - Lib.Lieu
+
+enum Lib.Genre <<enumeration>> {
+	MASCULIN
+	FEMININ
+}
+class Lib.Lieu   {
+	nom
+}
+
+Lib.Lieu - - Lib.Personnage
+Lib.Lieu - - Lib.Location
+
+class Lib.Location   {
+	longitude
+	latitude
+	type_terrain
+}
+
+
+class Lib.Boisson   {
+	nom
+}
+
+Lib.Boisson - - Lib.Substantif
+
+class Lib.Sherif extends Lib.Cowboy  {
+}
+
+
+
+@enduml
+
+PlantUML version 1.2022.12(Sun Oct 23 20:12:26 CEST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

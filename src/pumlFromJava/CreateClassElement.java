@@ -29,7 +29,7 @@ public class CreateClassElement extends ElementDefault{
         return this.getStringElementStart() + this.getStringFieldsPrimitive() + this.getStringElementEnd();
     }
     public String getStringElementAllPlus(){
-        return this.getStringElementStartPlus() + this.getStringFieldsPrimtive() + this.getStringElementEnd() + this.getStringFieldsNotPrimitive();
+        return this.getStringElementStartPlus() + this.getStringFieldsPrimitive() + this.getStringElementEnd() + this.getStringFildsNotPrimitive();
     }
 
     //Enregistre le contenu de l'élément

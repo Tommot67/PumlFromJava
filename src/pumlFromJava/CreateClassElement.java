@@ -26,14 +26,14 @@ public class CreateClassElement extends ElementDefault{
         return this.getStringElementStart() + this.getStringElementEnd();
     }
     public String getStringElementAll(){
-        return this.getStringElementStart() + this.getStringFields() + this.getStringElementEnd();
+        return this.getStringElementStart() + this.getStringFieldsPrimitive() + this.getStringElementEnd();
     }
     public String getStringElementAllPlus(){
         return this.getStringElementStartPlus() + this.getStringFieldsPrimtive() + this.getStringElementEnd() + this.getStringFieldsNotPrimitive();
     }
 
     //Enregistre le contenu de l'élément
-    public ArrayList<CreateFieldElement> getField(){
+    public ArrayList<CreateFieldElement> getFields(){
         if(this.fields == null){
             this.fields = new ArrayList<>();
             for (Element element1: super.getElementEnclosed()) {
@@ -49,16 +49,16 @@ public class CreateClassElement extends ElementDefault{
     //Convertit l'array en String
     public String getStringFieldsPrimitive(){
         String temp = "";
-        for (CreateFieldElement fieldElement: this.getFieldPrimitive()) {
-            temp += fieldElement.getFields();
+        for (CreateFieldElement fieldElement: this.getFields()) {
+            temp += fieldElement.getFieldPrimitive();
         }
         return temp;
     }
 
     public String getStringFildsNotPrimitive(){
         String temp = "\n";
-        for (CreateFieldElement fieldElement: this.getField()) {
-            temp += fieldElement.getFildNotPrimitive();
+        for (CreateFieldElement fieldElement: this.getFields()) {
+            temp += fieldElement.getFieldNotPrimitive();
         }
         temp += "\n";
         return temp;

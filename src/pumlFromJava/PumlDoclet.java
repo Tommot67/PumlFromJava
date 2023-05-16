@@ -5,6 +5,7 @@ import jdk.javadoc.doclet.DocletEnvironment;
 import jdk.javadoc.doclet.Reporter;
 
 import javax.lang.model.SourceVersion;
+import javax.lang.model.element.Element;
 import java.util.*;
 
 public class PumlDoclet implements Doclet {

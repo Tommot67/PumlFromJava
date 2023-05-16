@@ -22,6 +22,9 @@ public class CreateFieldElement extends ElementDefault{
         else if(Helper.isPrimitiveObject(super.getElement().asType())){
             verif = true;
         }
+        else{
+            this.setFieldNotPrimitive();
+        }
         this.isPrimitive = verif;
         return verif;
     }
@@ -47,7 +50,7 @@ public class CreateFieldElement extends ElementDefault{
         }
     }
 
-    public String getFildNotPrimitive(){
+    public String getFieldNotPrimitive(){
         if(!this.isPrimitive && this.fieldSpecialElement != null){
             return this.fieldSpecialElement.getStringElement();
         }

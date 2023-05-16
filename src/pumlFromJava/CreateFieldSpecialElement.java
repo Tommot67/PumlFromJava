@@ -5,7 +5,7 @@ import javax.lang.model.element.VariableElement;
 import java.util.ArrayList;
 
 public class CreateFieldSpecialElement extends ElementDefault{
-    public static ArrayList<createFieldSpecialElement> specialElements = new ArrayList<>();
+    public static ArrayList<CreateFieldSpecialElement> specialElements = new ArrayList<>();
     private String elementFirst;
     private String elementSecond;
     private boolean elementSecondIsArray;

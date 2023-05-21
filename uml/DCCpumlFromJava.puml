@@ -3,135 +3,183 @@
 skinparam classAttributeIconSize 0
 skinparam classFontStyle Bold
 skinparam style strictuml
+
 package "pumlFromJava"
 {
     class PumlDoclet
     {
-        -String : name {readOnly}
-        -boolean : hasArg {readOnly}
-        -String : description {readOnly}
-        -String : parameters {readOnly}
-        -String : out
-        -String : d
-
-
-        Option(String name, boolean hasArg, String description, String parameters)
-        +getArgumentCount(): Int
-        +getDescription(): String
-        +getKind(): Kind
-        +getNames(): List<String>
-        +getParameters() : String
-        +init(Locale locale, Reporter reporter)
-        +getName() : String
-        +getSupportedOptions() : Set<? extends Option>
-        +getSupportedSourceVersion() : SourceVersion
-        +run(DocletEnvironment environment) : boolean
-
+        - String : name {readOnly}
+        - boolean : hasArg {readOnly}
+        - String : description {readOnly}
+        - String : parameters {readOnly}
+        - String : out
+        - String : d
+        Option(String : name, boolean : hasArg, String : description, String : parameters)
+        + getArgumentCount() : Int
+        + getDescription() : String
+        + getKind() : Kind
+        + getNames(): String[*]
+        + getParameters() : String
+        + init(Locale : locale, Reporter : reporter)
+        + getName() : String
+        + getSupportedOptions() : Set<? extends Option>
+        + getSupportedSourceVersion() : SourceVersion
+        + run(DocletEnvironment : environment) : boolean
     }
     class Java2Puml
     {
         + {static} main(String[])
-
     }
+
     class PumlDiagram
     {
-        -FileWriter file {static}
-        -createFile(String name_file , String dir_file) {static}
-        +genereStart(String name_file , String dir_file)  {static}
-        +generePrincipal(DocletEnvironment environment) {static}
-        +createElementIntoFile(Element element) {static}
-        +genereEnd() {static}
+        - FileWriter : file {static}
+        - createFile(String : name_file , String : dir_file) {static}
+        + genereStart(String : name_file , String : dir_file)  {static}
+        + generePrincipal(String : element_string) {static}
+        + genereEnd() {static}
     }
 
     class CreateFirstElement
     {
-        -String : builduml
-
-        +CreateFirstElement(Element element)
-        +run()
-        +getBuildUml() : String
+        - String : builduml
+        + <<Create>> CreateFirstElement(Element : element)
+        + run()
+        + getBuildUml() : String
     }
+
+    class CreateExtendsElement
+    {
+        - String {static} : objectClass {readOnly}
+        - boolean : isExtends
+        - String : nameExtends
+        - TypeElement : typeElement
+        + <<Create>> CreateExtendsElement(Element : element)
+        - setIsExtends()
+        + getIsExtendsVal() : boolean
+        - setNameExtends()
+        + getNameExtends() : String
+        + getStringExtends() : String
+    }
+
+    class Helper
+    {
+        - {static} String : classPrimitiveForObjectType {readOnly}
+        - {static} String : classArrayForObjectType {readOnly}
+        + {static} isPrimitiveObject(TypeMirror : type_test) : boolean
+        + {static} isArrayObject(TypeMirror : type_test) : boolean
+    }
+
+    class CreateInterElement
+    {
+        + <<Create>> CreateInterElement(Element : element)
+        + getStringElementStart() : String
+        + getStringElementStartPlus() : String
+        + getStringElementEnd() : String
+        + getStringElementStartEnd() : String
+        + getStringElementStartEndPlus() : String
+    }
+
+    class CreateClassElement
+    {
+        + <<Create>> CreateClassElement(Element : element)
+        + getStringElementStart() : String
+        + getStringElementStartPlus() : String
+        + getStringElementEnd() : String
+        + getStringElementStartEnd() : String
+        + getStringElementAll() : String
+        + getStringElementAllPlus() : String
+        + getField() : CreateFieldElement[*]
+        + getFields() : CreateFieldElement[*]
+        + getStringFieldsPrimitive(): String
+        + getStringFildsNotPrimitive() : String
+    }
+
+    class CreateFieldElement
+    {
+        - boolean : isPrimitive
+        - Set<Modifier> : modifier
+        + <<Create>> CreateFieldElement(Element : element)
+        + CheckPrimitive() : boolean
+        + giveModifier() : Set<Modifier>
+        + getIsPrimitive() : boolean
+        + getFieldPrimitive() : String
+        + setFieldNotPrimitive()
+        + getFieldNotPrimitive() : String
+    }
+
+    abstract class ElementDefault
+    {
+        - Element : element
+        - String : name
+        - String : enclosing
+        - List<? extends Element> : elementEnclosed
+        + <<Create>> ElementDefault(Element : element)
+        + getElement() : Element
+        + getName() : String
+        + getEnclosing() : String
+        + getNameAndEnclosing() : String
+        + getElementEnclosed() : List<? extends Element>
+    }
+
+    class CreateEnumElement
+    {
+        - String[*] : AttributEnum
+        + <<Create>> CreateEnumElement(Element : element)
+        + getStringElementStart() : String
+        + getStringElementEnd() : String
+        + getStringElementStartEnd() : String
+        + getStringElementAll() : String
+        + getAttributEnum() : String[*]
+        + getStringAttributEnum() : String
+    }
+
+    class CreateImpleElement {
+        - TypeElement : typeElement
+        - boolean : isImplements
+        - TypeMirror[*] : interfacesImplements
+        + <<Create>> CreateImpleElement(Element : element)
+        - setIsImplements()
+        + getIsImplementVal() : boolean
+        - setinterfacesImplements()
+        + getinterfacesImplements() : TypeMirror[*]
+        + getStringImplements() : String
+    }
+
+    class CreateFieldSpecialElement
+    {
+        - String : elementFirst
+        - String : elementSecond
+        - boolean : elementSecondIsArray
+        + <<Create>> CreateFieldSpecialElement(Element : element)
+        + getElementFirst() : String
+        + getElementSecond() : String
+        + getElementSecondIsArray() : boolean
+        + setElementFirst()
+        + setElementSecond()
+        + setElementSecondIsArray()
+        + getStringElement() : String
+    }
+
+    jdk.javadoc.doclet.Doclet <|.. PumlDoclet
+    ElementDefault <|-- CreateInterElement
+    ElementDefault <|-- CreateClassElement
+    ElementDefault <|-- CreateFieldElement
+    ElementDefault <|-- CreateEnumElement
+    ElementDefault <|-- CreateFirstElement
+    ElementDefault <|-- CreateFieldSpecialElement
     PumlDoclet --> PumlDiagram : "Create"
     PumlDoclet --> CreateFirstElement : "Instantiate"
 
-
-
+    CreateClassElement -- "*" CreateFieldElement : > fields
+    CreateClassElement -- "1" CreateExtendsElement : > extendsElement
+    CreateClassElement -- "1" CreateImpleElement : > impleElement
+    CreateInterElement -- "1" CreateExtendsElement : > extendsElement
+    CreateFieldElement -- "1" CreateFieldSpecialElement : > fieldSpecialElement
 }
-class pumlFromJava.Helper {
-- {static} String classForObjectType {readOnly}
-+ {static} boolean isPrimitiveObject(TypeMirror) {static}
-}
-
-class pumlFromJava.CreateInterElement {
-+ String getStringElementStart()
-+ String getStringElementEnd()
-+ String getStringElementStartEnd()
-}
-
-class pumlFromJava.CreateClassElement {
-+ String getStringElementStart()
-+ String getStringElementEnd()
-+ String getStringElementStartEnd()
-+ String getStringElementAll()
-+ ArrayList<CreateFieldElement> getField()
-+ String getStringFields()
-}
-
-class pumlFromJava.CreateFieldElement {
-- boolean isPrimitive
-- Set<Modifier> modifiier
-+ boolean CheckPrimitive()
-+ Set<Modifier> giveModifier()
-+ boolean getIsPrimitive()
-+ String getFields()
-}
-
-
-abstract class pumlFromJava.ElementDefault {
-- Element element
-- String name
-- String enclosing
-- List<? extends Element> elementEnclosed
-+ Element getElement()
-+ String getName()
-+ String getEnclosing()
-+ String getNameAndEnclosing()
-+ List<? extends Element> getElementEnclosed()
-}
-
-class pumlFromJava.CreateEnumElement {
-- ArrayList<String> AttributEnum
-+ String getStringElementStart()
-+ String getStringElementEnd()
-+ String getStringElementStartEnd()
-+ String getStringElementAll()
-+ ArrayList<String> getAttributEnum()
-+ String getStringAttributEnum()
-}
-
-jdk.javadoc.doclet.Doclet <|.. pumlFromJava.PumlDoclet
-pumlFromJava.ElementDefault <|-- pumlFromJava.CreateInterElement
-pumlFromJava.ElementDefault <|-- pumlFromJava.CreateClassElement
-pumlFromJava.ElementDefault <|-- pumlFromJava.CreateFieldElement
-pumlFromJava.ElementDefault <|-- pumlFromJava.CreateEnumElement
-pumlFromJava.ElementDefault <|-- pumlFromJava.CreateFirstElement
-
-CreateClassElement -- "*" CreateFieldElement : > fields
-
-'Java2Puml --> JavaDoc : "Use"'
 
 note "Launch javadoc to PumlDoclet with args" as N2
 Java2Puml .. N2
 N2 .. PumlDoclet
-
-/'interface Doclet {
-    + init(locale : Locale, reporter : Reporter)
-    + getName() : String
-    + SourceVersion getSupportedSourceVersion()
-    + run(environment : DocletEnvironment) : Boolean
-}'/
-
-
-
 
 @enduml

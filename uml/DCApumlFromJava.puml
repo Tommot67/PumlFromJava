@@ -19,7 +19,79 @@ Java2Puml ---> JavaDoc : "Use"
     + run(environment : DocletEnvironment) : Boolean
 }'/
 
+@startuml
+'https://plantuml.com/class-diagram
+skinparam classAttributeIconSize 0
+skinparam classFontStyle Bold
+skinparam style strictuml
 
+package "pumlFromJava"
+{
+    class PumlDoclet
+    {
+    }
+    class Java2Puml
+    {
+    }
 
+    class PumlDiagram
+    {
+    }
+
+    class CreateFirstElement
+    {
+    }
+
+    class CreateExtendsElement
+    {
+    }
+
+    class Helper
+    {
+    }
+
+    class CreateInterElement
+    {
+    }
+
+    class CreateClassElement
+    {
+    }
+
+    class CreateFieldElement
+    {
+    }
+
+    abstract class ElementDefault
+    {
+    }
+
+    class CreateEnumElement
+    {
+    }
+
+    class CreateImpleElement {
+    }
+
+    class CreateFieldSpecialElement
+    {
+    }
+
+    jdk.javadoc.doclet.Doclet <|.. PumlDoclet
+    ElementDefault <|-- CreateInterElement
+    ElementDefault <|-- CreateClassElement
+    ElementDefault <|-- CreateFieldElement
+    ElementDefault <|-- CreateEnumElement
+    ElementDefault <|-- CreateFirstElement
+    ElementDefault <|-- CreateFieldSpecialElement
+    PumlDoclet --> PumlDiagram : "Create"
+    PumlDoclet --> CreateFirstElement : "Instantiate"
+
+    CreateClassElement -- "*" CreateFieldElement : > fields
+    CreateClassElement -- "1" CreateExtendsElement : > extendsElement
+    CreateClassElement -- "1" CreateImpleElement : > impleElement
+    CreateInterElement -- "1" CreateExtendsElement : > extendsElement
+    CreateFieldElement -- "1" CreateFieldSpecialElement : > fieldSpecialElement
+}
 
 @enduml

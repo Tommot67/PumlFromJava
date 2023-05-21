@@ -8,7 +8,7 @@ import java.util.Set;
 
 public class CreateFieldElement extends ElementDefault{
     private boolean isPrimitive;
-    private Set<Modifier> modifiier = new HashSet();
+    private Set<Modifier> modifier = new HashSet();
     private CreateFieldSpecialElement fieldSpecialElement;
     public CreateFieldElement(Element element){
         super(element);
@@ -29,8 +29,8 @@ public class CreateFieldElement extends ElementDefault{
         return verif;
     }
     public Set<Modifier> giveModifier(){
-        this.modifiier = super.getElement().getModifiers();
-        return this.modifiier;
+        this.modifier = super.getElement().getModifiers();
+        return this.modifier;
     }
     public boolean getIsPrimitive(){
         return this.isPrimitive;

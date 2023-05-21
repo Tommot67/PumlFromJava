@@ -18,7 +18,7 @@ public class CreateImpleElement {
     private void setIsImplements(){
         this.isImplements = this.typeElement.getInterfaces().size() != 0 ? true : false;
     }
-    public boolean getIsExtendsVal(){
+    public boolean getIsImplementVal(){
         return this.isImplements;
     }
 

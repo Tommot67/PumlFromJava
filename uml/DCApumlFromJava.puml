@@ -1,26 +1,5 @@
 @startuml
 'https://plantuml.com/class-diagram
-package "pumlFromJava"
-{
-    class PumlDoclet
-    {
-
-    }
-    class Java2Puml
-    PumlDoclet --> PumlDiagram : "Create"
-    PumlDoclet --> CreateFirstElement : "Instantiate"
-
-}
-Java2Puml ---> JavaDoc : "Use"
-/'interface Doclet {
-    + init(locale : Locale, reporter : Reporter)
-    + getName() : String
-    + SourceVersion getSupportedSourceVersion()
-    + run(environment : DocletEnvironment) : Boolean
-}'/
-
-@startuml
-'https://plantuml.com/class-diagram
 skinparam classAttributeIconSize 0
 skinparam classFontStyle Bold
 skinparam style strictuml

@@ -3,11 +3,19 @@
 skinparam classAttributeIconSize 0
 skinparam classFontStyle Bold
 skinparam style strictuml
+hide empty members
+
 
 package "pumlFromJava"
 {
     class PumlDoclet
     {
+    name
+    hasArg
+    description
+    parameters
+    out
+    d
     }
     class Java2Puml
     {
@@ -15,14 +23,22 @@ package "pumlFromJava"
 
     class PumlDiagram
     {
+    file
     }
 
     class CreateFirstElement
     {
+    builduml
     }
 
     class CreateExtendsElement
     {
+    objectClass
+    isExtends
+    nameExtends
+    typeElement
+    classPrimitiveForObjectType
+    classArrayForObjectType
     }
 
     class Helper
@@ -39,21 +55,35 @@ package "pumlFromJava"
 
     class CreateFieldElement
     {
+    isPrimitive
+    modifier
     }
 
     abstract class ElementDefault
     {
+    element
+    name
+    enclosing
+    elementEnclosed
+
     }
 
     class CreateEnumElement
     {
+    AttributEnum
     }
 
     class CreateImpleElement {
+    typeElement
+    isImplements
+    interfacesImplements
     }
 
     class CreateFieldSpecialElement
     {
+    elementFirst
+    elementSecond
+    elementSecondIsArray
     }
 
     jdk.javadoc.doclet.Doclet <|.. PumlDoclet

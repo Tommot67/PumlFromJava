@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1087px" preserveAspectRatio="none" style="width:2047px;height:1087px;background:#FFFFFF;" version="1.1" viewBox="0 0 2047 1087" width="2047px" zoomAndPan="magnify"><defs/><g><!--MD5=[5cbff45808aa0b349d270201c19fb1ef]
+cluster Lib--><g id="cluster_Lib"><path d="M8.5,6 L31.5,6 A3.75,3.75 0 0 1 34,8.5 L41,28.0986 L2037.5,28.0986 A2.5,2.5 0 0 1 2040,30.5986 L2040,1077.5 A2.5,2.5 0 0 1 2037.5,1080 L8.5,1080 A2.5,2.5 0 0 1 6,1077.5 L6,8.5 A2.5,2.5 0 0 1 8.5,6 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="6" x2="41" y1="28.0986" y2="28.0986"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="22" x="10" y="21.1318">Lib</text></g><!--MD5=[1ede453f63785d170d39918e488360b5]
+class Lib.Ripou--><g id="elem_Lib.Ripou"><rect codeLine="7" fill="#F1F1F1" height="227.2822" id="Lib.Ripou" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="453" x="59.5" y="41"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="41" x="265.5" y="59.1318">Ripou</text><line style="stroke:#181818;stroke-width:0.5;" x1="60.5" x2="511.5" y1="67.0986" y2="67.0986"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="207" x="65.5" y="84.2305">+«Create» Ripou(nom : String)</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="345" x="65.5" y="100.3291">+«Create» Ripou(nom : String , boisson : Boisson)</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="441" x="65.5" y="116.4277">+«Create» Ripou(nom : String , boisson : Boisson , look : String)</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="216" x="65.5" y="132.5264">+getPseudo() : String {redefine}</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="214" x="65.5" y="148.625">+estLibre() : Boolean {redefine}</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="260" x="65.5" y="164.7236">+getRécompense() : Integer {redefine}</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="245" x="65.5" y="180.8223">+kidnapper(dame : Dame) {redefine}</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="230" x="65.5" y="196.9209">+getCapture() : Dame[*] {redefine}</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="321" x="65.5" y="213.0195">+seFaireCapturer(cowBoy : Cowboy) {redefine}</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="344" x="65.5" y="229.1182">+seFaireTirerDessus(cowBoy : Cowboy) {redefine}</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="169" x="65.5" y="245.2168">+sePresenter() {redefine}</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="222" x="65.5" y="261.3154">+delivre(dame : Dame) {redefine}</text></g><!--MD5=[c050a296f7c0826b1167158407203749]
+class Lib.Dame--><g id="elem_Lib.Dame"><rect codeLine="21" fill="#F1F1F1" height="170.8877" id="Lib.Dame" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="354" x="548" y="69"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="38" x="706" y="87.1318">Dame</text><line style="stroke:#181818;stroke-width:0.5;" x1="549" x2="901" y1="95.0986" y2="95.0986"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="125" x="554" y="112.2305">-captive : Boolean</text><line style="stroke:#181818;stroke-width:0.5;" x1="549" x2="901" y1="119.1973" y2="119.1973"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="204" x="554" y="136.3291">+«Create» Dame(nom : String)</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="342" x="554" y="152.4277">+«Create» Dame(nom : String , boisson : Boisson)</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="144" x="554" y="168.5264">+estLibre() : Boolean</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="198" x="554" y="184.625">+setCaptive(value : Boolean)</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="169" x="554" y="200.7236">+sePresenter() {redefine}</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="163" x="554" y="216.8223">+sos(brigand : Brigand)</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="233" x="554" y="232.9209">+remerciement(cowboy : Cowboy)</text></g><!--MD5=[51d3a22715aaff37adaefdb945e1ece9]
+class Lib.Maison--><g id="elem_Lib.Maison"><rect codeLine="31" fill="#F1F1F1" height="162.8877" id="Lib.Maison" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="547" x="937.5" y="73"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="50" x="1186" y="91.1318">Maison</text><line style="stroke:#181818;stroke-width:0.5;" x1="938.5" x2="1483.5" y1="99.0986" y2="99.0986"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="393" x="943.5" y="116.2305">+«Create» Maison(nom : String , appartient : Personnage)</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="535" x="943.5" y="132.3291">+«Create» Maison(nom : String , appartient : Personnage , location : Location)</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="321" x="943.5" y="148.4277">+setNewBoisson(boisson : Boisson) : Boolean</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="251" x="943.5" y="164.5264">+removeBoisson(boisson : Boisson)</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="281" x="943.5" y="180.625">+peutBoire(boisson : Boisson) : Boolean</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="350" x="943.5" y="196.7236">+entreMaison(personnage : Personnage) : Boolean</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="315" x="943.5" y="212.8223">+invitePersonnage(personnage : Personnage)</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="281" x="943.5" y="228.9209">+sortirMaison(personnage : Personnage)</text></g><!--MD5=[cd8e3e2cf156c0166e262edc22df8c68]
+class Lib.Cowboy--><g id="elem_Lib.Cowboy"><rect codeLine="41" fill="#F1F1F1" height="186.9863" id="Lib.Cowboy" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="372" x="1520" y="61"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="56" x="1678" y="79.1318">Cowboy</text><line style="stroke:#181818;stroke-width:0.5;" x1="1521" x2="1891" y1="87.0986" y2="87.0986"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="150" x="1526" y="104.2305">-récompense : Integer</text><line style="stroke:#181818;stroke-width:0.5;" x1="1521" x2="1891" y1="111.1973" y2="111.1973"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="222" x="1526" y="128.3291">+«Create» Cowboy(nom : String)</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="360" x="1526" y="144.4277">+«Create» Cowboy(nom : String , boisson : Boisson)</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="190" x="1526" y="160.5264">+getRécompense() : Integer</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="273" x="1526" y="176.625">+setRécompense(récompense : Integer)</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="169" x="1526" y="192.7236">+sePresenter() {redefine}</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="221" x="1526" y="208.8223">+tirerSur(brigand : Hors_La_Loi)</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="228" x="1526" y="224.9209">+capturer(brigand : Hors_La_Loi)</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="152" x="1526" y="241.0195">+delivre(dame : Dame)</text></g><!--MD5=[b1c74a98ff06a22334600e8ea2324dd7]
+class Lib.Prison--><g id="elem_Lib.Prison"><rect codeLine="52" fill="#F1F1F1" height="146.7891" id="Lib.Prison" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="505" x="33.5" y="335"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="44" x="264" y="353.1318">Prison</text><line style="stroke:#181818;stroke-width:0.5;" x1="34.5" x2="537.5" y1="361.0986" y2="361.0986"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="351" x="39.5" y="378.2305">+«Create» Prison(nom : String , dirigants : Sherif[*])</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="493" x="39.5" y="394.3291">+«Create» Prison(nom : String , dirigants : Sherif[*] , location : Location)</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="236" x="39.5" y="410.4277">-addRangeInit(dirigants : Sherif[*])</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="258" x="39.5" y="426.5264">+setNewPrisonnier(brigand : Brigand)</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="193" x="39.5" y="442.625">+echaper(brigand : Brigand)</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="347" x="39.5" y="458.7236">+isPrisonnier(personnage : Personnage) : Boolean</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="246" x="39.5" y="474.8223">+isDirigant(sherif : Sherif) : Boolean</text></g><!--MD5=[ee230915e7a86ad48afb0d6dca2e9a8b]
+class Lib.Hors_La_Loi--><g id="elem_Lib.Hors_La_Loi"><rect codeLine="61" fill="#F1F1F1" height="160.5879" id="Lib.Hors_La_Loi" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="286" x="574" y="328"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="61" x="686.5" y="344.2559">«interface»</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="87" x="673.5" y="359.9307">Hors_La_Loi</text><line style="stroke:#181818;stroke-width:0.5;" x1="575" x2="859" y1="367.8975" y2="367.8975"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="144" x="580" y="385.0293">+estLibre() : Boolean</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="190" x="580" y="401.1279">+getRécompense() : Integer</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="175" x="580" y="417.2266">+kidnapper(dame : Dame)</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="251" x="580" y="433.3252">+seFaireCapturer(cowBoy : Cowboy)</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="274" x="580" y="449.4238">+seFaireTirerDessus(cowBoy : Cowboy)</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="146" x="580" y="465.5225">+getPseudo() : String</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="160" x="580" y="481.6211">+getCapture() : Dame[*]</text></g><!--MD5=[72183b2cd82d26a3409e15a10029443a]
+class Lib.Narrateur--><g id="elem_Lib.Narrateur"><rect codeLine="71" fill="#F1F1F1" height="114.5918" id="Lib.Narrateur" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="261" x="895.5" y="351"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="63" x="994.5" y="369.1318">Narrateur</text><line style="stroke:#181818;stroke-width:0.5;" x1="896.5" x2="1155.5" y1="377.0986" y2="377.0986"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="229" x="901.5" y="394.2305">+«Create» Narrateur(nom : String)</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="169" x="901.5" y="410.3291">+sePresenter() {redefine}</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="202" x="901.5" y="426.4277">+dire(texte : String) {redefine}</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="123" x="901.5" y="442.5264">+boire() {redefine}</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="249" x="901.5" y="458.625">+boire(boisson : Boisson) {redefine}</text></g><!--MD5=[b30b77f7a6923a4e78a71c7a90d22a50]
+class Lib.Bar--><g id="elem_Lib.Bar"><rect codeLine="78" fill="#F1F1F1" height="146.7891" id="Lib.Bar" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="503" x="1191.5" y="335"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="23" x="1431.5" y="353.1318">Bar</text><line style="stroke:#181818;stroke-width:0.5;" x1="1192.5" x2="1693.5" y1="361.0986" y2="361.0986"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="349" x="1197.5" y="378.2305">+«Create» Bar(nom : String , dirigant : Personnage)</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="491" x="1197.5" y="394.3291">+«Create» Bar(nom : String , dirigant : Personnage , location : Location)</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="321" x="1197.5" y="410.4277">+setNewBoisson(boisson : Boisson) : Boolean</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="251" x="1197.5" y="426.5264">+removeBoisson(boisson : Boisson)</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="281" x="1197.5" y="442.625">+peutBoire(boisson : Boisson) : Boolean</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="253" x="1197.5" y="458.7236">+entreBar(personnage : Personnage)</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="254" x="1197.5" y="474.8223">+sortirBar(personnage : Personnage)</text></g><!--MD5=[7048b37a6101a3ef7f5799689318a995]
+class Lib.Brigand--><g id="elem_Lib.Brigand"><rect codeLine="87" fill="#F1F1F1" height="299.6768" id="Lib.Brigand" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="466" x="53" y="549"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="54" x="259" y="567.1318">Brigand</text><line style="stroke:#181818;stroke-width:0.5;" x1="54" x2="518" y1="575.0986" y2="575.0986"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" text-decoration="underline" textLength="213" x="59" y="592.2305">+capture_récompense : Integer</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" text-decoration="underline" textLength="209" x="59" y="608.3291">+récompense_default : Integer</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="150" x="59" y="624.4277">-récompense : Integer</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="132" x="59" y="640.5264">-capturer : Boolean</text><line style="stroke:#181818;stroke-width:0.5;" x1="54" x2="518" y1="647.4932" y2="647.4932"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="220" x="59" y="664.625">+«Create» Brigand(nom : String)</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="316" x="59" y="680.7236">+«Create» Brigand(nom : String , look : String)</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="358" x="59" y="696.8223">+«Create» Brigand(nom : String , boisson : Boisson)</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="454" x="59" y="712.9209">+«Create» Brigand(nom : String , boisson : Boisson , look : String)</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="190" x="59" y="729.0195">+getRécompense() : Integer</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="226" x="59" y="745.1182">+setRécompense(value : Integer)</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="160" x="59" y="761.2168">+getCapture() : Dame[*]</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="274" x="59" y="777.3154">+seFaireTirerDessus(cowBoy : Cowboy)</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="144" x="59" y="793.4141">+estLibre() : Boolean</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="169" x="59" y="809.5127">+sePresenter() {redefine}</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="175" x="59" y="825.6113">+kidnapper(dame : Dame)</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="250" x="59" y="841.71">+seFaireCapturer(cowboy : Cowboy)</text></g><!--MD5=[2efd18043cad818f2fd81d344c54bb7e]
+class Lib.Substantif--><g id="elem_Lib.Substantif"><rect codeLine="105" fill="#F1F1F1" height="251.3809" id="Lib.Substantif" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="354" x="554" y="573.5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="71" x="695.5" y="591.6318">Substantif</text><line style="stroke:#181818;stroke-width:0.5;" x1="555" x2="907" y1="599.5986" y2="599.5986"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="89" x="560" y="616.7305">-nom : String</text><line style="stroke:#181818;stroke-width:0.5;" x1="555" x2="907" y1="623.6973" y2="623.6973"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="342" x="560" y="640.8291">+«Create» Substantif(nom : String , genre : Genre)</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="125" x="560" y="656.9277">+getNom() : String</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="135" x="560" y="673.0264">+getGenre() : Genre</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="184" x="560" y="689.125">+voyelleAtStart() : Boolean</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="178" x="560" y="705.2236">+getArticleDefini() : String</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="188" x="560" y="721.3223">+avecArticleDefini() : String</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="190" x="560" y="737.4209">+getArticleIndefini() : String</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="200" x="560" y="753.5195">+avecArticleIndefini() : String</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="183" x="560" y="769.6182">+getArticlePartitif() : String</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="193" x="560" y="785.7168">+avecArticlePartitif() : String</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="173" x="560" y="801.8154">+getPréposition() : String</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="183" x="560" y="817.9141">+avecPréposition() : String</text></g><!--MD5=[157aad5f5060c86f6f90db1a630ed730]
+class Lib.Personnage--><g id="elem_Lib.Personnage"><rect codeLine="120" fill="#F1F1F1" height="283.5781" id="Lib.Personnage" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="516" x="943" y="557"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="82" x="1160" y="575.1318">Personnage</text><line style="stroke:#181818;stroke-width:0.5;" x1="944" x2="1458" y1="583.0986" y2="583.0986"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="92" x="949" y="600.2305">#nom : String</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="114" x="949" y="616.3291">#pseudo : String</text><line style="stroke:#181818;stroke-width:0.5;" x1="944" x2="1458" y1="623.2959" y2="623.2959"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="248" x="949" y="640.4277">+«Create» Personnage(nom : String)</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="386" x="949" y="656.5264">+«Create» Personnage(nom : String , boisson : Boisson)</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="366" x="949" y="672.625">+«Create» Personnage(nom : String , pseudo : String)</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="504" x="949" y="688.7236">+«Create» Personnage(nom : String , boisson : Boisson , pseudo : String)</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="125" x="949" y="704.8223">+getNom() : String</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="167" x="949" y="720.9209">+getBoisson() : Boisson</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="146" x="949" y="737.0195">+getPseudo() : String</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="113" x="949" y="753.1182">+getLieu() : Lieu</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="137" x="949" y="769.2168">+setLieu(lieu : Lieu)</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="132" x="949" y="785.3154">+dire(texte : String)</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="99" x="949" y="801.4141">+sePresenter()</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="53" x="949" y="817.5127">+boire()</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="215" x="949" y="833.6113">+boire(new_boisson : Boisson)</text></g><!--MD5=[b4de937ecf49656002e4baeb207fcac6]
+class Lib.Genre--><g id="elem_Lib.Genre"><rect codeLine="137" fill="#F1F1F1" height="80.0947" id="Lib.Genre" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="86" x="1494" y="659"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="83" x="1495.5" y="675.2559">«enumeration»</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="41" x="1516.5" y="690.9307">Genre</text><line style="stroke:#181818;stroke-width:0.5;" x1="1495" x2="1579" y1="698.8975" y2="698.8975"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="74" x="1500" y="716.0293">MASCULIN</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="58" x="1500" y="732.1279">FEMININ</text></g><!--MD5=[3785129f5f78360eefd545c39e10bf89]
+class Lib.Lieu--><g id="elem_Lib.Lieu"><rect codeLine="141" fill="#F1F1F1" height="154.7891" id="Lib.Lieu" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="527" x="22.5" y="909"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="30" x="271" y="927.1318">Lieu</text><line style="stroke:#181818;stroke-width:0.5;" x1="23.5" x2="548.5" y1="935.0986" y2="935.0986"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="89" x="28.5" y="952.2305">-nom : String</text><line style="stroke:#181818;stroke-width:0.5;" x1="23.5" x2="548.5" y1="959.1973" y2="959.1973"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="373" x="28.5" y="976.3291">+«Create» Lieu(nom : String , appartient : Personnage)</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="515" x="28.5" y="992.4277">+«Create» Lieu(nom : String , appartient : Personnage , location : Location)</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="125" x="28.5" y="1008.5264">+getNom() : String</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="175" x="28.5" y="1024.625">+getLocation() : Location</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="207" x="28.5" y="1040.7236">+getAppartient() : Personnage</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="197" x="28.5" y="1056.8223">+toString() : String {redefine}</text></g><!--MD5=[9237ddb635d7c4e0a31b522925f1bc6e]
+class Lib.Location--><g id="elem_Lib.Location"><rect codeLine="150" fill="#F1F1F1" height="122.5918" id="Lib.Location" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="529" x="584.5" y="925"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="61" x="818.5" y="943.1318">Location</text><line style="stroke:#181818;stroke-width:0.5;" x1="585.5" x2="1112.5" y1="951.0986" y2="951.0986"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="119" x="590.5" y="968.2305">-longitude : Float</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="105" x="590.5" y="984.3291">-latitude : Float</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="141" x="590.5" y="1000.4277">-type_terrain : String</text><line style="stroke:#181818;stroke-width:0.5;" x1="585.5" x2="1112.5" y1="1007.3945" y2="1007.3945"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="369" x="590.5" y="1024.5264">+«Create» Location(longitude : Float , latitude : Float)</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="517" x="590.5" y="1040.625">+«Create» Location(longitude : Float , latitude : Float , type_terrain : String)</text></g><!--MD5=[93e988cc244d45eb4cb02bdcffe964fe]
+class Lib.Boisson--><g id="elem_Lib.Boisson"><rect codeLine="157" fill="#F1F1F1" height="106.4932" id="Lib.Boisson" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="340" x="1149" y="933.5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="57" x="1290.5" y="951.6318">Boisson</text><line style="stroke:#181818;stroke-width:0.5;" x1="1150" x2="1488" y1="959.5986" y2="959.5986"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="89" x="1155" y="976.7305">-nom : String</text><line style="stroke:#181818;stroke-width:0.5;" x1="1150" x2="1488" y1="983.6973" y2="983.6973"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="328" x="1155" y="1000.8291">+«Create» Boisson(nom : String , genre : Genre)</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="125" x="1155" y="1016.9277">+getNom() : String</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="135" x="1155" y="1033.0264">+getGenre() : Genre</text></g><!--MD5=[e0c375f65c97c35a862d90b5e8851dbc]
+class Lib.Sherif--><g id="elem_Lib.Sherif"><rect codeLine="163" fill="#F1F1F1" height="82.3945" id="Lib.Sherif" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="500" x="1524" y="945.5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="40" x="1754" y="963.6318">Sherif</text><line style="stroke:#181818;stroke-width:0.5;" x1="1525" x2="2023" y1="971.5986" y2="971.5986"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="344" x="1530" y="988.7305">+«Create» Sherif(nom : String , boisson : Boisson)</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="206" x="1530" y="1004.8291">+«Create» Sherif(nom : String)</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="488" x="1530" y="1020.9277">+envoiePrison(prison : Prison , brigand : Brigand , overbook : Boolean)</text></g><!--MD5=[6a1b6f81721d563a7ec117542e8019db]
+@startuml
+'https://plantuml.com/class-diagram
+skinparam classAttributeIconSize 0
+skinparam classFontStyle Bold
+skinparam style strictuml
+hide empty members
+
+class Lib.Ripou {
+	+ <<Create>> Ripou(nom : String)
+	+ <<Create>> Ripou(nom : String , boisson : Boisson)
+	+ <<Create>> Ripou(nom : String , boisson : Boisson , look : String)
+	+ getPseudo() : String {redefine}
+	+ estLibre() : Boolean {redefine}
+	+ getRécompense() : Integer {redefine}
+	+ kidnapper(dame : Dame) {redefine}
+	+ getCapture() : Dame[*] {redefine}
+	+ seFaireCapturer(cowBoy : Cowboy) {redefine}
+	+ seFaireTirerDessus(cowBoy : Cowboy) {redefine}
+	+ sePresenter() {redefine}
+	+ delivre(dame : Dame) {redefine}
+}
+class Lib.Dame {
+	- captive : Boolean
+	+ <<Create>> Dame(nom : String)
+	+ <<Create>> Dame(nom : String , boisson : Boisson)
+	+ estLibre() : Boolean
+	+ setCaptive(value : Boolean)
+	+ sePresenter() {redefine}
+	+ sos(brigand : Brigand)
+	+ remerciement(cowboy : Cowboy)
+}
+class Lib.Maison {
+	+ <<Create>> Maison(nom : String , appartient : Personnage)
+	+ <<Create>> Maison(nom : String , appartient : Personnage , location : Location)
+	+ setNewBoisson(boisson : Boisson) : Boolean
+	+ removeBoisson(boisson : Boisson)
+	+ peutBoire(boisson : Boisson) : Boolean
+	+ entreMaison(personnage : Personnage) : Boolean
+	+ invitePersonnage(personnage : Personnage)
+	+ sortirMaison(personnage : Personnage)
+}
+class Lib.Cowboy {
+	- récompense : Integer
+	+ <<Create>> Cowboy(nom : String)
+	+ <<Create>> Cowboy(nom : String , boisson : Boisson)
+	+ getRécompense() : Integer
+	+ setRécompense(récompense : Integer)
+	+ sePresenter() {redefine}
+	+ tirerSur(brigand : Hors_La_Loi)
+	+ capturer(brigand : Hors_La_Loi)
+	+ delivre(dame : Dame)
+}
+class Lib.Prison {
+	+ <<Create>> Prison(nom : String , dirigants : Sherif[*])
+	+ <<Create>> Prison(nom : String , dirigants : Sherif[*] , location : Location)
+	- addRangeInit(dirigants : Sherif[*])
+	+ setNewPrisonnier(brigand : Brigand)
+	+ echaper(brigand : Brigand)
+	+ isPrisonnier(personnage : Personnage) : Boolean
+	+ isDirigant(sherif : Sherif) : Boolean
+}
+interface Lib.Hors_La_Loi <<interface>> {
+	+ {abstract} estLibre() : Boolean
+	+ {abstract} getRécompense() : Integer
+	+ {abstract} kidnapper(dame : Dame)
+	+ {abstract} seFaireCapturer(cowBoy : Cowboy)
+	+ {abstract} seFaireTirerDessus(cowBoy : Cowboy)
+	+ {abstract} getPseudo() : String
+	+ {abstract} getCapture() : Dame[*]
+}
+
+class Lib.Narrateur {
+	+ <<Create>> Narrateur(nom : String)
+	+ sePresenter() {redefine}
+	+ dire(texte : String) {redefine}
+	+ boire() {redefine}
+	+ boire(boisson : Boisson) {redefine}
+}
+class Lib.Bar {
+	+ <<Create>> Bar(nom : String , dirigant : Personnage)
+	+ <<Create>> Bar(nom : String , dirigant : Personnage , location : Location)
+	+ setNewBoisson(boisson : Boisson) : Boolean
+	+ removeBoisson(boisson : Boisson)
+	+ peutBoire(boisson : Boisson) : Boolean
+	+ entreBar(personnage : Personnage)
+	+ sortirBar(personnage : Personnage)
+}
+class Lib.Brigand {
+	+ {static} capture_récompense : Integer
+	+ {static} récompense_default : Integer
+	- récompense : Integer
+	- capturer : Boolean
+	+ <<Create>> Brigand(nom : String)
+	+ <<Create>> Brigand(nom : String , look : String)
+	+ <<Create>> Brigand(nom : String , boisson : Boisson)
+	+ <<Create>> Brigand(nom : String , boisson : Boisson , look : String)
+	+ getRécompense() : Integer
+	+ setRécompense(value : Integer)
+	+ getCapture() : Dame[*]
+	+ seFaireTirerDessus(cowBoy : Cowboy)
+	+ estLibre() : Boolean
+	+ sePresenter() {redefine}
+	+ kidnapper(dame : Dame)
+	+ seFaireCapturer(cowboy : Cowboy)
+}
+class Lib.Substantif {
+	- nom : String
+	+ <<Create>> Substantif(nom : String , genre : Genre)
+	+ getNom() : String
+	+ getGenre() : Genre
+	+ voyelleAtStart() : Boolean
+	+ getArticleDefini() : String
+	+ avecArticleDefini() : String
+	+ getArticleIndefini() : String
+	+ avecArticleIndefini() : String
+	+ getArticlePartitif() : String
+	+ avecArticlePartitif() : String
+	+ getPréposition() : String
+	+ avecPréposition() : String
+}
+class Lib.Personnage {
+	# nom : String
+	# pseudo : String
+	+ <<Create>> Personnage(nom : String)
+	+ <<Create>> Personnage(nom : String , boisson : Boisson)
+	+ <<Create>> Personnage(nom : String , pseudo : String)
+	+ <<Create>> Personnage(nom : String , boisson : Boisson , pseudo : String)
+	+ getNom() : String
+	+ getBoisson() : Boisson
+	+ getPseudo() : String
+	+ getLieu() : Lieu
+	+ setLieu(lieu : Lieu)
+	+ dire(texte : String)
+	+ sePresenter()
+	+ boire()
+	+ boire(new_boisson : Boisson)
+}
+enum Lib.Genre <<enumeration>> {
+	MASCULIN
+	FEMININ
+}
+class Lib.Lieu {
+	- nom : String
+	+ <<Create>> Lieu(nom : String , appartient : Personnage)
+	+ <<Create>> Lieu(nom : String , appartient : Personnage , location : Location)
+	+ getNom() : String
+	+ getLocation() : Location
+	+ getAppartient() : Personnage
+	+ toString() : String {redefine}
+}
+class Lib.Location {
+	- longitude : Float
+	- latitude : Float
+	- type_terrain : String
+	+ <<Create>> Location(longitude : Float , latitude : Float)
+	+ <<Create>> Location(longitude : Float , latitude : Float , type_terrain : String)
+}
+class Lib.Boisson {
+	- nom : String
+	+ <<Create>> Boisson(nom : String , genre : Genre)
+	+ getNom() : String
+	+ getGenre() : Genre
+}
+class Lib.Sherif {
+	+ <<Create>> Sherif(nom : String , boisson : Boisson)
+	+ <<Create>> Sherif(nom : String)
+	+ envoiePrison(prison : Prison , brigand : Brigand , overbook : Boolean)
+}
+
+@enduml
+
+@startuml
+skinparam classAttributeIconSize 0
+skinparam classFontStyle Bold
+skinparam style strictuml
+hide empty members
+
+class Lib.Ripou {
+	+ <<Create>> Ripou(nom : String)
+	+ <<Create>> Ripou(nom : String , boisson : Boisson)
+	+ <<Create>> Ripou(nom : String , boisson : Boisson , look : String)
+	+ getPseudo() : String {redefine}
+	+ estLibre() : Boolean {redefine}
+	+ getRécompense() : Integer {redefine}
+	+ kidnapper(dame : Dame) {redefine}
+	+ getCapture() : Dame[*] {redefine}
+	+ seFaireCapturer(cowBoy : Cowboy) {redefine}
+	+ seFaireTirerDessus(cowBoy : Cowboy) {redefine}
+	+ sePresenter() {redefine}
+	+ delivre(dame : Dame) {redefine}
+}
+class Lib.Dame {
+	- captive : Boolean
+	+ <<Create>> Dame(nom : String)
+	+ <<Create>> Dame(nom : String , boisson : Boisson)
+	+ estLibre() : Boolean
+	+ setCaptive(value : Boolean)
+	+ sePresenter() {redefine}
+	+ sos(brigand : Brigand)
+	+ remerciement(cowboy : Cowboy)
+}
+class Lib.Maison {
+	+ <<Create>> Maison(nom : String , appartient : Personnage)
+	+ <<Create>> Maison(nom : String , appartient : Personnage , location : Location)
+	+ setNewBoisson(boisson : Boisson) : Boolean
+	+ removeBoisson(boisson : Boisson)
+	+ peutBoire(boisson : Boisson) : Boolean
+	+ entreMaison(personnage : Personnage) : Boolean
+	+ invitePersonnage(personnage : Personnage)
+	+ sortirMaison(personnage : Personnage)
+}
+class Lib.Cowboy {
+	- récompense : Integer
+	+ <<Create>> Cowboy(nom : String)
+	+ <<Create>> Cowboy(nom : String , boisson : Boisson)
+	+ getRécompense() : Integer
+	+ setRécompense(récompense : Integer)
+	+ sePresenter() {redefine}
+	+ tirerSur(brigand : Hors_La_Loi)
+	+ capturer(brigand : Hors_La_Loi)
+	+ delivre(dame : Dame)
+}
+class Lib.Prison {
+	+ <<Create>> Prison(nom : String , dirigants : Sherif[*])
+	+ <<Create>> Prison(nom : String , dirigants : Sherif[*] , location : Location)
+	- addRangeInit(dirigants : Sherif[*])
+	+ setNewPrisonnier(brigand : Brigand)
+	+ echaper(brigand : Brigand)
+	+ isPrisonnier(personnage : Personnage) : Boolean
+	+ isDirigant(sherif : Sherif) : Boolean
+}
+interface Lib.Hors_La_Loi <<interface>> {
+	+ {abstract} estLibre() : Boolean
+	+ {abstract} getRécompense() : Integer
+	+ {abstract} kidnapper(dame : Dame)
+	+ {abstract} seFaireCapturer(cowBoy : Cowboy)
+	+ {abstract} seFaireTirerDessus(cowBoy : Cowboy)
+	+ {abstract} getPseudo() : String
+	+ {abstract} getCapture() : Dame[*]
+}
+
+class Lib.Narrateur {
+	+ <<Create>> Narrateur(nom : String)
+	+ sePresenter() {redefine}
+	+ dire(texte : String) {redefine}
+	+ boire() {redefine}
+	+ boire(boisson : Boisson) {redefine}
+}
+class Lib.Bar {
+	+ <<Create>> Bar(nom : String , dirigant : Personnage)
+	+ <<Create>> Bar(nom : String , dirigant : Personnage , location : Location)
+	+ setNewBoisson(boisson : Boisson) : Boolean
+	+ removeBoisson(boisson : Boisson)
+	+ peutBoire(boisson : Boisson) : Boolean
+	+ entreBar(personnage : Personnage)
+	+ sortirBar(personnage : Personnage)
+}
+class Lib.Brigand {
+	+ {static} capture_récompense : Integer
+	+ {static} récompense_default : Integer
+	- récompense : Integer
+	- capturer : Boolean
+	+ <<Create>> Brigand(nom : String)
+	+ <<Create>> Brigand(nom : String , look : String)
+	+ <<Create>> Brigand(nom : String , boisson : Boisson)
+	+ <<Create>> Brigand(nom : String , boisson : Boisson , look : String)
+	+ getRécompense() : Integer
+	+ setRécompense(value : Integer)
+	+ getCapture() : Dame[*]
+	+ seFaireTirerDessus(cowBoy : Cowboy)
+	+ estLibre() : Boolean
+	+ sePresenter() {redefine}
+	+ kidnapper(dame : Dame)
+	+ seFaireCapturer(cowboy : Cowboy)
+}
+class Lib.Substantif {
+	- nom : String
+	+ <<Create>> Substantif(nom : String , genre : Genre)
+	+ getNom() : String
+	+ getGenre() : Genre
+	+ voyelleAtStart() : Boolean
+	+ getArticleDefini() : String
+	+ avecArticleDefini() : String
+	+ getArticleIndefini() : String
+	+ avecArticleIndefini() : String
+	+ getArticlePartitif() : String
+	+ avecArticlePartitif() : String
+	+ getPréposition() : String
+	+ avecPréposition() : String
+}
+class Lib.Personnage {
+	# nom : String
+	# pseudo : String
+	+ <<Create>> Personnage(nom : String)
+	+ <<Create>> Personnage(nom : String , boisson : Boisson)
+	+ <<Create>> Personnage(nom : String , pseudo : String)
+	+ <<Create>> Personnage(nom : String , boisson : Boisson , pseudo : String)
+	+ getNom() : String
+	+ getBoisson() : Boisson
+	+ getPseudo() : String
+	+ getLieu() : Lieu
+	+ setLieu(lieu : Lieu)
+	+ dire(texte : String)
+	+ sePresenter()
+	+ boire()
+	+ boire(new_boisson : Boisson)
+}
+enum Lib.Genre <<enumeration>> {
+	MASCULIN
+	FEMININ
+}
+class Lib.Lieu {
+	- nom : String
+	+ <<Create>> Lieu(nom : String , appartient : Personnage)
+	+ <<Create>> Lieu(nom : String , appartient : Personnage , location : Location)
+	+ getNom() : String
+	+ getLocation() : Location
+	+ getAppartient() : Personnage
+	+ toString() : String {redefine}
+}
+class Lib.Location {
+	- longitude : Float
+	- latitude : Float
+	- type_terrain : String
+	+ <<Create>> Location(longitude : Float , latitude : Float)
+	+ <<Create>> Location(longitude : Float , latitude : Float , type_terrain : String)
+}
+class Lib.Boisson {
+	- nom : String
+	+ <<Create>> Boisson(nom : String , genre : Genre)
+	+ getNom() : String
+	+ getGenre() : Genre
+}
+class Lib.Sherif {
+	+ <<Create>> Sherif(nom : String , boisson : Boisson)
+	+ <<Create>> Sherif(nom : String)
+	+ envoiePrison(prison : Prison , brigand : Brigand , overbook : Boolean)
+}
+
+@enduml
+
+PlantUML version 1.2022.12(Sun Oct 23 20:12:26 CEST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

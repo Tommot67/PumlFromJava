@@ -41,10 +41,10 @@ public class CreateClassElement extends ElementDefault{
         }
     }
     public String getStringElementDCC(){
-        return this.getStringElementStartWithExtends() + this.getStringFieldsPrimitive() + this.getStringConstructors() + this.getStringMethods() + this.getStringElementEnd() + this.getStringFildsNotPrimitive();
+        return this.getStringElementStartWithExtends() + this.getStringFieldsPrimitive() + this.getStringConstructors() + this.getStringMethods() + this.getStringElementEnd() + this.getStringFieldsNotPrimitive();
     }
     public String getStringElementDCA(){
-        return this.getStringElementStartWithExtends() + this.getStringFieldsPrimitiveForDCA() + this.getStringElementEnd() + this.getStringFildsNotPrimitive();
+        return this.getStringElementStartWithExtends() + this.getStringFieldsPrimitiveForDCA() + this.getStringElementEnd() + this.getStringFieldsNotPrimitive();
     }
 
     //Enregistre le contenu de l'élément
@@ -101,7 +101,7 @@ public class CreateClassElement extends ElementDefault{
         }
         return temp;
     }
-    public String getStringFildsNotPrimitive(){
+    public String getStringFieldsNotPrimitive(){
         String temp = "\n";
         for (CreateFieldElement fieldElement: this.getFields()) {
             temp += fieldElement.getFieldNotPrimitive();

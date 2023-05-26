@@ -5,17 +5,17 @@ skinparam classFontStyle Bold
 skinparam style strictuml
 hide empty members
 
-
 package "pumlFromJava"
 {
     class PumlDoclet
     {
-    name
-    hasArg
-    description
-    parameters
-    out
-    d
+        name
+        asArg
+        description
+        parameters
+        dca
+        out
+        d
     }
     class Java2Puml
     {
@@ -23,71 +23,88 @@ package "pumlFromJava"
 
     class PumlDiagram
     {
-    file
+        file
     }
 
     class CreateFirstElement
     {
-    builduml
+        builduml
     }
 
     class CreateExtendsElement
     {
-    objectClass
-    isExtends
-    nameExtends
-    typeElement
-    classPrimitiveForObjectType
-    classArrayForObjectType
+        objectClass
+        isExtends
+        nameExtends
     }
 
     class Helper
     {
     }
 
-    class CreateInterElement
+    class CreateInterElement extends ElementDefault
     {
+        methods
+        impleElement
     }
 
     class CreateClassElement
     {
+        fields
+        constructors
+        methods
+        extendsElement
+        impleElement
     }
 
     class CreateFieldElement
     {
-    isPrimitive
-    modifier
+        isPrimitive
+        modifier
+        fieldSpecialElement
     }
 
     abstract class ElementDefault
     {
-    element
-    name
-    enclosing
-    elementEnclosed
-
+        element
+        name
+        enclosing
     }
 
     class CreateEnumElement
     {
-    AttributEnum
+        AttributEnum
     }
 
     class CreateImpleElement {
-    typeElement
-    isImplements
-    interfacesImplements
+        typeElement
+        isImplements
+        interfacesImplements
     }
 
     class CreateFieldSpecialElement
     {
-    elementFirst
-    elementSecond
-    elementSecondIsArray
+        elementFirst
+        elementSecond
+        elementSecondIsArray
+    }
+
+    class CreateConstructorElement
+    {
+        modifiers
+        annotationMirrors
+        executableElement
+
+    }
+
+    class CreateMethodElement
+    {
+        modifiers
+        annotationMirrors
+        executableElement
     }
 
     jdk.javadoc.doclet.Doclet <|.. PumlDoclet
-    ElementDefault <|-- CreateInterElement
     ElementDefault <|-- CreateClassElement
     ElementDefault <|-- CreateFieldElement
     ElementDefault <|-- CreateEnumElement
@@ -95,12 +112,25 @@ package "pumlFromJava"
     ElementDefault <|-- CreateFieldSpecialElement
     PumlDoclet --> PumlDiagram : "Create"
     PumlDoclet --> CreateFirstElement : "Instantiate"
+    CreateClassElement --> CreateConstructorElement : "Instantiate"
+    CreateFirstElement --> CreateClassElement : "Instantiate"
+    CreateFirstElement --> CreateEnumElement : "Instantiate"
+    CreateClassElement --> CreateExtendsElement : "Instantiate"
+    CreateFieldElement --> CreateFieldSpecialElement : "Instantiate"
+    CreateClassElement --> CreateFieldElement : "Instantiate"
+    CreateClassElement --> CreateImpleElement : "Instantiate"
+    CreateInterElement --> CreateImpleElement : "Instantiate"
 
-    CreateClassElement -- "*" CreateFieldElement : > fields
-    CreateClassElement -- "1" CreateExtendsElement : > extendsElement
-    CreateClassElement -- "1" CreateImpleElement : > impleElement
-    CreateInterElement -- "1" CreateExtendsElement : > extendsElement
-    CreateFieldElement -- "1" CreateFieldSpecialElement : > fieldSpecialElement
+    CreateFirstElement --> CreateInterElement : "Instantiate"
+    CreateClassElement --> CreateMethodElement: "Instantiate"
+    CreateInterElement --> CreateMethodElement : "Instantiate"
+
+
+
 }
+
+note "Launch javadoc to PumlDoclet with args" as N2
+Java2Puml .. N2
+N2 .. PumlDoclet
 
 @enduml

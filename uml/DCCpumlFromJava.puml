@@ -12,6 +12,7 @@ package "pumlFromJava"
         - boolean : hasArg {readOnly}
         - String : description {readOnly}
         - String : parameters {readOnly}
+        - boolean : dca {readOnly}
         - String : out
         - String : d
         Option(String : name, boolean : hasArg, String : description, String : parameters)
@@ -64,47 +65,71 @@ package "pumlFromJava"
 
     class Helper
     {
-        - {static} String : classPrimitiveForObjectType {readOnly}
-        - {static} String : classArrayForObjectType {readOnly}
+        - {static} classPrimitiveForObjectType {readOnly} : String
+        - {static} classArrayForObjectType {readOnly} : String
         + {static} isPrimitiveObject(TypeMirror : type_test) : boolean
         + {static} isArrayObject(TypeMirror : type_test) : boolean
+        + {static} stringPrimitveObject(TypeMirror type_test) : String
+        + {static} stringArrayObject(TypeMirror type_test) : String
+        + {static} upperFirstChar(String string) : String
+        + {static} getStringType(TypeMirror type_test) : String
+        + {static} getStringModifier(Set<Modifier> modifiers) : String
     }
 
-    class CreateInterElement
+    class CreateInterElement extends ElementDefault
     {
+        - methods : ArrayList<CreateMethodElement>
+        - impleElement : CreateImpleElement
         + <<Create>> CreateInterElement(Element : element)
         + getStringElementStart() : String
         + getStringElementStartPlus() : String
         + getStringElementEnd() : String
+        + getStringElementAllPlus() : String
         + getStringElementStartEnd() : String
         + getStringElementStartEndPlus() : String
+        + getStringElementDCC() : String
+        + getStringElementDCA() : String
+        + getStringMethods() : String
     }
 
     class CreateClassElement
     {
+        - fields : ArrayList<CreateFieldElement>
+        - constructors : ArrayList<CreateConstructorElement>
+        - methods : ArrayList<CreateMethodElement>
+        - extendsElement : CreateExtendsElement
+        - impleElement : CreateImpleElement
         + <<Create>> CreateClassElement(Element : element)
         + getStringElementStart() : String
-        + getStringElementStartPlus() : String
+        + getStringElementStartWithExtends() : String
+        ''+ getStringElementStartPlus() : String
         + getStringElementEnd() : String
-        + getStringElementStartEnd() : String
-        + getStringElementAll() : String
-        + getStringElementAllPlus() : String
-        + getField() : CreateFieldElement[*]
+        ''+ getStringElementStartEnd() : String
+        ''+ getStringElementAll() : String
+        + getStringElementDCC() : String
+        + getStringElementDCA() : String
+        ''+ getStringElementAllPlus() : String
         + getFields() : CreateFieldElement[*]
+        + getConstructor() : ArrayList<CreateConstructorElement>
+        + getMethods() : ArrayList<CreateMethodElement>
         + getStringFieldsPrimitive(): String
-        + getStringFildsNotPrimitive() : String
+        + getStringFieldsPrimitiveForDCA() : String
+        + getStringFieldsNotPrimitive() : String
+        + getStringMethods() : String
+        + getStringConstructors() : String
     }
 
     class CreateFieldElement
     {
         - boolean : isPrimitive
         - Set<Modifier> : modifier
+        - fieldSpecialElement : CreateFieldSpecialElement
         + <<Create>> CreateFieldElement(Element : element)
         + CheckPrimitive() : boolean
-        + giveModifier() : Set<Modifier>
-        + getIsPrimitive() : boolean
+        + getModifier() : Set<Modifier>
         + getFieldPrimitive() : String
-        + setFieldNotPrimitive()
+        + getFieldPrimitiveForDCA() : String
+        + setFieldNotPrimitive() :
         + getFieldNotPrimitive() : String
     }
 
@@ -144,6 +169,7 @@ package "pumlFromJava"
         - setinterfacesImplements()
         + getinterfacesImplements() : TypeMirror[*]
         + getStringImplements() : String
+        + getStringExtendsInterface() : String
     }
 
     class CreateFieldSpecialElement
@@ -152,17 +178,40 @@ package "pumlFromJava"
         - String : elementSecond
         - boolean : elementSecondIsArray
         + <<Create>> CreateFieldSpecialElement(Element : element)
-        + getElementFirst() : String
-        + getElementSecond() : String
-        + getElementSecondIsArray() : boolean
         + setElementFirst()
         + setElementSecond()
         + setElementSecondIsArray()
         + getStringElement() : String
     }
 
+    class CreateConstructorElement
+    {
+        - modifiers : Set<Modifier>
+        - annotationMirrors : List<? extends AnnotationMirror>
+        - executableElement : ExecutableElement
+        + <<Create>> CreateConstructorElement(Element element)
+        + getName() : String
+        + getModifiers() : Set<Modifier>
+        + getConstructor() : String
+        + getStringParametre() : String
+
+    }
+
+    class CreateMethodElement
+    {
+        - modifiers : Set<Modifier>
+        - annotationMirrors : List<? extends AnnotationMirror>
+        - executableElement : ExecutableElement
+        + <<Create>> CreateMethodElement(Element element)
+        + getModifiers() : Set<Modifier>
+        + getAnnotation() : List<? extends AnnotationMirror>
+        + getMethod() : String
+        + getStringParametre() : String
+        + getStringRetour() : String
+        + getStringAnnotation() : String
+    }
+
     jdk.javadoc.doclet.Doclet <|.. PumlDoclet
-    ElementDefault <|-- CreateInterElement
     ElementDefault <|-- CreateClassElement
     ElementDefault <|-- CreateFieldElement
     ElementDefault <|-- CreateEnumElement
@@ -170,12 +219,21 @@ package "pumlFromJava"
     ElementDefault <|-- CreateFieldSpecialElement
     PumlDoclet --> PumlDiagram : "Create"
     PumlDoclet --> CreateFirstElement : "Instantiate"
+    CreateClassElement --> CreateConstructorElement : "Instantiate"
+    CreateFirstElement --> CreateClassElement : "Instantiate"
+    CreateFirstElement --> CreateEnumElement : "Instantiate"
+    CreateClassElement --> CreateExtendsElement : "Instantiate"
+    CreateFieldElement --> CreateFieldSpecialElement : "Instantiate"
+    CreateClassElement --> CreateFieldElement : "Instantiate"
+    CreateClassElement --> CreateImpleElement : "Instantiate"
+    CreateInterElement --> CreateImpleElement : "Instantiate"
 
-    CreateClassElement -- "*" CreateFieldElement : > fields
-    CreateClassElement -- "1" CreateExtendsElement : > extendsElement
-    CreateClassElement -- "1" CreateImpleElement : > impleElement
-    CreateInterElement -- "1" CreateExtendsElement : > extendsElement
-    CreateFieldElement -- "1" CreateFieldSpecialElement : > fieldSpecialElement
+    CreateFirstElement --> CreateInterElement : "Instantiate"
+    CreateClassElement --> CreateMethodElement: "Instantiate"
+    CreateInterElement --> CreateMethodElement : "Instantiate"
+    
+
+
 }
 
 note "Launch javadoc to PumlDoclet with args" as N2

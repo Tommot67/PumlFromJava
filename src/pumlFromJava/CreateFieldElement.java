@@ -8,7 +8,7 @@ import java.util.Set;
 
 public class CreateFieldElement extends ElementDefault{
     private boolean isPrimitive;
-    private Set<Modifier> modifier = new HashSet();
+    private Set<Modifier> modifiers;
     private CreateFieldSpecialElement fieldSpecialElement;
     public CreateFieldElement(Element element){
         super(element);
@@ -28,16 +28,26 @@ public class CreateFieldElement extends ElementDefault{
         this.isPrimitive = verif;
         return verif;
     }
-    public Set<Modifier> giveModifier(){
-        this.modifier = super.getElement().getModifiers();
-        return this.modifier;
+    public Set<Modifier> getModifiers(){
+        if(this.modifiers == null) {
+            this.modifiers = this.getElement().getModifiers();
+        }
+        return this.modifiers;
     }
     public boolean getIsPrimitive(){
         return this.isPrimitive;
     }
     public String getFieldPrimitive(){
         if(this.isPrimitive){
-            return "\t" + super.getName() + "\n";
+            return "\t"  + Helper.getStringModifier(this.getModifiers())  + super.getName() + " : " + Helper.getStringType(super.getElement().asType()) +  "\n";
+        }
+        else {
+            return "";
+        }
+    }
+    public String getFieldPrimitiveForDCA(){
+        if(this.isPrimitive){
+            return "\t"  + super.getName() + "\n";
         }
         else {
             return "";

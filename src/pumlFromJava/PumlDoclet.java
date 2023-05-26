@@ -76,11 +76,21 @@ public class PumlDoclet implements Doclet {
                     System.out.println(d + "    " + out);
                     return true;
                 }
+            },
+            new Option("--dca", false, "Create not DCC but DCA", null) {
+
+                @Override
+                public boolean process(String option,
+                                       List<String> arguments) {
+                    dca = true;
+                    return true;
+                }
             }
     );
 
     private String out = null;
     private String d = null;
+    private boolean dca = false;
 
     @Override
     public void init(Locale locale, Reporter reporter) {}
@@ -107,7 +117,7 @@ public class PumlDoclet implements Doclet {
             Iterator var_of_element = environment.getSpecifiedElements().iterator();
             while (var_of_element.hasNext()) {
                 Element element1 = (Element) var_of_element.next();
-                CreateFirstElement newFirstElement = new CreateFirstElement(element1);
+                CreateFirstElement newFirstElement = new CreateFirstElement(element1 , dca);
                 PumlDiagram.generePrincipal(newFirstElement.getBuildUml());
             }
             PumlDiagram.genereEnd();

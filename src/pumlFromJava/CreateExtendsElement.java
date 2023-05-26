@@ -5,7 +5,6 @@ import javax.lang.model.element.TypeElement;
 import javax.lang.model.type.TypeKind;
 
 public class CreateExtendsElement {
-
     private static final String objectClass = "java.lang.Object";
     private boolean isExtends = false;
     private String nameExtends;

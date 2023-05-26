@@ -1,0 +1,170 @@
+@startuml
+'https://plantuml.com/class-diagram
+skinparam classAttributeIconSize 0
+skinparam classFontStyle Bold
+skinparam style strictuml
+hide empty members
+
+class Lib.Ripou {
+	+ <<Create>> Ripou(nom : String)
+	+ <<Create>> Ripou(nom : String , boisson : Boisson)
+	+ <<Create>> Ripou(nom : String , boisson : Boisson , look : String)
+	+ getPseudo() : String {redefine}
+	+ estLibre() : Boolean {redefine}
+	+ getRécompense() : Integer {redefine}
+	+ kidnapper(dame : Dame) {redefine}
+	+ getCapture() : Dame[*] {redefine}
+	+ seFaireCapturer(cowBoy : Cowboy) {redefine}
+	+ seFaireTirerDessus(cowBoy : Cowboy) {redefine}
+	+ sePresenter() {redefine}
+	+ delivre(dame : Dame) {redefine}
+}
+class Lib.Dame {
+	- captive : Boolean
+	+ <<Create>> Dame(nom : String)
+	+ <<Create>> Dame(nom : String , boisson : Boisson)
+	+ estLibre() : Boolean
+	+ setCaptive(value : Boolean)
+	+ sePresenter() {redefine}
+	+ sos(brigand : Brigand)
+	+ remerciement(cowboy : Cowboy)
+}
+class Lib.Maison {
+	+ <<Create>> Maison(nom : String , appartient : Personnage)
+	+ <<Create>> Maison(nom : String , appartient : Personnage , location : Location)
+	+ setNewBoisson(boisson : Boisson) : Boolean
+	+ removeBoisson(boisson : Boisson)
+	+ peutBoire(boisson : Boisson) : Boolean
+	+ entreMaison(personnage : Personnage) : Boolean
+	+ invitePersonnage(personnage : Personnage)
+	+ sortirMaison(personnage : Personnage)
+}
+class Lib.Cowboy {
+	- récompense : Integer
+	+ <<Create>> Cowboy(nom : String)
+	+ <<Create>> Cowboy(nom : String , boisson : Boisson)
+	+ getRécompense() : Integer
+	+ setRécompense(récompense : Integer)
+	+ sePresenter() {redefine}
+	+ tirerSur(brigand : Hors_La_Loi)
+	+ capturer(brigand : Hors_La_Loi)
+	+ delivre(dame : Dame)
+}
+class Lib.Prison {
+	+ <<Create>> Prison(nom : String , dirigants : Sherif[*])
+	+ <<Create>> Prison(nom : String , dirigants : Sherif[*] , location : Location)
+	- addRangeInit(dirigants : Sherif[*])
+	+ setNewPrisonnier(brigand : Brigand)
+	+ echaper(brigand : Brigand)
+	+ isPrisonnier(personnage : Personnage) : Boolean
+	+ isDirigant(sherif : Sherif) : Boolean
+}
+interface Lib.Hors_La_Loi <<interface>> {
+	+ {abstract} estLibre() : Boolean
+	+ {abstract} getRécompense() : Integer
+	+ {abstract} kidnapper(dame : Dame)
+	+ {abstract} seFaireCapturer(cowBoy : Cowboy)
+	+ {abstract} seFaireTirerDessus(cowBoy : Cowboy)
+	+ {abstract} getPseudo() : String
+	+ {abstract} getCapture() : Dame[*]
+}
+
+class Lib.Narrateur {
+	+ <<Create>> Narrateur(nom : String)
+	+ sePresenter() {redefine}
+	+ dire(texte : String) {redefine}
+	+ boire() {redefine}
+	+ boire(boisson : Boisson) {redefine}
+}
+class Lib.Bar {
+	+ <<Create>> Bar(nom : String , dirigant : Personnage)
+	+ <<Create>> Bar(nom : String , dirigant : Personnage , location : Location)
+	+ setNewBoisson(boisson : Boisson) : Boolean
+	+ removeBoisson(boisson : Boisson)
+	+ peutBoire(boisson : Boisson) : Boolean
+	+ entreBar(personnage : Personnage)
+	+ sortirBar(personnage : Personnage)
+}
+class Lib.Brigand {
+	+ {static} capture_récompense : Integer
+	+ {static} récompense_default : Integer
+	- récompense : Integer
+	- capturer : Boolean
+	+ <<Create>> Brigand(nom : String)
+	+ <<Create>> Brigand(nom : String , look : String)
+	+ <<Create>> Brigand(nom : String , boisson : Boisson)
+	+ <<Create>> Brigand(nom : String , boisson : Boisson , look : String)
+	+ getRécompense() : Integer
+	+ setRécompense(value : Integer)
+	+ getCapture() : Dame[*]
+	+ seFaireTirerDessus(cowBoy : Cowboy)
+	+ estLibre() : Boolean
+	+ sePresenter() {redefine}
+	+ kidnapper(dame : Dame)
+	+ seFaireCapturer(cowboy : Cowboy)
+}
+class Lib.Substantif {
+	- nom : String
+	+ <<Create>> Substantif(nom : String , genre : Genre)
+	+ getNom() : String
+	+ getGenre() : Genre
+	+ voyelleAtStart() : Boolean
+	+ getArticleDefini() : String
+	+ avecArticleDefini() : String
+	+ getArticleIndefini() : String
+	+ avecArticleIndefini() : String
+	+ getArticlePartitif() : String
+	+ avecArticlePartitif() : String
+	+ getPréposition() : String
+	+ avecPréposition() : String
+}
+class Lib.Personnage {
+	# nom : String
+	# pseudo : String
+	+ <<Create>> Personnage(nom : String)
+	+ <<Create>> Personnage(nom : String , boisson : Boisson)
+	+ <<Create>> Personnage(nom : String , pseudo : String)
+	+ <<Create>> Personnage(nom : String , boisson : Boisson , pseudo : String)
+	+ getNom() : String
+	+ getBoisson() : Boisson
+	+ getPseudo() : String
+	+ getLieu() : Lieu
+	+ setLieu(lieu : Lieu)
+	+ dire(texte : String)
+	+ sePresenter()
+	+ boire()
+	+ boire(new_boisson : Boisson)
+}
+enum Lib.Genre <<enumeration>> {
+	MASCULIN
+	FEMININ
+}
+class Lib.Lieu {
+	- nom : String
+	+ <<Create>> Lieu(nom : String , appartient : Personnage)
+	+ <<Create>> Lieu(nom : String , appartient : Personnage , location : Location)
+	+ getNom() : String
+	+ getLocation() : Location
+	+ getAppartient() : Personnage
+	+ toString() : String {redefine}
+}
+class Lib.Location {
+	- longitude : Float
+	- latitude : Float
+	- type_terrain : String
+	+ <<Create>> Location(longitude : Float , latitude : Float)
+	+ <<Create>> Location(longitude : Float , latitude : Float , type_terrain : String)
+}
+class Lib.Boisson {
+	- nom : String
+	+ <<Create>> Boisson(nom : String , genre : Genre)
+	+ getNom() : String
+	+ getGenre() : Genre
+}
+class Lib.Sherif {
+	+ <<Create>> Sherif(nom : String , boisson : Boisson)
+	+ <<Create>> Sherif(nom : String)
+	+ envoiePrison(prison : Prison , brigand : Brigand , overbook : Boolean)
+}
+
+@enduml

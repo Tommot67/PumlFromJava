@@ -5,8 +5,10 @@ import javax.lang.model.element.*;
 public class CreateFirstElement extends ElementDefault {
 
     private String buildUml = "";
-    public CreateFirstElement(Element element) {
+    private boolean dca = false;
+    public CreateFirstElement(Element element , boolean isDCA) {
         super(element);
+        dca = isDCA;
     }
 
     // run() définit le type de l'élément et crée une instance appropriée.
@@ -23,7 +25,7 @@ public class CreateFirstElement extends ElementDefault {
                     //Crée une instance d'interface
                     //builduml = juste les lignes de début et de fin de l'élément
                     CreateInterElement newInterElement = new CreateInterElement(element1);
-                    this.buildUml += newInterElement.getStringElementStartEndPlus();
+                    this.buildUml += newInterElement.getStringElementAllPlus();
                     break;
                 case ENUM:
                     //Crée une instance d'enum
@@ -33,7 +35,7 @@ public class CreateFirstElement extends ElementDefault {
                     break;
                 case PACKAGE:
                     //Crée un nouvel élément puis le fait passer par la fonction chaque élément du package
-                    CreateFirstElement newFirstElement = new CreateFirstElement(element1);
+                    CreateFirstElement newFirstElement = new CreateFirstElement(element1 , dca);
                     newFirstElement.run();
                     break;
                 default:

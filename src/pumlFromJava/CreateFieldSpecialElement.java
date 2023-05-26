@@ -5,13 +5,13 @@ import javax.lang.model.element.VariableElement;
 import java.util.ArrayList;
 
 public class CreateFieldSpecialElement extends ElementDefault{
-    public static ArrayList<CreateFieldSpecialElement> specialElements = new ArrayList<>();
+    //public static ArrayList<CreateFieldSpecialElement> specialElements = new ArrayList<>();
     private String elementFirst;
     private String elementSecond;
     private boolean elementSecondIsArray;
     public CreateFieldSpecialElement(Element element){
         super(element);
-        specialElements.add(this);
+        //specialElements.add(this);
         this.setElementFirst();
         this.setElementSecondIsArray();
         this.setElementSecond();

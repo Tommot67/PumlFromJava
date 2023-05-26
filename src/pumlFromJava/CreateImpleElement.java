@@ -35,4 +35,8 @@ public class CreateImpleElement {
     public String getStringImplements(){
         return this.isImplements ? "implements " + this.interfacesImplements.toString().replace("[", "").replace("]", "") : "";
     }
+
+    public String getStringExtendsInterface(){
+        return this.isImplements ? this.typeElement.getSimpleName() +" --^ " + this.interfacesImplements.toString().replace("[", "").replace("]", "") + "\n" : "";
+    }
 }

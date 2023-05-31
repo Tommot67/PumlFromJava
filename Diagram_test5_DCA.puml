@@ -1,0 +1,99 @@
+@startuml
+'https://plantuml.com/class-diagram
+skinparam classAttributeIconSize 0
+skinparam classFontStyle Bold
+skinparam style strictuml
+hide empty members
+
+class western.Ripou extends western.Cowboy implements western.HorsLaLoi{
+}
+
+western.Ripou --> "\t1\n\t\n" western.Brigand
+
+class western.Dame extends western.Personnage {
+	estLibre
+}
+
+western.Dame --> "\t1\n\t\n" western.Cowboy
+western.Dame --> "\t1\n\t\n" western.HorsLaLoi
+western.Dame --> "\t1\n\t\n" western.Boisson
+
+class western.Histoire2  {
+}
+
+
+class western.Cowboy extends western.Personnage {
+	gains
+}
+
+western.Cowboy --> "\t*\n\t\n" western.HorsLaLoi
+western.Cowboy --> "\t1\n\t\n" western.Boisson
+
+class western.Narrateur extends western.Personnage {
+}
+
+
+class western.Histoire4  {
+}
+
+
+class western.Brigand extends western.Personnage implements western.HorsLaLoi{
+	LOOK_PAR_DEFAUT
+	look
+	recompense
+	estLibre
+}
+
+western.Brigand --> "\t*\n\t\n" western.Dame
+western.Brigand --> "\t1\n\t\n" western.Cowboy
+western.Brigand --> "\t1\n\t\n" western.Boisson
+
+class western.Substantif  {
+	nom
+}
+
+western.Substantif --> "\t1\n\t\n" western.Genre
+
+interface western.HorsLaLoi <<interface>> {
+}
+
+HorsLaLoi --^ western.Nommable
+
+class western.Personnage  implements western.Nommable{
+	nom
+}
+
+western.Personnage --> "\t1\n\t\n" western.Boisson
+western.Personnage --> "\t1\n\t\n" western.Boisson
+
+enum western.Genre <<enumeration>> {
+	FEMININ
+	MASCULIN
+}
+class western.Barman extends western.Personnage {
+}
+
+western.Barman --> "\t*\n\t\n" western.Personnage
+
+interface western.Nommable <<interface>> {
+}
+
+
+class western.Histoire5  {
+}
+
+
+class western.Boisson  {
+}
+
+western.Boisson --> "\t1\n\t\n" western.Substantif
+western.Boisson --> "\t1\n\t\n" western.Boisson
+western.Boisson --> "\t1\n\t\n" Boisson
+
+class western.Sherif extends western.Cowboy {
+}
+
+western.Sherif --> "\t*\n\t\n" western.HorsLaLoi
+
+
+@enduml

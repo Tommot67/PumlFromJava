@@ -1,0 +1,22 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+skinparam style strictuml
+
+participant "Boisson.class" as Boisson
+participant "Boisson.boissons" as boissons
+participant "boisson: Boisson" as boisson
+
+[-> Boisson ++ : of(nom, genre)
+Boisson -> boissons ++: containsKey(nom)
+return boolean containsNom
+alt containsNom
+Boisson -> boissons ++: get(nom)
+return Boisson boisson
+else
+|||
+Boisson -->> boisson ** : <<Create>> Boisson
+Boisson -> boissons : put(nom,boisson)
+end
+return of() : boisson
+
+@enduml

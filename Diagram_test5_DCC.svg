@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="2204px" preserveAspectRatio="none" style="width:1657px;height:2204px;background:#FFFFFF;" version="1.1" viewBox="0 0 1657 2204" width="1657px" zoomAndPan="magnify"><defs/><g><!--MD5=[11010fd69b96a586933bf6c752090985]
+cluster western--><g id="cluster_western"><path d="M8.5,58 L63.5,58 A3.75,3.75 0 0 1 66,60.5 L73,80.0986 L1568.5,80.0986 A2.5,2.5 0 0 1 1571,82.5986 L1571,2194.5 A2.5,2.5 0 0 1 1568.5,2197 L8.5,2197 A2.5,2.5 0 0 1 6,2194.5 L6,60.5 A2.5,2.5 0 0 1 8.5,58 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="6" x2="73" y1="80.0986" y2="80.0986"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="54" x="10" y="73.1318">western</text></g><!--MD5=[f08f54a911e4b2664fbc8868165c202d]
+class western.Ripou--><g id="elem_western.Ripou"><rect codeLine="7" fill="#F1F1F1" height="243.3809" id="western.Ripou" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="566" x="796" y="233"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="41" x="1058.5" y="251.1318">Ripou</text><line style="stroke:#181818;stroke-width:0.5;" x1="797" x2="1361" y1="259.0986" y2="259.0986"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="207" x="802" y="276.2305">+«Create» Ripou(nom : String)</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="345" x="802" y="292.3291">+«Create» Ripou(nom : String , boisson : Boisson)</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="441" x="802" y="308.4277">+«Create» Ripou(nom : String , boisson : Boisson , look : String)</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="129" x="802" y="324.5264">+getLook() : String</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="348" x="802" y="340.625">+estLibre() : Boolean {redefines Cowboy::estLibre}</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="449" x="802" y="356.7236">+getRecompense() : Integer {redefines Cowboy::getRecompense}</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="392" x="802" y="372.8223">+kidnapper(dame : Dame) {redefines Cowboy::kidnapper}</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="396" x="802" y="388.9209">+getCaptives() : Dame[*] {redefines Cowboy::getCaptives}</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="508" x="802" y="405.0195">+seFaireCapturer(cowBoy : Cowboy) {redefines Cowboy::seFaireCapturer}</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="554" x="802" y="421.1182">+seFaireTirerDessus(cowBoy : Cowboy) {redefines Cowboy::seFaireTirerDessus}</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="368" x="802" y="437.2168">+getPseudo() : String {redefines Cowboy::getPseudo}</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="328" x="802" y="453.3154">+sePresenter() {redefines Cowboy::sePresenter}</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="340" x="802" y="469.4141">+liberer(dame : Dame) {redefines Cowboy::liberer}</text></g><!--MD5=[b1e37f595a6651d504cde0246fefb5a9]
+class western.Cowboy--><g id="elem_western.Cowboy"><rect codeLine="49" fill="#F1F1F1" height="219.1836" id="western.Cowboy" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="406" x="984" y="1207"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="56" x="1159" y="1225.1318">Cowboy</text><line style="stroke:#181818;stroke-width:0.5;" x1="985" x2="1389" y1="1233.0986" y2="1233.0986"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="104" x="990" y="1250.2305">-gains : Integer</text><line style="stroke:#181818;stroke-width:0.5;" x1="985" x2="1389" y1="1257.1973" y2="1257.1973"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="222" x="990" y="1274.3291">+«Create» Cowboy(nom : String)</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="360" x="990" y="1290.4277">+«Create» Cowboy(nom : String , boisson : Boisson)</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="394" x="990" y="1306.5264">+getPseudo() : String {redefines Personnage::getPseudo}</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="149" x="990" y="1322.625">+liberer(dame : Dame)</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="185" x="990" y="1338.7236">+liberer(captives : Dame[*])</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="229" x="990" y="1354.8223">+capturer(horsLaLoi : HorsLaLoi)</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="205" x="990" y="1370.9209">+tirerSur(brigand : HorsLaLoi)</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="354" x="990" y="1387.0195">+sePresenter() {redefines Personnage::sePresenter}</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" text-decoration="underline" textLength="234" x="990" y="1403.1182">+getBoissonParDefaut() : Boisson</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" text-decoration="underline" textLength="289" x="990" y="1419.2168">+setBoissonParDefaut(boisson : Boisson)</text></g><!--MD5=[b474ecee520e5ff080582f85150c6708]
+class western.HorsLaLoi--><g id="elem_western.HorsLaLoi"><rect codeLine="130" fill="#F1F1F1" height="160.5879" id="western.HorsLaLoi" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="286" x="1115" y="1794.5"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="61" x="1227.5" y="1810.7559">«interface»</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="71" x="1222.5" y="1826.4307">HorsLaLoi</text><line style="stroke:#181818;stroke-width:0.5;" x1="1116" x2="1400" y1="1834.3975" y2="1834.3975"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="144" x="1121" y="1851.5293">+estLibre() : Boolean</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="190" x="1121" y="1867.6279">+getRecompense() : Integer</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="175" x="1121" y="1883.7266">+kidnapper(dame : Dame)</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="251" x="1121" y="1899.8252">+seFaireCapturer(cowBoy : Cowboy)</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="274" x="1121" y="1915.9238">+seFaireTirerDessus(cowBoy : Cowboy)</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="129" x="1121" y="1932.0225">+getLook() : String</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="166" x="1121" y="1948.1211">+getCaptives() : Dame[*]</text></g><!--MD5=[8fe698b15ae7e29e71dbd627ce591e89]
+class western.Brigand--><g id="elem_western.Brigand"><rect codeLine="82" fill="#F1F1F1" height="331.874" id="western.Brigand" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="466" x="1015" y="536"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="54" x="1221" y="554.1318">Brigand</text><line style="stroke:#181818;stroke-width:0.5;" x1="1016" x2="1480" y1="562.0986" y2="562.0986"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" text-decoration="underline" textLength="205" x="1021" y="579.2305">#LOOK_PAR_DEFAUT : String</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="89" x="1021" y="595.3291">-look : String</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="150" x="1021" y="611.4277">-recompense : Integer</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="131" x="1021" y="627.5264">-estLibre : Boolean</text><line style="stroke:#181818;stroke-width:0.5;" x1="1016" x2="1480" y1="634.4932" y2="634.4932"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="220" x="1021" y="651.625">+«Create» Brigand(nom : String)</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="358" x="1021" y="667.7236">+«Create» Brigand(nom : String , boisson : Boisson)</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="454" x="1021" y="683.8223">+«Create» Brigand(nom : String , boisson : Boisson , look : String)</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="129" x="1021" y="699.9209">+getLook() : String</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="190" x="1021" y="716.0195">+getRecompense() : Integer</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="144" x="1021" y="732.1182">+estLibre() : Boolean</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="175" x="1021" y="748.2168">+kidnapper(dame : Dame)</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="166" x="1021" y="764.3154">+getCaptives() : Dame[*]</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="251" x="1021" y="780.4141">+seFaireCapturer(cowBoy : Cowboy)</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="274" x="1021" y="796.5127">+seFaireTirerDessus(cowBoy : Cowboy)</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="394" x="1021" y="812.6113">+getPseudo() : String {redefines Personnage::getPseudo}</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="354" x="1021" y="828.71">+sePresenter() {redefines Personnage::sePresenter}</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" text-decoration="underline" textLength="234" x="1021" y="844.8086">+getBoissonParDefaut() : Boisson</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" text-decoration="underline" textLength="289" x="1021" y="860.9072">+setBoissonParDefaut(boisson : Boisson)</text></g><!--MD5=[cf612f81f66edfd0762efbad529369df]
+class western.Dame--><g id="elem_western.Dame"><rect codeLine="25" fill="#F1F1F1" height="219.1836" id="western.Dame" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="406" x="739" y="928"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="38" x="923" y="946.1318">Dame</text><line style="stroke:#181818;stroke-width:0.5;" x1="740" x2="1144" y1="954.0986" y2="954.0986"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="131" x="745" y="971.2305">-estLibre : Boolean</text><line style="stroke:#181818;stroke-width:0.5;" x1="740" x2="1144" y1="978.1973" y2="978.1973"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="204" x="745" y="995.3291">+«Create» Dame(nom : String)</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="342" x="745" y="1011.4277">+«Create» Dame(nom : String , boisson : Boisson)</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="394" x="745" y="1027.5264">+getPseudo() : String {redefines Personnage::getPseudo}</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="293" x="745" y="1043.625">+seFaireKidnapper(horsLaLoi : HorsLaLoi)</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="240" x="745" y="1059.7236">+seFaireLiberer(cowBoy : Cowboy)</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="144" x="745" y="1075.8223">+estLibre() : Boolean</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="354" x="745" y="1091.9209">+sePresenter() {redefines Personnage::sePresenter}</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" text-decoration="underline" textLength="234" x="745" y="1108.0195">+getBoissonParDefaut() : Boisson</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" text-decoration="underline" textLength="289" x="745" y="1124.1182">+setBoissonParDefaut(boisson : Boisson)</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="192" x="745" y="1140.2168">+getRavisseur() : HorsLaLoi</text></g><!--MD5=[5a0308fdca10b9337c24793fed9a0e15]
+class western.Personnage--><g id="elem_western.Personnage"><rect codeLine="142" fill="#F1F1F1" height="219.1836" id="western.Personnage" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="398" x="363" y="245"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="82" x="521" y="263.1318">Personnage</text><line style="stroke:#181818;stroke-width:0.5;" x1="364" x2="760" y1="271.0986" y2="271.0986"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="89" x="369" y="288.2305">-nom : String</text><line style="stroke:#181818;stroke-width:0.5;" x1="364" x2="760" y1="295.1973" y2="295.1973"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="248" x="369" y="312.3291">+«Create» Personnage(nom : String)</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="386" x="369" y="328.4277">+«Create» Personnage(nom : String , boisson : Boisson)</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="132" x="369" y="344.5264">+dire(texte : String)</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="99" x="369" y="360.625">+sePresenter()</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="179" x="369" y="376.7236">+boire(boisson : Boisson)</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="53" x="369" y="392.8223">+boire()</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="125" x="369" y="408.9209">+getNom() : String</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="167" x="369" y="425.0195">+getBoisson() : Boisson</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" text-decoration="underline" textLength="344" x="369" y="441.1182">+getPseudos(personnages : Nommable[*]) : String</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" text-decoration="underline" textLength="234" x="369" y="457.2168">+getBoissonParDefaut() : Boisson</text></g><!--MD5=[5c86f6ef71a03c5db629e96d52e95f5c]
+class western.Boisson--><g id="elem_western.Boisson"><rect codeLine="186" fill="#F1F1F1" height="162.8877" id="western.Boisson" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="383" x="511.5" y="1486"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="57" x="674.5" y="1504.1318">Boisson</text><line style="stroke:#181818;stroke-width:0.5;" x1="512.5" x2="893.5" y1="1512.0986" y2="1512.0986"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="325" x="517.5" y="1529.2305">-«Create» Boisson(nom : String , genre : Genre)</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" text-decoration="underline" textLength="291" x="517.5" y="1545.3291">+of(nom : String , genre : Genre) : Boisson</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="125" x="517.5" y="1561.4277">+getNom() : String</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="135" x="517.5" y="1577.5264">+getGenre() : Genre</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="255" x="517.5" y="1593.625">+getNomAvecArticleIndefini() : String</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="248" x="517.5" y="1609.7236">+getNomAvecArticlePartitif() : String</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="243" x="517.5" y="1625.8223">+getNomAvecArticleDefini() : String</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="371" x="517.5" y="1641.9209">+getNomAvecPreposition(preposition : String) : String</text></g><!--MD5=[07ec0d7cfb1e94b01a30058bf59efd67]
+class western.Histoire2--><g id="elem_western.Histoire2"><rect codeLine="43" fill="#F1F1F1" height="66.2959" id="western.Histoire2" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="157" x="1205.5" y="100"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="61" x="1253.5" y="118.1318">Histoire2</text><line style="stroke:#181818;stroke-width:0.5;" x1="1206.5" x2="1361.5" y1="126.0986" y2="126.0986"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="143" x="1211.5" y="143.2305">+«Create» Histoire2()</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" text-decoration="underline" textLength="145" x="1211.5" y="159.3291">+main(args : String[])</text></g><!--MD5=[ef384b193dccaf23cc07f5ab2f8ee386]
+class western.Narrateur--><g id="elem_western.Narrateur"><rect codeLine="66" fill="#F1F1F1" height="130.6904" id="western.Narrateur" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="406" x="22" y="636.5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="63" x="193.5" y="654.6318">Narrateur</text><line style="stroke:#181818;stroke-width:0.5;" x1="23" x2="427" y1="662.5986" y2="662.5986"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="145" x="28" y="679.7305">+«Create» Narrateur()</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="229" x="28" y="695.8291">+«Create» Narrateur(nom : String)</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="332" x="28" y="711.9277">+dire(texte : String) {redefines Personnage::dire}</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="388" x="28" y="728.0264">+boire(boisson : Boisson) {redefines Personnage::boire}</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="262" x="28" y="744.125">+boire() {redefines Personnage::boire}</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="394" x="28" y="760.2236">+getPseudo() : String {redefines Personnage::getPseudo}</text></g><!--MD5=[f2c82bb1970d0f20660fd2bc99fd30e2]
+class western.Histoire4--><g id="elem_western.Histoire4"><rect codeLine="76" fill="#F1F1F1" height="66.2959" id="western.Histoire4" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="157" x="1397.5" y="100"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="61" x="1445.5" y="118.1318">Histoire4</text><line style="stroke:#181818;stroke-width:0.5;" x1="1398.5" x2="1553.5" y1="126.0986" y2="126.0986"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="143" x="1403.5" y="143.2305">+«Create» Histoire4()</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" text-decoration="underline" textLength="145" x="1403.5" y="159.3291">+main(args : String[])</text></g><!--MD5=[a93748344b27e1d2d91ebb498fd42112]
+class western.Substantif--><g id="elem_western.Substantif"><rect codeLine="107" fill="#F1F1F1" height="331.874" id="western.Substantif" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="354" x="526" y="1709"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="71" x="667.5" y="1727.1318">Substantif</text><line style="stroke:#181818;stroke-width:0.5;" x1="527" x2="879" y1="1735.0986" y2="1735.0986"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="89" x="532" y="1752.2305">-nom : String</text><line style="stroke:#181818;stroke-width:0.5;" x1="527" x2="879" y1="1759.1973" y2="1759.1973"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="342" x="532" y="1776.3291">+«Create» Substantif(nom : String , genre : Genre)</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="125" x="532" y="1792.4277">+getNom() : String</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="135" x="532" y="1808.5264">+getGenre() : Genre</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="319" x="532" y="1824.625">+toString() : String {redefines Object::toString}</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" text-decoration="underline" textLength="194" x="532" y="1840.7236">+isVowel(c : Char) : Boolean</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" text-decoration="underline" textLength="261" x="532" y="1856.8223">+startsWithVowel(s : String) : Boolean</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="190" x="532" y="1872.9209">+getArticleIndefini() : String</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="200" x="532" y="1889.0195">+avecArticleIndefini() : String</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" text-decoration="underline" textLength="271" x="532" y="1905.1182">+getArticleDefini(genre : Genre) : String</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="178" x="532" y="1921.2168">+getArticleDefini() : String</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="188" x="532" y="1937.3154">+avecArticleDefini() : String</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" text-decoration="underline" textLength="245" x="532" y="1953.4141">+faireElision(article : String) : String</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="134" x="532" y="1969.5127">+elision() : Boolean</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="183" x="532" y="1985.6113">+getArticlePartitif() : String</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="193" x="532" y="2001.71">+avecArticlePartitif() : String</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="247" x="532" y="2017.8086">+avecElision(article : String) : String</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="316" x="532" y="2033.9072">+avecPreposition(preposition : String) : String</text></g><!--MD5=[1c1358dda3e85f8227184602b3972f27]
+class western.Genre--><g id="elem_western.Genre"><rect codeLine="159" fill="#F1F1F1" height="80.0947" id="western.Genre" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="86" x="660" y="2101"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="83" x="661.5" y="2117.2559">«enumeration»</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="41" x="682.5" y="2132.9307">Genre</text><line style="stroke:#181818;stroke-width:0.5;" x1="661" x2="745" y1="2140.8975" y2="2140.8975"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="58" x="666" y="2158.0293">FEMININ</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="74" x="666" y="2174.1279">MASCULIN</text></g><!--MD5=[36fb504d99aab5b8634b0e6c36c0e4c1]
+class western.Nommable--><g id="elem_western.Nommable"><rect codeLine="174" fill="#F1F1F1" height="80.0947" id="western.Nommable" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="158" x="483" y="93"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="61" x="531.5" y="109.2559">«interface»</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="72" x="526" y="124.9307">Nommable</text><line style="stroke:#181818;stroke-width:0.5;" x1="484" x2="640" y1="132.8975" y2="132.8975"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="125" x="489" y="150.0293">+getNom() : String</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="146" x="489" y="166.1279">+getPseudo() : String</text></g><!--MD5=[3ff17be5ad6eb0014b31e2889539a218]
+class western.Barman--><g id="elem_western.Barman"><rect codeLine="163" fill="#F1F1F1" height="130.6904" id="western.Barman" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="406" x="500" y="636.5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="52" x="677" y="654.6318">Barman</text><line style="stroke:#181818;stroke-width:0.5;" x1="501" x2="905" y1="662.5986" y2="662.5986"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="218" x="506" y="679.7305">+«Create» Barman(nom : String)</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="394" x="506" y="695.8291">+getPseudo() : String {redefines Personnage::getPseudo}</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="332" x="506" y="711.9277">+dire(texte : String) {redefines Personnage::dire}</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="354" x="506" y="728.0264">+sePresenter() {redefines Personnage::sePresenter}</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="221" x="506" y="744.125">+sert(personnage : Personnage)</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="266" x="506" y="760.2236">+getListPersonnages() : Personnage[*]</text></g><!--MD5=[5786756b9d169f5dc5ff1591ced2a94f]
+class western.Histoire5--><g id="elem_western.Histoire5"><rect codeLine="180" fill="#F1F1F1" height="66.2959" id="western.Histoire5" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="157" x="1397.5" y="321.5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="61" x="1445.5" y="339.6318">Histoire5</text><line style="stroke:#181818;stroke-width:0.5;" x1="1398.5" x2="1553.5" y1="347.5986" y2="347.5986"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="143" x="1403.5" y="364.7305">+«Create» Histoire5()</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" text-decoration="underline" textLength="145" x="1403.5" y="380.8291">+main(args : String[])</text></g><!--MD5=[a2c2599204d634893c76b45344622fe7]
+class western.Sherif--><g id="elem_western.Sherif"><rect codeLine="201" fill="#F1F1F1" height="162.8877" id="western.Sherif" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="446" x="1035" y="1486"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="40" x="1238" y="1504.1318">Sherif</text><line style="stroke:#181818;stroke-width:0.5;" x1="1036" x2="1480" y1="1512.0986" y2="1512.0986"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="206" x="1041" y="1529.2305">+«Create» Sherif(nom : String)</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="344" x="1041" y="1545.3291">+«Create» Sherif(nom : String , boisson : Boisson)</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="326" x="1041" y="1561.4277">+getNom() : String {redefines Cowboy::getNom}</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="328" x="1041" y="1577.5264">+sePresenter() {redefines Cowboy::sePresenter}</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="434" x="1041" y="1593.625">+capturer(horsLaLoi : HorsLaLoi) {redefines Cowboy::capturer}</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="191" x="1041" y="1609.7236">+getWanted() : HorsLaLoi[*]</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="306" x="1041" y="1625.8223">+isWanted(horsLaLoi : HorsLaLoi) : Boolean</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="245" x="1041" y="1641.9209">+rechercher(horsLaLoi : HorsLaLoi)</text></g><!--MD5=[880e265af0763fd213cda78585a6d22a]
+class HorsLaLoi--><g id="elem_HorsLaLoi"><rect fill="#F1F1F1" height="26.0986" id="HorsLaLoi" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="77" x="523.5" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="71" x="526.5" y="25.1318">HorsLaLoi</text></g><!--MD5=[e692b9129d14a6056b5081d9360eda51]
+class Boisson--><g id="elem_Boisson"><rect fill="#F1F1F1" height="26.0986" id="Boisson" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="63" x="1587.5" y="1862"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="57" x="1590.5" y="1880.1318">Boisson</text></g><!--MD5=[4075337ce54e457d4e19171adee60d64]
+reverse link western.Cowboy to western.Ripou--><g id="link_western.Cowboy_western.Ripou"><path d="M1304.76,1191.57 C1376.19,1107.5 1460.72,989.85 1499,868 C1521.11,797.61 1539.58,597.61 1499,536 C1493.82,528.13 1434.64,501.24 1362.26,470.54 " fill="none" id="western.Cowboy-backto-western.Ripou" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="1309.94,1196.28,1291.59,1206.87,1299.33,1187.14,1309.94,1196.28" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[b5247f39ca1f07207ba42e3da67225d8]
+reverse link western.HorsLaLoi to western.Ripou--><g id="link_western.HorsLaLoi_western.Ripou"><path d="M1408.9,1782.19 C1454.6,1746.5 1499.83,1701.48 1527,1649 C1594.97,1517.73 1554,1465.32 1554,1317.5 C1554,1036.5 1554,1036.5 1554,1036.5 C1554,813.54 1650.46,716.8 1520,536 C1518.45,533.85 1447.1,504.34 1362.23,469.79 " fill="none" id="western.HorsLaLoi-backto-western.Ripou" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="1412.92,1787.92,1392.75,1794.41,1404.47,1776.76,1412.92,1787.92" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[eefa12b94e774f032560f99f14920c0f]
+link western.Ripou to western.Brigand--><g id="link_western.Ripou_western.Brigand"><path codeLine="23" d="M1138.11,476.34 C1146.8,494.1 1155.88,512.67 1164.94,531.19 " fill="none" id="western.Ripou-to-western.Brigand" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1167.24,535.89,1166.8683,526.0482,1165.0383,531.4008,1159.6856,529.5709,1167.24,535.89" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1133.2228" y="495.5821">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="50" x="1111.7228" y="510.5309">- brigand</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="1118.7228" y="525.4796"> </text></g><!--MD5=[89cfbfa3487abdd33d000b2507e7b3ea]
+reverse link western.Personnage to western.Dame--><g id="link_western.Personnage_western.Dame"><path d="M773.01,473.09 C775.01,474.07 777.01,475.04 779,476 C841.81,506.31 884.21,478.72 924,536 C966.42,597.05 960.2,799.86 951.39,927.8 " fill="none" id="western.Personnage-backto-western.Dame" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="769.64,479.23,754.85,464.06,775.87,466.7,769.64,479.23" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[d7021febb3c1db1a5784e3daf14bf95d]
+link western.Dame to western.Cowboy--><g id="link_western.Dame_western.Cowboy"><path codeLine="39" d="M1038.13,1147.18 C1054.2,1165.36 1070.92,1184.26 1087.09,1202.54 " fill="none" id="western.Dame-to-western.Cowboy" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1090.75,1206.68,1087.7959,1197.2846,1087.4424,1202.9304,1081.7966,1202.5768,1090.75,1206.68" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1052.0858" y="1167.537">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="54" x="1028.5858" y="1182.4857">- sauveur</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="1037.5858" y="1197.4344"> </text></g><!--MD5=[aa78b6f4891359b4c29a747eb565ad1a]
+link western.Dame to western.HorsLaLoi--><g id="link_western.Dame_western.HorsLaLoi"><path codeLine="40" d="M925.31,1147.04 C911.04,1274.93 904.26,1490.08 988,1649 C1018.02,1705.97 1069.17,1754.2 1118.93,1791.23 " fill="none" id="western.Dame-to-western.HorsLaLoi" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1123.13,1794.32,1118.2614,1785.7586,1119.1062,1791.3521,1113.5127,1792.1968,1123.13,1794.32" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1073.5435" y="1753.7439">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="61" x="1046.5435" y="1768.6926">- ravisseur</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="1059.0435" y="1783.6413"> </text></g><!--MD5=[d0c6c4d541f827c0b83b3a2bdbfd0fde]
+link western.Dame to western.Boisson--><g id="link_western.Dame_western.Boisson"><path codeLine="41" d="M892.77,1147.26 C847.95,1246.27 782.69,1390.45 741.56,1481.32 " fill="none" id="western.Dame-to-western.Boisson" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="739.5,1485.87,746.8487,1479.3128,741.5572,1481.3128,739.5571,1476.0213,739.5,1485.87" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="675.3203" y="1445.1993">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" text-decoration="underline" textLength="115" x="621.3203" y="1460.1481">-  boissonParDefaut</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="660.8203" y="1475.0968"> </text></g><!--MD5=[e359bbea275b703508c3498a7b4e6e99]
+reverse link western.Personnage to western.Cowboy--><g id="link_western.Personnage_western.Cowboy"><path d="M771.85,472.74 C774.24,473.84 776.62,474.93 779,476 C852.06,508.9 898.06,474.16 949,536 C1043.83,651.13 903.72,752.42 998,868 C1047.32,928.46 1116.28,865.5 1163,928 C1194.83,970.58 1196.55,1107.82 1193.17,1206.9 " fill="none" id="western.Personnage-backto-western.Cowboy" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="768.49,478.9,753.4,464.02,774.47,466.24,768.49,478.9" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[333e488494f29c10fe6ea8fa84769800]
+link western.Cowboy to western.HorsLaLoi--><g id="link_western.Cowboy_western.HorsLaLoi"><path codeLine="63" d="M1055.01,1426.1 C1039.99,1444.45 1026.89,1464.57 1018,1486 C990.23,1552.91 989.2,1582.53 1018,1649 C1042.3,1705.09 1088.22,1753.6 1133.45,1791.07 " fill="none" id="western.Cowboy-to-western.HorsLaLoi" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1137.54,1794.43,1133.1286,1785.6243,1133.6779,1791.2545,1128.0477,1791.8038,1137.54,1794.43" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="1189.5552" y="1753.8633">*</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="58" x="1163.0552" y="1768.812">- captures</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="1174.0552" y="1783.7608"> </text></g><!--MD5=[66fb5d84743cef2ac0976d39c63954ba]
+link western.Cowboy to western.Boisson--><g id="link_western.Cowboy_western.Boisson"><path codeLine="64" d="M983.84,1422.02 C943.95,1442.54 902.6,1463.81 864.3,1483.52 " fill="none" id="western.Cowboy-to-western.Boisson" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="859.65,1485.91,869.4829,1485.3496,864.0961,1483.6226,865.8231,1478.2358,859.65,1485.91" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="965.4285" y="1445.2428">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" text-decoration="underline" textLength="115" x="911.4285" y="1460.1915">-  boissonParDefaut</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="950.9285" y="1475.1402"> </text></g><!--MD5=[7402db966c799d2b8ba0e661b1c230d9]
+reverse link western.Personnage to western.Narrateur--><g id="link_western.Personnage_western.Narrateur"><path d="M441.73,478.8 C389.77,532.07 331.14,592.19 287.97,636.44 " fill="none" id="western.Personnage-backto-western.Narrateur" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="436.86,473.77,455.83,464.34,446.88,483.55,436.86,473.77" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[44b9032986d238081ba0e7f071a48733]
+reverse link western.Personnage to western.Brigand--><g id="link_western.Personnage_western.Brigand"><path d="M770.58,472.44 C773.39,473.65 776.2,474.84 779,476 C868.26,513.03 899.86,496.37 988,536 C996.9,540 1005.85,544.27 1014.8,548.75 " fill="none" id="western.Personnage-backto-western.Brigand" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="767.32,478.65,751.91,464.1,773.03,465.87,767.32,478.65" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[4b0074c80a65512a59e528c4ec816f7d]
+reverse link western.HorsLaLoi to western.Brigand--><g id="link_western.HorsLaLoi_western.Brigand"><path d="M1394.86,1781.2 C1436.29,1745.25 1476.7,1700.32 1499,1649 C1612.84,1386.98 1468.89,1061.11 1356.66,868.25 " fill="none" id="western.HorsLaLoi-backto-western.Brigand" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="1399.09,1786.78,1379.27,1794.28,1390.09,1776.06,1399.09,1786.78" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[3d632df7b6ff10a8bf3514b66bd707b2]
+link western.Brigand to western.Dame--><g id="link_western.Brigand_western.Dame"><path codeLine="103" d="M1096.34,868.28 C1079.16,887.01 1061.95,905.77 1045.59,923.6 " fill="none" id="western.Brigand-to-western.Dame" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1041.89,927.63,1050.9243,923.708,1045.2725,923.9478,1045.0327,918.296,1041.89,927.63" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="1014.4384" y="887.3971">*</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="57" x="988.4384" y="902.3459">- captives</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="998.9384" y="917.2946"> </text></g><!--MD5=[cb9509e456a9b494a7158cec73a9256a]
+link western.Brigand to western.Cowboy--><g id="link_western.Brigand_western.Cowboy"><path codeLine="104" d="M1231.53,868.35 C1221.01,973.99 1207.64,1108.23 1198.31,1201.94 " fill="none" id="western.Brigand-to-western.Cowboy" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1197.81,1206.93,1202.6906,1198.3755,1198.3103,1201.9551,1194.7307,1197.5749,1197.81,1206.93" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1168.944" y="1167.3917">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="50" x="1147.444" y="1182.3405">- gardien</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="1154.444" y="1197.2892"> </text></g><!--MD5=[71a581d5cac37c39b0a4b7168abc847a]
+link western.Brigand to western.Boisson--><g id="link_western.Brigand_western.Boisson"><path codeLine="105" d="M1014.97,828 C984.74,842.33 953.9,856.06 924,868 C837.02,902.73 779.12,853.78 722,928 C597.88,1089.29 641.95,1347.45 676.85,1480.71 " fill="none" id="western.Brigand-to-western.Boisson" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="678.2,1485.79,679.7764,1476.0681,676.9268,1480.9548,672.0401,1478.1052,678.2,1485.79" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="768.233" y="1445.4351">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" text-decoration="underline" textLength="115" x="714.233" y="1460.3838">-  boissonParDefaut</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="753.733" y="1475.3325"> </text></g><!--MD5=[20c34fe428a1f9b077ae4c9b90ec3145]
+link western.Substantif to western.Genre--><g id="link_western.Substantif_western.Genre"><path codeLine="128" d="M703,2041.32 C703,2061.11 703,2079.84 703,2095.55 " fill="none" id="western.Substantif-to-western.Genre" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="703,2100.75,707,2091.75,703,2095.75,699,2091.75,703,2100.75" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="674.4375" y="2060.2428">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="40" x="657.9375" y="2075.1915">- genre</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="659.9375" y="2090.1402"> </text></g><!--MD5=[52e14ead7af6431d69495f011a655034]
+link HorsLaLoi to western.Nommable--><g id="link_HorsLaLoi_western.Nommable"><path codeLine="140" d="M562,33.3 C562,43.16 562,57.77 562,72.75 " fill="none" id="HorsLaLoi-to-western.Nommable" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="569,72.99,562,92.99,555,72.99,569,72.99" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[7dd5d110dcdb3c1ae563a940029751af]
+reverse link western.Nommable to western.Personnage--><g id="link_western.Nommable_western.Personnage"><path d="M562,193.38 C562,209.36 562,227.15 562,244.91 " fill="none" id="western.Nommable-backto-western.Personnage" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="555,193.24,562,173.24,569,193.24,555,193.24" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[5bb872c2697a6682216eedd6ebd2539c]
+link western.Personnage to western.Boisson--><g id="link_western.Personnage_western.Boisson"><path codeLine="156" d="M489.22,464.32 C479.38,487.41 471.01,512.06 466,536 C435.78,680.43 446.93,721.68 466,868 C499.17,1122.42 522.08,1186.46 614,1426 C621.02,1444.28 629.72,1463.3 639,1481.23 " fill="none" id="western.Personnage-to-western.Boisson" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="641.37,1485.76,640.7597,1475.9301,639.0601,1481.3256,633.6646,1479.6259,641.37,1485.76" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="542.1092" y="1445.4026">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" text-decoration="underline" textLength="165" x="463.1092" y="1460.3513">-  BOISSON_PAR_DEFAUT</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="527.6092" y="1475.3"> </text></g><!--MD5=[5bb872c2697a6682216eedd6ebd2539c]
+link western.Personnage to western.Boisson--><g id="link_western.Personnage_western.Boisson"><path codeLine="157" d="M523.46,464.32 C514.38,487.41 506.01,512.06 501,536 C470.78,680.43 481.93,721.68 501,868 C534.17,1122.42 557.08,1186.46 649,1426 C656.02,1444.28 664.72,1463.3 673.24,1481.23 " fill="none" id="western.Personnage-to-western.Boisson-1" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="675.4,1485.76,675.1287,1475.9149,673.2442,1481.2486,667.9105,1479.3641,675.4,1485.76" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="584.0625" y="1446.1007">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="53" x="561.0625" y="1461.0494">- boisson</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="569.5625" y="1475.9982"> </text></g><!--MD5=[61cd9bebb836e3a90904b94ca1f13e9b]
+reverse link western.Personnage to western.Barman--><g id="link_western.Personnage_western.Barman"><path d="M601.78,483.25 C622.13,535.39 646.53,593.41 666.46,636.44 " fill="none" id="western.Personnage-backto-western.Barman" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="595.15,485.52,594.48,464.34,608.21,480.48,595.15,485.52" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[96dbfe743b21f83b58411b2abb80f1c6]
+link western.Barman to western.Personnage--><g id="link_western.Barman_western.Personnage"><path codeLine="172" d="M687.45,636.44 C671.01,589.45 645.19,524.58 621.09,469.01 " fill="none" id="western.Barman-to-western.Personnage" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="619.06,464.34,618.9915,474.1886,621.0588,468.9231,626.3244,470.9905,619.06,464.34" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="565.5143" y="484.175">*</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="101" x="517.5143" y="499.1237">- listPersonnages</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="550.0143" y="514.0725"> </text></g><!--MD5=[f00fcd694eba366d9e3cace00192bee8]
+link western.Boisson to western.Substantif--><g id="link_western.Boisson_western.Substantif"><path codeLine="197" d="M703,1649.17 C703,1666.13 703,1684.64 703,1703.51 " fill="none" id="western.Boisson-to-western.Substantif" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="703,1708.84,707,1699.84,703,1703.84,699,1699.84,703,1708.84" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="664.8023" y="1668.5299">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="65" x="635.8023" y="1683.4786">- substantif</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="650.3023" y="1698.4273"> </text></g><!--MD5=[9aa3b446a777b0eb3b27ec20b3a40fb8]
+link western.Boisson to western.Boisson--><g id="link_western.Boisson_western.Boisson"><path codeLine="198" d="M894.68,1528.07 C915.84,1535.56 929.5,1548.7 929.5,1567.5 C929.5,1584.83 917.89,1597.35 899.5,1605.07 " fill="none" id="western.Boisson-to-western.Boisson" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="894.68,1606.93,904.5163,1607.4265,899.3456,1605.1322,901.6399,1599.9615,894.68,1606.93" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="952.2" y="1575.7115">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" text-decoration="underline" textLength="43" x="934.2" y="1590.6602">+  EAU</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="937.7" y="1605.609"> </text></g><!--MD5=[e4910692f57b41bb3f214450857c0111]
+link western.Boisson to Boisson--><g id="link_western.Boisson_Boisson"><path codeLine="199" d="M894.87,1622.15 C935.3,1632.16 977.87,1641.73 1018,1649 C1139.63,1671.03 1476.29,1629.57 1571,1709 C1615.48,1746.3 1620.07,1822.23 1619.72,1856.51 " fill="none" id="western.Boisson-to-Boisson" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1619.62,1861.64,1623.7997,1852.722,1619.7203,1856.641,1615.8013,1852.5616,1619.62,1861.64" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="1572.5711" y="1821.306">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" text-decoration="underline" textLength="64" x="1544.0711" y="1836.2547">-  boissons</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="1558.0711" y="1851.2034"> </text></g><!--MD5=[38accf441cf40271d990731305ae2d3d]
+reverse link western.Cowboy to western.Sherif--><g id="link_western.Cowboy_western.Sherif"><path d="M1223.55,1445.69 C1227.46,1459.39 1231.35,1473.03 1235.03,1485.95 " fill="none" id="western.Cowboy-backto-western.Sherif" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="1216.79,1447.51,1218.04,1426.35,1230.25,1443.67,1216.79,1447.51" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[090823d1292b80c016dcc99abc4c6a4a]
+link western.Sherif to western.HorsLaLoi--><g id="link_western.Sherif_western.HorsLaLoi"><path codeLine="212" d="M1258,1649.17 C1258,1692.4 1258,1745.63 1258,1789.45 " fill="none" id="western.Sherif-to-western.HorsLaLoi" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1258,1794.47,1262,1785.47,1258,1789.47,1254,1785.47,1258,1794.47" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="1315.4805" y="1753.9067">*</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="49" x="1293.4805" y="1768.8555">- wanted</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="1299.9805" y="1783.8042"> </text></g><!--MD5=[ac7d66107f731ae75b3cc26d4d04fd3c]
+@startuml
+'https://plantuml.com/class-diagram
+skinparam classAttributeIconSize 0
+skinparam classFontStyle Bold
+skinparam style strictuml
+hide empty members
+
+class western.Ripou extends western.Cowboy implements western.HorsLaLoi{
+	+ <<Create>> Ripou(nom : String)
+	+ <<Create>> Ripou(nom : String , boisson : Boisson)
+	+ <<Create>> Ripou(nom : String , boisson : Boisson , look : String)
+	+ getLook() : String
+	+ estLibre() : Boolean {redefines Cowboy::estLibre}
+	+ getRecompense() : Integer {redefines Cowboy::getRecompense}
+	+ kidnapper(dame : Dame) {redefines Cowboy::kidnapper}
+	+ getCaptives() : Dame[*] {redefines Cowboy::getCaptives}
+	+ seFaireCapturer(cowBoy : Cowboy) {redefines Cowboy::seFaireCapturer}
+	+ seFaireTirerDessus(cowBoy : Cowboy) {redefines Cowboy::seFaireTirerDessus}
+	+ getPseudo() : String {redefines Cowboy::getPseudo}
+	+ sePresenter() {redefines Cowboy::sePresenter}
+	+ liberer(dame : Dame) {redefines Cowboy::liberer}
+}
+
+western.Ripou - -> "\t1\n\t- brigand\n" western.Brigand
+
+class western.Dame extends western.Personnage {
+	- estLibre : Boolean
+	+ <<Create>> Dame(nom : String)
+	+ <<Create>> Dame(nom : String , boisson : Boisson)
+	+ getPseudo() : String {redefines Personnage::getPseudo}
+	+ seFaireKidnapper(horsLaLoi : HorsLaLoi)
+	+ seFaireLiberer(cowBoy : Cowboy)
+	+ estLibre() : Boolean
+	+ sePresenter() {redefines Personnage::sePresenter}
+	+ {static} getBoissonParDefaut() : Boisson
+	+ {static} setBoissonParDefaut(boisson : Boisson)
+	+ getRavisseur() : HorsLaLoi
+}
+
+western.Dame - -> "\t1\n\t- sauveur\n" western.Cowboy
+western.Dame - -> "\t1\n\t- ravisseur\n" western.HorsLaLoi
+western.Dame - -> "\t1\n\t<u>-  boissonParDefaut</u>\n" western.Boisson
+
+class western.Histoire2  {
+	+ <<Create>> Histoire2()
+	+ {static} main(args : String[])
+}
+
+
+class western.Cowboy extends western.Personnage {
+	- gains : Integer
+	+ <<Create>> Cowboy(nom : String)
+	+ <<Create>> Cowboy(nom : String , boisson : Boisson)
+	+ getPseudo() : String {redefines Personnage::getPseudo}
+	+ liberer(dame : Dame)
+	+ liberer(captives : Dame[*])
+	+ capturer(horsLaLoi : HorsLaLoi)
+	+ tirerSur(brigand : HorsLaLoi)
+	+ sePresenter() {redefines Personnage::sePresenter}
+	+ {static} getBoissonParDefaut() : Boisson
+	+ {static} setBoissonParDefaut(boisson : Boisson)
+}
+
+western.Cowboy - -> "\t*\n\t- captures\n" western.HorsLaLoi
+western.Cowboy - -> "\t1\n\t<u>-  boissonParDefaut</u>\n" western.Boisson
+
+class western.Narrateur extends western.Personnage {
+	+ <<Create>> Narrateur()
+	+ <<Create>> Narrateur(nom : String)
+	+ dire(texte : String) {redefines Personnage::dire}
+	+ boire(boisson : Boisson) {redefines Personnage::boire}
+	+ boire() {redefines Personnage::boire}
+	+ getPseudo() : String {redefines Personnage::getPseudo}
+}
+
+
+class western.Histoire4  {
+	+ <<Create>> Histoire4()
+	+ {static} main(args : String[])
+}
+
+
+class western.Brigand extends western.Personnage implements western.HorsLaLoi{
+	# {static} LOOK_PAR_DEFAUT : String
+	- look : String
+	- recompense : Integer
+	- estLibre : Boolean
+	+ <<Create>> Brigand(nom : String)
+	+ <<Create>> Brigand(nom : String , boisson : Boisson)
+	+ <<Create>> Brigand(nom : String , boisson : Boisson , look : String)
+	+ getLook() : String
+	+ getRecompense() : Integer
+	+ estLibre() : Boolean
+	+ kidnapper(dame : Dame)
+	+ getCaptives() : Dame[*]
+	+ seFaireCapturer(cowBoy : Cowboy)
+	+ seFaireTirerDessus(cowBoy : Cowboy)
+	+ getPseudo() : String {redefines Personnage::getPseudo}
+	+ sePresenter() {redefines Personnage::sePresenter}
+	+ {static} getBoissonParDefaut() : Boisson
+	+ {static} setBoissonParDefaut(boisson : Boisson)
+}
+
+western.Brigand - -> "\t*\n\t- captives\n" western.Dame
+western.Brigand - -> "\t1\n\t- gardien\n" western.Cowboy
+western.Brigand - -> "\t1\n\t<u>-  boissonParDefaut</u>\n" western.Boisson
+
+class western.Substantif  {
+	- nom : String
+	+ <<Create>> Substantif(nom : String , genre : Genre)
+	+ getNom() : String
+	+ getGenre() : Genre
+	+ toString() : String {redefines Object::toString}
+	+ {static} isVowel(c : Char) : Boolean
+	+ {static} startsWithVowel(s : String) : Boolean
+	+ getArticleIndefini() : String
+	+ avecArticleIndefini() : String
+	+ {static} getArticleDefini(genre : Genre) : String
+	+ getArticleDefini() : String
+	+ avecArticleDefini() : String
+	+ {static} faireElision(article : String) : String
+	+ elision() : Boolean
+	+ getArticlePartitif() : String
+	+ avecArticlePartitif() : String
+	+ avecElision(article : String) : String
+	+ avecPreposition(preposition : String) : String
+}
+
+western.Substantif - -> "\t1\n\t- genre\n" western.Genre
+
+interface western.HorsLaLoi <<interface>> {
+	+ {abstract} estLibre() : Boolean
+	+ {abstract} getRecompense() : Integer
+	+ {abstract} kidnapper(dame : Dame)
+	+ {abstract} seFaireCapturer(cowBoy : Cowboy)
+	+ {abstract} seFaireTirerDessus(cowBoy : Cowboy)
+	+ {abstract} getLook() : String
+	+ {abstract} getCaptives() : Dame[*]
+}
+
+HorsLaLoi - -^ western.Nommable
+
+class western.Personnage  implements western.Nommable{
+	- nom : String
+	+ <<Create>> Personnage(nom : String)
+	+ <<Create>> Personnage(nom : String , boisson : Boisson)
+	+ dire(texte : String)
+	+ sePresenter()
+	+ boire(boisson : Boisson)
+	+ boire()
+	+ getNom() : String
+	+ getBoisson() : Boisson
+	+ {static} getPseudos(personnages : Nommable[*]) : String
+	+ {static} getBoissonParDefaut() : Boisson
+}
+
+western.Personnage - -> "\t1\n\t<u>-  BOISSON_PAR_DEFAUT</u>\n" western.Boisson
+western.Personnage - -> "\t1\n\t- boisson\n" western.Boisson
+
+enum western.Genre <<enumeration>> {
+	FEMININ
+	MASCULIN
+}
+class western.Barman extends western.Personnage {
+	+ <<Create>> Barman(nom : String)
+	+ getPseudo() : String {redefines Personnage::getPseudo}
+	+ dire(texte : String) {redefines Personnage::dire}
+	+ sePresenter() {redefines Personnage::sePresenter}
+	+ sert(personnage : Personnage)
+	+ getListPersonnages() : Personnage[*]
+}
+
+western.Barman - -> "\t*\n\t- listPersonnages\n" western.Personnage
+
+interface western.Nommable <<interface>> {
+	+ {abstract} getNom() : String
+	+ {abstract} getPseudo() : String
+}
+
+
+class western.Histoire5  {
+	+ <<Create>> Histoire5()
+	+ {static} main(args : String[])
+}
+
+
+class western.Boisson  {
+	- <<Create>> Boisson(nom : String , genre : Genre)
+	+ {static} of(nom : String , genre : Genre) : Boisson
+	+ getNom() : String
+	+ getGenre() : Genre
+	+ getNomAvecArticleIndefini() : String
+	+ getNomAvecArticlePartitif() : String
+	+ getNomAvecArticleDefini() : String
+	+ getNomAvecPreposition(preposition : String) : String
+}
+
+western.Boisson - -> "\t1\n\t- substantif\n" western.Substantif
+western.Boisson - -> "\t1\n\t<u>+  EAU</u>\n" western.Boisson
+western.Boisson - -> "\t1\n\t<u>-  boissons</u>\n" Boisson
+
+class western.Sherif extends western.Cowboy {
+	+ <<Create>> Sherif(nom : String)
+	+ <<Create>> Sherif(nom : String , boisson : Boisson)
+	+ getNom() : String {redefines Cowboy::getNom}
+	+ sePresenter() {redefines Cowboy::sePresenter}
+	+ capturer(horsLaLoi : HorsLaLoi) {redefines Cowboy::capturer}
+	+ getWanted() : HorsLaLoi[*]
+	+ isWanted(horsLaLoi : HorsLaLoi) : Boolean
+	+ rechercher(horsLaLoi : HorsLaLoi)
+}
+
+western.Sherif - -> "\t*\n\t- wanted\n" western.HorsLaLoi
+
+
+@enduml
+
+@startuml
+skinparam classAttributeIconSize 0
+skinparam classFontStyle Bold
+skinparam style strictuml
+hide empty members
+
+class western.Ripou extends western.Cowboy implements western.HorsLaLoi{
+	+ <<Create>> Ripou(nom : String)
+	+ <<Create>> Ripou(nom : String , boisson : Boisson)
+	+ <<Create>> Ripou(nom : String , boisson : Boisson , look : String)
+	+ getLook() : String
+	+ estLibre() : Boolean {redefines Cowboy::estLibre}
+	+ getRecompense() : Integer {redefines Cowboy::getRecompense}
+	+ kidnapper(dame : Dame) {redefines Cowboy::kidnapper}
+	+ getCaptives() : Dame[*] {redefines Cowboy::getCaptives}
+	+ seFaireCapturer(cowBoy : Cowboy) {redefines Cowboy::seFaireCapturer}
+	+ seFaireTirerDessus(cowBoy : Cowboy) {redefines Cowboy::seFaireTirerDessus}
+	+ getPseudo() : String {redefines Cowboy::getPseudo}
+	+ sePresenter() {redefines Cowboy::sePresenter}
+	+ liberer(dame : Dame) {redefines Cowboy::liberer}
+}
+
+western.Ripou - -> "\t1\n\t- brigand\n" western.Brigand
+
+class western.Dame extends western.Personnage {
+	- estLibre : Boolean
+	+ <<Create>> Dame(nom : String)
+	+ <<Create>> Dame(nom : String , boisson : Boisson)
+	+ getPseudo() : String {redefines Personnage::getPseudo}
+	+ seFaireKidnapper(horsLaLoi : HorsLaLoi)
+	+ seFaireLiberer(cowBoy : Cowboy)
+	+ estLibre() : Boolean
+	+ sePresenter() {redefines Personnage::sePresenter}
+	+ {static} getBoissonParDefaut() : Boisson
+	+ {static} setBoissonParDefaut(boisson : Boisson)
+	+ getRavisseur() : HorsLaLoi
+}
+
+western.Dame - -> "\t1\n\t- sauveur\n" western.Cowboy
+western.Dame - -> "\t1\n\t- ravisseur\n" western.HorsLaLoi
+western.Dame - -> "\t1\n\t<u>-  boissonParDefaut</u>\n" western.Boisson
+
+class western.Histoire2  {
+	+ <<Create>> Histoire2()
+	+ {static} main(args : String[])
+}
+
+
+class western.Cowboy extends western.Personnage {
+	- gains : Integer
+	+ <<Create>> Cowboy(nom : String)
+	+ <<Create>> Cowboy(nom : String , boisson : Boisson)
+	+ getPseudo() : String {redefines Personnage::getPseudo}
+	+ liberer(dame : Dame)
+	+ liberer(captives : Dame[*])
+	+ capturer(horsLaLoi : HorsLaLoi)
+	+ tirerSur(brigand : HorsLaLoi)
+	+ sePresenter() {redefines Personnage::sePresenter}
+	+ {static} getBoissonParDefaut() : Boisson
+	+ {static} setBoissonParDefaut(boisson : Boisson)
+}
+
+western.Cowboy - -> "\t*\n\t- captures\n" western.HorsLaLoi
+western.Cowboy - -> "\t1\n\t<u>-  boissonParDefaut</u>\n" western.Boisson
+
+class western.Narrateur extends western.Personnage {
+	+ <<Create>> Narrateur()
+	+ <<Create>> Narrateur(nom : String)
+	+ dire(texte : String) {redefines Personnage::dire}
+	+ boire(boisson : Boisson) {redefines Personnage::boire}
+	+ boire() {redefines Personnage::boire}
+	+ getPseudo() : String {redefines Personnage::getPseudo}
+}
+
+
+class western.Histoire4  {
+	+ <<Create>> Histoire4()
+	+ {static} main(args : String[])
+}
+
+
+class western.Brigand extends western.Personnage implements western.HorsLaLoi{
+	# {static} LOOK_PAR_DEFAUT : String
+	- look : String
+	- recompense : Integer
+	- estLibre : Boolean
+	+ <<Create>> Brigand(nom : String)
+	+ <<Create>> Brigand(nom : String , boisson : Boisson)
+	+ <<Create>> Brigand(nom : String , boisson : Boisson , look : String)
+	+ getLook() : String
+	+ getRecompense() : Integer
+	+ estLibre() : Boolean
+	+ kidnapper(dame : Dame)
+	+ getCaptives() : Dame[*]
+	+ seFaireCapturer(cowBoy : Cowboy)
+	+ seFaireTirerDessus(cowBoy : Cowboy)
+	+ getPseudo() : String {redefines Personnage::getPseudo}
+	+ sePresenter() {redefines Personnage::sePresenter}
+	+ {static} getBoissonParDefaut() : Boisson
+	+ {static} setBoissonParDefaut(boisson : Boisson)
+}
+
+western.Brigand - -> "\t*\n\t- captives\n" western.Dame
+western.Brigand - -> "\t1\n\t- gardien\n" western.Cowboy
+western.Brigand - -> "\t1\n\t<u>-  boissonParDefaut</u>\n" western.Boisson
+
+class western.Substantif  {
+	- nom : String
+	+ <<Create>> Substantif(nom : String , genre : Genre)
+	+ getNom() : String
+	+ getGenre() : Genre
+	+ toString() : String {redefines Object::toString}
+	+ {static} isVowel(c : Char) : Boolean
+	+ {static} startsWithVowel(s : String) : Boolean
+	+ getArticleIndefini() : String
+	+ avecArticleIndefini() : String
+	+ {static} getArticleDefini(genre : Genre) : String
+	+ getArticleDefini() : String
+	+ avecArticleDefini() : String
+	+ {static} faireElision(article : String) : String
+	+ elision() : Boolean
+	+ getArticlePartitif() : String
+	+ avecArticlePartitif() : String
+	+ avecElision(article : String) : String
+	+ avecPreposition(preposition : String) : String
+}
+
+western.Substantif - -> "\t1\n\t- genre\n" western.Genre
+
+interface western.HorsLaLoi <<interface>> {
+	+ {abstract} estLibre() : Boolean
+	+ {abstract} getRecompense() : Integer
+	+ {abstract} kidnapper(dame : Dame)
+	+ {abstract} seFaireCapturer(cowBoy : Cowboy)
+	+ {abstract} seFaireTirerDessus(cowBoy : Cowboy)
+	+ {abstract} getLook() : String
+	+ {abstract} getCaptives() : Dame[*]
+}
+
+HorsLaLoi - -^ western.Nommable
+
+class western.Personnage  implements western.Nommable{
+	- nom : String
+	+ <<Create>> Personnage(nom : String)
+	+ <<Create>> Personnage(nom : String , boisson : Boisson)
+	+ dire(texte : String)
+	+ sePresenter()
+	+ boire(boisson : Boisson)
+	+ boire()
+	+ getNom() : String
+	+ getBoisson() : Boisson
+	+ {static} getPseudos(personnages : Nommable[*]) : String
+	+ {static} getBoissonParDefaut() : Boisson
+}
+
+western.Personnage - -> "\t1\n\t<u>-  BOISSON_PAR_DEFAUT</u>\n" western.Boisson
+western.Personnage - -> "\t1\n\t- boisson\n" western.Boisson
+
+enum western.Genre <<enumeration>> {
+	FEMININ
+	MASCULIN
+}
+class western.Barman extends western.Personnage {
+	+ <<Create>> Barman(nom : String)
+	+ getPseudo() : String {redefines Personnage::getPseudo}
+	+ dire(texte : String) {redefines Personnage::dire}
+	+ sePresenter() {redefines Personnage::sePresenter}
+	+ sert(personnage : Personnage)
+	+ getListPersonnages() : Personnage[*]
+}
+
+western.Barman - -> "\t*\n\t- listPersonnages\n" western.Personnage
+
+interface western.Nommable <<interface>> {
+	+ {abstract} getNom() : String
+	+ {abstract} getPseudo() : String
+}
+
+
+class western.Histoire5  {
+	+ <<Create>> Histoire5()
+	+ {static} main(args : String[])
+}
+
+
+class western.Boisson  {
+	- <<Create>> Boisson(nom : String , genre : Genre)
+	+ {static} of(nom : String , genre : Genre) : Boisson
+	+ getNom() : String
+	+ getGenre() : Genre
+	+ getNomAvecArticleIndefini() : String
+	+ getNomAvecArticlePartitif() : String
+	+ getNomAvecArticleDefini() : String
+	+ getNomAvecPreposition(preposition : String) : String
+}
+
+western.Boisson - -> "\t1\n\t- substantif\n" western.Substantif
+western.Boisson - -> "\t1\n\t<u>+  EAU</u>\n" western.Boisson
+western.Boisson - -> "\t1\n\t<u>-  boissons</u>\n" Boisson
+
+class western.Sherif extends western.Cowboy {
+	+ <<Create>> Sherif(nom : String)
+	+ <<Create>> Sherif(nom : String , boisson : Boisson)
+	+ getNom() : String {redefines Cowboy::getNom}
+	+ sePresenter() {redefines Cowboy::sePresenter}
+	+ capturer(horsLaLoi : HorsLaLoi) {redefines Cowboy::capturer}
+	+ getWanted() : HorsLaLoi[*]
+	+ isWanted(horsLaLoi : HorsLaLoi) : Boolean
+	+ rechercher(horsLaLoi : HorsLaLoi)
+}
+
+western.Sherif - -> "\t*\n\t- wanted\n" western.HorsLaLoi
+
+
+@enduml
+
+PlantUML version 1.2022.12(Sun Oct 23 20:12:26 CEST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

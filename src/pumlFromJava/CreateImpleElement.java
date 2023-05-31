@@ -21,21 +21,17 @@ public class CreateImpleElement {
     public boolean getIsImplementVal(){
         return this.isImplements;
     }
-
     private void setinterfacesImplements(){
         if(this.isImplements){
              this.interfacesImplements = (List<TypeMirror>) this.typeElement.getInterfaces();
         }
     }
-
     public List<TypeMirror> getinterfacesImplements(){
         return this.interfacesImplements;
     }
-
     public String getStringImplements(){
         return this.isImplements ? "implements " + this.interfacesImplements.toString().replace("[", "").replace("]", "") : "";
     }
-
     public String getStringExtendsInterface(){
         return this.isImplements ? this.typeElement.getSimpleName() +" --^ " + this.interfacesImplements.toString().replace("[", "").replace("]", "") + "\n" : "";
     }

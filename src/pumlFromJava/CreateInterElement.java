@@ -22,7 +22,7 @@ public class CreateInterElement extends ElementDefault{
         return this.getStringElementStart() + this.getStringElementEnd();
     }
     public String getStringElementAllPlus(){
-        return this.getStringElementStart() + this.getStringMethods() + this.getStringElementEnd() /* + this.impleElement.getStringExtendsInterface() +"\n" */;
+        return this.getStringElementStart() + this.getStringMethods() + this.getStringElementEnd()  + this.impleElement.getStringExtendsInterface() +"\n" ;
     }
     //Methods definitive
     public String getStringElementFromBool(boolean val){
@@ -37,7 +37,7 @@ public class CreateInterElement extends ElementDefault{
         return this.getStringElementAllPlus();
     }
     public String getStringElementDCA(){
-        return this.getStringElementStart()  + "}\n";
+        return this.getStringElementStartEnd() + this.impleElement.getStringExtendsInterface() + "\n";
     }
     public ArrayList<CreateMethodElement> getMethods(){
         if(this.methods == null){

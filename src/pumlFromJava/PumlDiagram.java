@@ -21,7 +21,6 @@ public class PumlDiagram {
                 System.out.println("File created: " + file_loc.getName());
             } else {
                 System.out.println("File already exists.");
-                System.out.println("The .puml file will be overwritten.");
             }
             file = new FileWriter(file_loc);
         } catch (IOException e) {

@@ -19,13 +19,13 @@ public class CreateFirstElement extends ElementDefault {
                     //Crée une instance de classe
                     //builduml = l'entiereté de l'élément
                     CreateClassElement newClassElement = new CreateClassElement(element1);
-                    this.buildUml += newClassElement.getStringElementAllPlus();
+                    this.buildUml += newClassElement.getStringElementFromBool(this.dca);
                     break;
                 case INTERFACE:
                     //Crée une instance d'interface
                     //builduml = juste les lignes de début et de fin de l'élément
                     CreateInterElement newInterElement = new CreateInterElement(element1);
-                    this.buildUml += newInterElement.getStringElementAllPlus();
+                    this.buildUml += newInterElement.getStringElementFromBool(this.dca);
                     break;
                 case ENUM:
                     //Crée une instance d'enum
@@ -35,7 +35,7 @@ public class CreateFirstElement extends ElementDefault {
                     break;
                 case PACKAGE:
                     //Crée un nouvel élément puis le fait passer par la fonction chaque élément du package
-                    CreateFirstElement newFirstElement = new CreateFirstElement(element1 , dca);
+                    CreateFirstElement newFirstElement = new CreateFirstElement(element1 , this.dca);
                     newFirstElement.run();
                     break;
                 default:

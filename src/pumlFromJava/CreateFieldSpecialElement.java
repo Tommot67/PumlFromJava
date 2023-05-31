@@ -15,9 +15,7 @@ public class CreateFieldSpecialElement extends ElementDefault{
     private boolean elementSecndIsStatic;
     private boolean elementSecondIsMap;
     private Set<Modifier> modifiers;
-
-    //For complement
-    //private List<? extends AnnotationMirror> annotationMirrors;
+    private List<? extends AnnotationMirror> annotationMirrors;
 
     public CreateFieldSpecialElement(Element element){
         super(element);
@@ -142,4 +140,3 @@ public class CreateFieldSpecialElement extends ElementDefault{
     }
     */
 }
-

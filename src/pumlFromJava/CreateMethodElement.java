@@ -66,7 +66,9 @@ public class CreateMethodElement {
         for (AnnotationMirror annotationMirror: getAnnotation()) {
             switch (annotationMirror.toString()){
                 case "@java.lang.Override":
-                    temp += " {redefine}";
+                    temp += " {redefines ";
+                    TypeElement typeElement = (TypeElement) this.executableElement.getEnclosingElement();
+                    temp += Helper.getStringType(typeElement.getSuperclass()) + "::" + this.executableElement.getSimpleName() +"}";
                     break;
                 default:
                     break;

@@ -4,6 +4,7 @@ import javax.lang.model.element.Element;
 import javax.lang.model.element.Modifier;
 import javax.lang.model.type.TypeKind;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 
 public class CreateFieldElement extends ElementDefault{
@@ -12,21 +13,20 @@ public class CreateFieldElement extends ElementDefault{
     private CreateFieldSpecialElement fieldSpecialElement;
     public CreateFieldElement(Element element){
         super(element);
-        this.CheckPrimitive();
+        this.CheckPrimitiveAndMap();
     }
-    public boolean CheckPrimitive(){
-        boolean verif = false;
-        if(super.getElement().asType().getKind() != TypeKind.DECLARED){
-            verif = true;
+    public void CheckPrimitiveAndMap(){
+        boolean verif1 = false;
+        if(this.getElement().asType().getKind() != TypeKind.DECLARED){
+            verif1 = true;
         }
-        else if(Helper.isPrimitiveObject(super.getElement().asType())){
-            verif = true;
+        else if(Helper.isPrimitiveObject(this.getElement().asType())){
+            verif1 = true;
         }
-        else{
+        else {
             this.setFieldNotPrimitive();
         }
-        this.isPrimitive = verif;
-        return verif;
+        this.isPrimitive = verif1;
     }
     public Set<Modifier> getModifiers(){
         if(this.modifiers == null) {
@@ -38,12 +38,17 @@ public class CreateFieldElement extends ElementDefault{
         return this.isPrimitive;
     }
     public String getFieldPrimitive(){
+        String temp = "";
         if(this.isPrimitive){
-            return "\t"  + Helper.getStringModifier(this.getModifiers())  + super.getName() + " : " + Helper.getStringType(super.getElement().asType()) +  "\n";
+            temp = "\t"  + Helper.getStringModifier(this.getModifiers())  + super.getName() + " : " + Helper.getStringType(super.getElement().asType());
         }
-        else {
-            return "";
+        if(this.isPrimitive && this.getModifiers().contains(Modifier.FINAL)){
+            temp += " {readOnly}\n";
         }
+        else if (this.isPrimitive) {
+            temp += "\n";
+        }
+        return temp;
     }
     public String getFieldPrimitiveForDCA(){
         if(this.isPrimitive){
@@ -60,9 +65,9 @@ public class CreateFieldElement extends ElementDefault{
         }
     }
 
-    public String getFieldNotPrimitive(){
+    public String getFieldNotPrimitive(boolean val){
         if(!this.isPrimitive && this.fieldSpecialElement != null){
-            return this.fieldSpecialElement.getStringElement();
+            return  this.fieldSpecialElement.getStringElementFromBool(val);
         }
         else {
             return "";

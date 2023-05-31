@@ -20,7 +20,7 @@ public class CreateClassElement extends ElementDefault{
         return "class " + super.getNameAndEnclosing() + " {\n";
     }
     public String getStringElementStartWithExtends(){
-        return "class " + super.getNameAndEnclosing() + " " + this.extendsElement.getStringExtends() + " " + this.impleElement.getStringImplements() +" {\n";
+        return "class " + super.getNameAndEnclosing() + " " + this.extendsElement.getStringExtends() + " " + this.impleElement.getStringImplements() +"{\n";
     }
     public String getStringElementEnd(){
         return "}\n";
@@ -29,7 +29,7 @@ public class CreateClassElement extends ElementDefault{
         return this.getStringElementStart() + this.getStringElementEnd();
     }
     public String getStringElementAllPlus(){
-        return this.getStringElementStart() + this.getStringFieldsPrimitive() + this.getStringConstructors() + this.getStringMethods() + this.getStringElementEnd() /* + this.getStringFildsNotPrimitive()*/;
+        return this.getStringElementStart() + this.getStringFieldsPrimitive() + this.getStringConstructors() + this.getStringMethods() + this.getStringElementEnd()  + this.getStringFieldsNotPrimitive(true);
     }
     //Methods definitive
     public String getStringElementFromBool(boolean val){
@@ -41,10 +41,10 @@ public class CreateClassElement extends ElementDefault{
         }
     }
     public String getStringElementDCC(){
-        return this.getStringElementStartWithExtends() + this.getStringFieldsPrimitive() + this.getStringConstructors() + this.getStringMethods() + this.getStringElementEnd() + this.getStringFieldsNotPrimitive();
+        return this.getStringElementStartWithExtends() + this.getStringFieldsPrimitive() + this.getStringConstructors() + this.getStringMethods() + this.getStringElementEnd() + this.getStringFieldsNotPrimitive(false);
     }
     public String getStringElementDCA(){
-        return this.getStringElementStartWithExtends() + this.getStringFieldsPrimitiveForDCA() + this.getStringElementEnd() + this.getStringFieldsNotPrimitive();
+        return this.getStringElementStartWithExtends() + this.getStringFieldsPrimitiveForDCA() + this.getStringElementEnd() + this.getStringFieldsNotPrimitive(true);
     }
 
     //Enregistre le contenu de l'élément
@@ -101,10 +101,10 @@ public class CreateClassElement extends ElementDefault{
         }
         return temp;
     }
-    public String getStringFieldsNotPrimitive(){
+    public String getStringFieldsNotPrimitive(boolean val){
         String temp = "\n";
         for (CreateFieldElement fieldElement: this.getFields()) {
-            temp += fieldElement.getFieldNotPrimitive();
+            temp += fieldElement.getFieldNotPrimitive(val);
         }
         temp += "\n";
         return temp;
@@ -125,3 +125,4 @@ public class CreateClassElement extends ElementDefault{
     }
 
 }
+

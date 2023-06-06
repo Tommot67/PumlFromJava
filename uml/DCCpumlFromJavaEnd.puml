@@ -119,6 +119,9 @@ class pumlFromJava.CreateFieldSpecialElement extends pumlFromJava.ElementDefault
 	+ getStringElementDCA() : String
 	+ getStringCardinal() : String
 	+ getStringCardinalAndName() : String
+	+ getAnnotation() : AnnotationMirror[*]
+    + getStringIfAggrégationOrComposition() : String
+    + getStringIfAssociation() : String
 }
 
 pumlFromJava.CreateFieldSpecialElement --> "\t*\n\t- modifiers\n" javax.lang.model.element.Modifier

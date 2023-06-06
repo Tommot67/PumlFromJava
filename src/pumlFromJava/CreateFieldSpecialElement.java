@@ -1,10 +1,12 @@
 package pumlFromJava;
 
 import jdk.jfr.Description;
+import pumlFromJava.annotation.*;
 
 import javax.lang.model.element.*;
-import java.util.ArrayList;
+import javax.lang.model.type.DeclaredType;
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
 
 public class CreateFieldSpecialElement extends ElementDefault{
@@ -79,14 +81,14 @@ public class CreateFieldSpecialElement extends ElementDefault{
     }
     public String getStringElementDCC() {
         if (elementSecond != "") {
-            return this.elementFirst + " --> " + this.getStringCardinalAndName() + this.elementSecond + "\n";
+            return this.elementFirst + " " + this.getStringIfAggrégationOrComposition() + "--> " + this.getStringCardinalAndName() + this.elementSecond + this.getStringIfAssociation() +"\n";
         } else {
             return "";
         }
     }
     public String getStringElementDCA() {
         if (elementSecond != "") {
-            return this.elementFirst + " --> " + this.getStringCardinal() + this.elementSecond + "\n";
+            return this.elementFirst + " " + this.getStringIfAggrégationOrComposition() + "--> " + this.getStringCardinal() + this.elementSecond + "\n";
         } else {
             return "";
         }
@@ -123,20 +125,55 @@ public class CreateFieldSpecialElement extends ElementDefault{
         return temp;
     }
 
-    //Complement possible
-    /*
     public List<? extends AnnotationMirror> getAnnotation(){
         if(this.annotationMirrors == null){
             this.annotationMirrors = this.getElement().getAnnotationMirrors();
         }
         return annotationMirrors;
     }
-    public String getStringAnnotation(){
+    public String getStringIfAggrégationOrComposition(){
         String temp = "";
-        for (AnnotationMirror annotationMirror: getAnnotation()) {
-            System.out.println("Annotation : " + annotationMirror.toString());
+        for (AnnotationMirror annotation: this.getAnnotation()) {
+            switch (annotation.toString()){
+                case "@pumlFromJava.annotation.pumlComposition" :
+                    temp = "*";
+                    break;
+                case "@pumlFromJava.annotation.pumlAggregation" :
+                    temp = "o";
+                    break;
+                default:
+                    break;
+            }
         }
         return temp;
     }
-    */
+
+    public String getStringIfAssociation(){
+        String temp = "";
+        for (AnnotationMirror annotation: this.getAnnotation()) {
+            if(annotation.toString().contains("@pumlFromJava.annotation.pumlAssociation")){
+                temp += " : ";
+                Map<? extends ExecutableElement, ? extends AnnotationValue> value_annotation = annotation.getElementValues();
+                for(Map.Entry<? extends ExecutableElement, ? extends AnnotationValue> val : value_annotation.entrySet()){
+                    switch (val.getKey().toString()){
+                        case "Name()":
+                            temp += Helper.upperFirstChar(val.getValue().toString().replace("\"", "")) + " ";
+                            break;
+                        case "Direction()":
+                            if(val.getValue().toString().contains("SAME")){
+                                temp += "> ";
+                            }
+                            else if (val.getValue().toString().contains("INVERSE")){
+                                temp += "< ";
+                            }
+                            break;
+                        default:
+                            break;
+                    }
+                }
+            }
+        }
+        return temp;
+    }
 }
+

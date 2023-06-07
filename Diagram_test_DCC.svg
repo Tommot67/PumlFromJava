@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="544px" preserveAspectRatio="none" style="width:1864px;height:544px;background:#FFFFFF;" version="1.1" viewBox="0 0 1864 544" width="1864px" zoomAndPan="magnify"><defs/><g><!--MD5=[46284a92b5426bed130af313c8f1ca74]
+class Java2PumlTest1--><g id="elem_Java2PumlTest1"><rect codeLine="7" fill="#F1F1F1" height="50.1973" id="Java2PumlTest1" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="206" x="7" y="59.5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="112" x="54" y="77.6318">Java2PumlTest1</text><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="212" y1="85.5986" y2="85.5986"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="194" x="13" y="102.7305">+«Create» Java2PumlTest1()</text></g><!--MD5=[a46ee5ce0ceb0380cf446a08a056dce4]
+class A--><g id="elem_A"><rect codeLine="12" fill="#F1F1F1" height="315.7754" id="A" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="404" x="400" y="222"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="10" x="597" y="240.1318">A</text><line style="stroke:#181818;stroke-width:0.5;" x1="401" x2="803" y1="248.0986" y2="248.0986"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="101" x="406" y="265.2305">-anInt : Integer</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="103" x="406" y="281.3291">#aShort : Short</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="101" x="406" y="297.4277">~aLong : Long</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="91" x="406" y="313.5264">+aByte : Byte</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="172" x="406" y="329.625">-aFloat : Float {readOnly}</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" text-decoration="underline" textLength="127" x="406" y="345.7236">#aDouble : Double</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" text-decoration="underline" textLength="169" x="406" y="361.8223">~aChar : Char {readOnly}</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" text-decoration="underline" textLength="219" x="406" y="377.9209">+aBoolean : Boolean {readOnly}</text><line style="stroke:#181818;stroke-width:0.5;" x1="401" x2="803" y1="384.8877" y2="384.8877"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="92" x="406" y="402.0195">~«Create» A()</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="311" x="406" y="418.1182">-anIntFunction(anIntParam : Integer) : Integer</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="312" x="406" y="434.2168">#aShortFunction(aShortParam : Short) : Short</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="308" x="406" y="450.3154">~aLongFunction(aLongParam : Long) : Long</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="288" x="406" y="466.4141">+aByteFunction(aByteParam : Byte) : Byte</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" text-decoration="underline" textLength="301" x="406" y="482.5127">-aFloatFunction(aFloatParam : Float) : Float</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" text-decoration="underline" textLength="360" x="406" y="498.6113">#aDoubleFunction(aDoubleParam : Double) : Double</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" text-decoration="underline" textLength="292" x="406" y="514.71">~aCharFunction(aCharParam : Char) : Char</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" text-decoration="underline" textLength="392" x="406" y="530.8086">+aBooleanFunction(aBooleanParam : Boolean) : Boolean</text></g><!--MD5=[69c451c751c414e37549b782190fef46]
+class B--><g id="elem_B"><rect codeLine="33" fill="#F1F1F1" height="315.7754" id="B" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="404" x="925" y="222"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="10" x="1122" y="240.1318">B</text><line style="stroke:#181818;stroke-width:0.5;" x1="926" x2="1328" y1="248.0986" y2="248.0986"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="131" x="931" y="265.2305">-anInteger : Integer</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="103" x="931" y="281.3291">#aShort : Short</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="101" x="931" y="297.4277">~aLong : Long</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="91" x="931" y="313.5264">+aByte : Byte</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="172" x="931" y="329.625">-aFloat : Float {readOnly}</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" text-decoration="underline" textLength="127" x="931" y="345.7236">#aDouble : Double</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" text-decoration="underline" textLength="203" x="931" y="361.8223">~aCharacter : Char {readOnly}</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" text-decoration="underline" textLength="219" x="931" y="377.9209">+aBoolean : Boolean {readOnly}</text><line style="stroke:#181818;stroke-width:0.5;" x1="926" x2="1328" y1="384.8877" y2="384.8877"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="92" x="931" y="402.0195">~«Create» B()</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="311" x="931" y="418.1182">-anIntFunction(anIntParam : Integer) : Integer</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="312" x="931" y="434.2168">#aShortFunction(aShortParam : Short) : Short</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="308" x="931" y="450.3154">~aLongFunction(aLongParam : Long) : Long</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="288" x="931" y="466.4141">+aByteFunction(aByteParam : Byte) : Byte</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="301" x="931" y="482.5127">-aFloatFunction(aFloatParam : Float) : Float</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="360" x="931" y="498.6113">#aDoubleFunction(aDoubleParam : Double) : Double</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" text-decoration="underline" textLength="360" x="931" y="514.71">~aCharacterFunction(aCharacterParam : Char) : Char</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" text-decoration="underline" textLength="392" x="931" y="530.8086">+aBooleanFunction(aBooleanParam : Boolean) : Boolean</text></g><!--MD5=[378b18254a1b2429f435e93f5e5cc50c]
+class C--><g id="elem_C"><rect codeLine="54" fill="#F1F1F1" height="315.7754" id="C" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="493" x="1364.5" y="222"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="10" x="1606" y="240.1318">C</text><line style="stroke:#181818;stroke-width:0.5;" x1="1365.5" x2="1856.5" y1="248.0986" y2="248.0986"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="152" x="1370.5" y="265.2305">-anIntArray : Integer[*]</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="154" x="1370.5" y="281.3291">#aShortArray : Short[*]</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="213" x="1370.5" y="297.4277">~anArrayOfLongArray : Long[*]</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="203" x="1370.5" y="313.5264">+anArrayOfByteArray : Byte[*]</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="213" x="1370.5" y="329.625">-aFloatList : Float[*] {readOnly}</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" text-decoration="underline" textLength="210" x="1370.5" y="345.7236">#aListOfDoubleList : Double[*]</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" text-decoration="underline" textLength="256" x="1370.5" y="361.8223">~aSetOfCharacter : Char[*] {readOnly}</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" text-decoration="underline" textLength="298" x="1370.5" y="377.9209">+aSetOfBooleanList : Boolean[*] {readOnly}</text><line style="stroke:#181818;stroke-width:0.5;" x1="1365.5" x2="1856.5" y1="384.8877" y2="384.8877"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="92" x="1370.5" y="402.0195">~«Create» C()</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="413" x="1370.5" y="418.1182">-anIntArrayFunction(anIntArrayParam : Integer[*]) : Integer[*]</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="414" x="1370.5" y="434.2168">#aShortArrayFunction(aShortArrayParam : Short[*]) : Short[*]</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="387" x="1370.5" y="450.3154">~aLong3DArrayFunction(someLongs : Long[*]) : Long[*]</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="367" x="1370.5" y="466.4141">+aByte5DArrayFunction(someBytes : Byte[*]) : Byte[*]</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="383" x="1370.5" y="482.5127">-aFloatListFunction(aFloatListParam : Float[*]) : Float[*]</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="453" x="1370.5" y="498.6113">#aListOfDoubleListFunction(someDoubles : Double[*]) : Double[*]</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="434" x="1370.5" y="514.71">~aCharacterSetFunction(aCharacterSetParam : Char[*]) : Char[*]</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="481" x="1370.5" y="530.8086">+aSetOfBooleanListFunction(someBooleans : Boolean[*]) : Boolean[*]</text></g><!--MD5=[69b356fec5e4f53d7535011b6fc9d60b]
+class D--><g id="elem_D"><rect codeLine="75" fill="#F1F1F1" height="114.5918" id="D" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="447" x="990.5" y="27"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="10" x="1209" y="45.1318">D</text><line style="stroke:#181818;stroke-width:0.5;" x1="991.5" x2="1436.5" y1="53.0986" y2="53.0986"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="92" x="996.5" y="70.2305">~«Create» D()</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="345" x="996.5" y="86.3291">-aFunction(a0 : A , a1 : A[*] , a2 : A[*] , a3 : A[*]) : A</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="368" x="996.5" y="102.4277">~bFunction(b0 : B , b1 : B[*] , b2 : B[*] , b3 : B[*]) : B[*]</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="363" x="996.5" y="118.5264">#cFunction(c0 : C , c1 : C[*] , c2 : C[*] , c3 : C[*]) : C[*]</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" text-decoration="underline" textLength="435" x="996.5" y="134.625">+dFunction(d0 : D , d1 : D[*] , d2 : D[*] , d3 : D[*] , d4 : D[*]) : D[*]</text></g><!--MD5=[54d0f7ca6f9898010b87b67e67e7a5e0]
+class E--><g id="elem_E"><rect codeLine="88" fill="#F1F1F1" height="154.7891" id="E" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="707" x="248.5" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="9" x="597.5" y="25.1318">E</text><line style="stroke:#181818;stroke-width:0.5;" x1="249.5" x2="954.5" y1="33.0986" y2="33.0986"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="144" x="254.5" y="50.2305">-mapOfInt : Integer[*]</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="215" x="254.5" y="66.3291">~mapOfDoubleArray : Double[*]</text><line style="stroke:#181818;stroke-width:0.5;" x1="249.5" x2="954.5" y1="73.2959" y2="73.2959"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="91" x="254.5" y="90.4277">~«Create» E()</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="620" x="254.5" y="106.5264">-mapOfIntFunction(a0 : Integer[*] , a1 : Integer[*] , a2 : Integer[*] , a3 : Integer[*]) : Integer[*]</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="695" x="254.5" y="122.625">~mapOfDoubleArrayFunction(a0 : Double[*] , a1 : Double[*] , a2 : Double[*] , a3 : Double[*]) : Double[*]</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="415" x="254.5" y="138.7236">#mapOfAFunction(a0 : A[*] , a1 : A[*] , a2 : A[*] , a3 : [*]) : A[*]</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" text-decoration="underline" textLength="467" x="254.5" y="154.8223">+mapOfArrayOfAFunction(a0 : A[*] , a1 : A[*] , a2 : A[*] , a3 : [*]) : A[*]</text></g><!--MD5=[dd279d86604081708109ffa5c10dbded]
+link D to A--><g id="link_D_A"><path codeLine="83" d="M1082.16,142.15 C1027.62,166.1 963.94,194.71 907,222 C875.13,237.27 841.66,253.9 809.03,270.43 " fill="none" id="D-to-A" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="804.22,272.87,814.0569,272.3851,808.6835,270.6168,810.4519,265.2435,804.22,272.87" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="848.3318" y="236.4425">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="15" x="844.3318" y="251.3912">- a</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="833.8318" y="266.3399"> </text></g><!--MD5=[5ebc1f44a7c66b9e925829b6b9c43293]
+link D to B--><g id="link_D_B"><path codeLine="84" d="M1197.23,142.09 C1190.76,163.89 1183.02,190.02 1175.07,216.84 " fill="none" id="D-to-B" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1173.58,221.86,1179.9606,214.3575,1174.9931,217.0639,1172.2868,212.0964,1173.58,221.86" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="1158.9315" y="181.3542">*</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="26" x="1148.4315" y="196.303">~ bs</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="1143.4315" y="211.2517"> </text></g><!--MD5=[be418e527c743f4eb8fec3865420733b]
+link D to C--><g id="link_D_C"><path codeLine="85" d="M1290.55,142.09 C1320.76,164.43 1357.14,191.32 1394.37,218.85 " fill="none" id="D-to-C" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1398.44,221.86,1393.586,213.2904,1394.4212,218.8852,1388.8263,219.7205,1398.44,221.86" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="1371.7637" y="181.3542">*</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="25" x="1361.7637" y="196.303"># cs</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="1356.2637" y="211.2517"> </text></g><!--MD5=[e3ea6568a550a6c5b49b10a9ffe7fc6f]
+link D to D--><g id="link_D_D"><path codeLine="86" d="M1437.8,40.12 C1459.06,49.18 1472.5,63.97 1472.5,84.5 C1472.5,103.42 1461.08,117.48 1442.64,126.66 " fill="none" id="D-to-D" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1437.8,128.88,1447.6478,128.7344,1442.3385,126.782,1444.291,121.4728,1437.8,128.88" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="1489.8644" y="97.7569">*</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" text-decoration="underline" textLength="30" x="1477.3644" y="112.7056">+  ds</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="1474.3644" y="127.6543"> </text></g><!--MD5=[ee344346890028aa79ecfe638cbee1f3]
+link E to A--><g id="link_E_A"><path codeLine="98" d="M590.64,162.23 C589.91,179.15 589.47,197.7 589.31,216.59 " fill="none" id="E-to-A" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="589.28,221.93,593.3314,212.953,589.3086,216.9301,585.3315,212.9073,589.28,221.93" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="554.1738" y="181.9304">*</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="59" x="527.1738" y="196.8792"># mapOfA</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="538.6738" y="211.8279"> </text></g><!--MD5=[ee344346890028aa79ecfe638cbee1f3]
+link E to A--><g id="link_E_A"><path codeLine="99" d="M614.03,162.23 C614.8,179.15 615.27,197.7 615.43,216.59 " fill="none" id="E-to-A-1" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="615.47,221.93,619.4185,212.9073,615.4414,216.9301,611.4186,212.953,615.47,221.93" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="701.8433" y="181.9304">*</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="105" x="651.8433" y="196.8792">+ mapOfArrayOfA</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="686.3433" y="211.8279"> </text></g><!--MD5=[03dfecaa5b19dfa9460939e5d00a0c0b]
+@startuml
+'https://plantuml.com/class-diagram
+skinparam classAttributeIconSize 0
+skinparam classFontStyle Bold
+skinparam style strictuml
+hide empty members
+
+class Java2PumlTest1  {
+	+ <<Create>> Java2PumlTest1()
+}
+
+
+class A  {
+	- anInt : Integer
+	# aShort : Short
+	~ aLong : Long
+	+ aByte : Byte
+	- aFloat : Float {readOnly}
+	# {static} aDouble : Double
+	~ {static} aChar : Char {readOnly}
+	+ {static} aBoolean : Boolean {readOnly}
+	~ <<Create>> A()
+	- anIntFunction(anIntParam : Integer) : Integer
+	# aShortFunction(aShortParam : Short) : Short
+	~ aLongFunction(aLongParam : Long) : Long
+	+ aByteFunction(aByteParam : Byte) : Byte
+	- {static} aFloatFunction(aFloatParam : Float) : Float
+	# {static} aDoubleFunction(aDoubleParam : Double) : Double
+	~ {static} aCharFunction(aCharParam : Char) : Char
+	+ {static} aBooleanFunction(aBooleanParam : Boolean) : Boolean
+}
+
+
+class B  {
+	- anInteger : Integer
+	# aShort : Short
+	~ aLong : Long
+	+ aByte : Byte
+	- aFloat : Float {readOnly}
+	# {static} aDouble : Double
+	~ {static} aCharacter : Char {readOnly}
+	+ {static} aBoolean : Boolean {readOnly}
+	~ <<Create>> B()
+	- anIntFunction(anIntParam : Integer) : Integer
+	# aShortFunction(aShortParam : Short) : Short
+	~ aLongFunction(aLongParam : Long) : Long
+	+ aByteFunction(aByteParam : Byte) : Byte
+	- aFloatFunction(aFloatParam : Float) : Float
+	# {abstract} aDoubleFunction(aDoubleParam : Double) : Double
+	~ {static} aCharacterFunction(aCharacterParam : Char) : Char
+	+ {static} aBooleanFunction(aBooleanParam : Boolean) : Boolean
+}
+
+
+class C  {
+	- anIntArray : Integer[*]
+	# aShortArray : Short[*]
+	~ anArrayOfLongArray : Long[*]
+	+ anArrayOfByteArray : Byte[*]
+	- aFloatList : Float[*] {readOnly}
+	# {static} aListOfDoubleList : Double[*]
+	~ {static} aSetOfCharacter : Char[*] {readOnly}
+	+ {static} aSetOfBooleanList : Boolean[*] {readOnly}
+	~ <<Create>> C()
+	- anIntArrayFunction(anIntArrayParam : Integer[*]) : Integer[*]
+	# aShortArrayFunction(aShortArrayParam : Short[*]) : Short[*]
+	~ aLong3DArrayFunction(someLongs : Long[*]) : Long[*]
+	+ aByte5DArrayFunction(someBytes : Byte[*]) : Byte[*]
+	- aFloatListFunction(aFloatListParam : Float[*]) : Float[*]
+	# aListOfDoubleListFunction(someDoubles : Double[*]) : Double[*]
+	~ aCharacterSetFunction(aCharacterSetParam : Char[*]) : Char[*]
+	+ aSetOfBooleanListFunction(someBooleans : Boolean[*]) : Boolean[*]
+}
+
+
+class D  {
+	~ <<Create>> D()
+	- aFunction(a0 : A , a1 : A[*] , a2 : A[*] , a3 : A[*]) : A
+	~ bFunction(b0 : B , b1 : B[*] , b2 : B[*] , b3 : B[*]) : B[*]
+	# {abstract} cFunction(c0 : C , c1 : C[*] , c2 : C[*] , c3 : C[*]) : C[*]
+	+ {static} dFunction(d0 : D , d1 : D[*] , d2 : D[*] , d3 : D[*] , d4 : D[*]) : D[*]
+}
+
+D - -> "\t1\n\t- a\n" A
+D - -> "\t*\n\t~ bs\n" B
+D - -> "\t*\n\t# cs\n" C
+D - -> "\t*\n\t<u>+  ds</u>\n" D
+
+class E  {
+	- mapOfInt : Integer[*]
+	~ mapOfDoubleArray : Double[*]
+	~ <<Create>> E()
+	- mapOfIntFunction(a0 : Integer[*] , a1 : Integer[*] , a2 : Integer[*] , a3 : Integer[*]) : Integer[*]
+	~ {abstract} mapOfDoubleArrayFunction(a0 : Double[*] , a1 : Double[*] , a2 : Double[*] , a3 : Double[*]) : Double[*]
+	# mapOfAFunction(a0 : A[*] , a1 : A[*] , a2 : A[*] , a3 : [*]) : A[*]
+	+ {static} mapOfArrayOfAFunction(a0 : A[*] , a1 : A[*] , a2 : A[*] , a3 : [*]) : A[*]
+}
+
+E - -> "\t*\n\t# mapOfA\n" A
+E - -> "\t*\n\t+ mapOfArrayOfA\n" A
+
+
+@enduml
+
+@startuml
+skinparam classAttributeIconSize 0
+skinparam classFontStyle Bold
+skinparam style strictuml
+hide empty members
+
+class Java2PumlTest1  {
+	+ <<Create>> Java2PumlTest1()
+}
+
+
+class A  {
+	- anInt : Integer
+	# aShort : Short
+	~ aLong : Long
+	+ aByte : Byte
+	- aFloat : Float {readOnly}
+	# {static} aDouble : Double
+	~ {static} aChar : Char {readOnly}
+	+ {static} aBoolean : Boolean {readOnly}
+	~ <<Create>> A()
+	- anIntFunction(anIntParam : Integer) : Integer
+	# aShortFunction(aShortParam : Short) : Short
+	~ aLongFunction(aLongParam : Long) : Long
+	+ aByteFunction(aByteParam : Byte) : Byte
+	- {static} aFloatFunction(aFloatParam : Float) : Float
+	# {static} aDoubleFunction(aDoubleParam : Double) : Double
+	~ {static} aCharFunction(aCharParam : Char) : Char
+	+ {static} aBooleanFunction(aBooleanParam : Boolean) : Boolean
+}
+
+
+class B  {
+	- anInteger : Integer
+	# aShort : Short
+	~ aLong : Long
+	+ aByte : Byte
+	- aFloat : Float {readOnly}
+	# {static} aDouble : Double
+	~ {static} aCharacter : Char {readOnly}
+	+ {static} aBoolean : Boolean {readOnly}
+	~ <<Create>> B()
+	- anIntFunction(anIntParam : Integer) : Integer
+	# aShortFunction(aShortParam : Short) : Short
+	~ aLongFunction(aLongParam : Long) : Long
+	+ aByteFunction(aByteParam : Byte) : Byte
+	- aFloatFunction(aFloatParam : Float) : Float
+	# {abstract} aDoubleFunction(aDoubleParam : Double) : Double
+	~ {static} aCharacterFunction(aCharacterParam : Char) : Char
+	+ {static} aBooleanFunction(aBooleanParam : Boolean) : Boolean
+}
+
+
+class C  {
+	- anIntArray : Integer[*]
+	# aShortArray : Short[*]
+	~ anArrayOfLongArray : Long[*]
+	+ anArrayOfByteArray : Byte[*]
+	- aFloatList : Float[*] {readOnly}
+	# {static} aListOfDoubleList : Double[*]
+	~ {static} aSetOfCharacter : Char[*] {readOnly}
+	+ {static} aSetOfBooleanList : Boolean[*] {readOnly}
+	~ <<Create>> C()
+	- anIntArrayFunction(anIntArrayParam : Integer[*]) : Integer[*]
+	# aShortArrayFunction(aShortArrayParam : Short[*]) : Short[*]
+	~ aLong3DArrayFunction(someLongs : Long[*]) : Long[*]
+	+ aByte5DArrayFunction(someBytes : Byte[*]) : Byte[*]
+	- aFloatListFunction(aFloatListParam : Float[*]) : Float[*]
+	# aListOfDoubleListFunction(someDoubles : Double[*]) : Double[*]
+	~ aCharacterSetFunction(aCharacterSetParam : Char[*]) : Char[*]
+	+ aSetOfBooleanListFunction(someBooleans : Boolean[*]) : Boolean[*]
+}
+
+
+class D  {
+	~ <<Create>> D()
+	- aFunction(a0 : A , a1 : A[*] , a2 : A[*] , a3 : A[*]) : A
+	~ bFunction(b0 : B , b1 : B[*] , b2 : B[*] , b3 : B[*]) : B[*]
+	# {abstract} cFunction(c0 : C , c1 : C[*] , c2 : C[*] , c3 : C[*]) : C[*]
+	+ {static} dFunction(d0 : D , d1 : D[*] , d2 : D[*] , d3 : D[*] , d4 : D[*]) : D[*]
+}
+
+D - -> "\t1\n\t- a\n" A
+D - -> "\t*\n\t~ bs\n" B
+D - -> "\t*\n\t# cs\n" C
+D - -> "\t*\n\t<u>+  ds</u>\n" D
+
+class E  {
+	- mapOfInt : Integer[*]
+	~ mapOfDoubleArray : Double[*]
+	~ <<Create>> E()
+	- mapOfIntFunction(a0 : Integer[*] , a1 : Integer[*] , a2 : Integer[*] , a3 : Integer[*]) : Integer[*]
+	~ {abstract} mapOfDoubleArrayFunction(a0 : Double[*] , a1 : Double[*] , a2 : Double[*] , a3 : Double[*]) : Double[*]
+	# mapOfAFunction(a0 : A[*] , a1 : A[*] , a2 : A[*] , a3 : [*]) : A[*]
+	+ {static} mapOfArrayOfAFunction(a0 : A[*] , a1 : A[*] , a2 : A[*] , a3 : [*]) : A[*]
+}
+
+E - -> "\t*\n\t# mapOfA\n" A
+E - -> "\t*\n\t+ mapOfArrayOfA\n" A
+
+
+@enduml
+
+PlantUML version 1.2022.12(Sun Oct 23 20:12:26 CEST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

@@ -1,0 +1,103 @@
+@startuml
+'https://plantuml.com/class-diagram
+skinparam classAttributeIconSize 0
+skinparam classFontStyle Bold
+skinparam style strictuml
+hide empty members
+
+class Java2PumlTest1  {
+	+ <<Create>> Java2PumlTest1()
+}
+
+
+class A  {
+	- anInt : Integer
+	# aShort : Short
+	~ aLong : Long
+	+ aByte : Byte
+	- aFloat : Float {readOnly}
+	# {static} aDouble : Double
+	~ {static} aChar : Char {readOnly}
+	+ {static} aBoolean : Boolean {readOnly}
+	~ <<Create>> A()
+	- anIntFunction(anIntParam : Integer) : Integer
+	# aShortFunction(aShortParam : Short) : Short
+	~ aLongFunction(aLongParam : Long) : Long
+	+ aByteFunction(aByteParam : Byte) : Byte
+	- {static} aFloatFunction(aFloatParam : Float) : Float
+	# {static} aDoubleFunction(aDoubleParam : Double) : Double
+	~ {static} aCharFunction(aCharParam : Char) : Char
+	+ {static} aBooleanFunction(aBooleanParam : Boolean) : Boolean
+}
+
+
+class B  {
+	- anInteger : Integer
+	# aShort : Short
+	~ aLong : Long
+	+ aByte : Byte
+	- aFloat : Float {readOnly}
+	# {static} aDouble : Double
+	~ {static} aCharacter : Char {readOnly}
+	+ {static} aBoolean : Boolean {readOnly}
+	~ <<Create>> B()
+	- anIntFunction(anIntParam : Integer) : Integer
+	# aShortFunction(aShortParam : Short) : Short
+	~ aLongFunction(aLongParam : Long) : Long
+	+ aByteFunction(aByteParam : Byte) : Byte
+	- aFloatFunction(aFloatParam : Float) : Float
+	# {abstract} aDoubleFunction(aDoubleParam : Double) : Double
+	~ {static} aCharacterFunction(aCharacterParam : Char) : Char
+	+ {static} aBooleanFunction(aBooleanParam : Boolean) : Boolean
+}
+
+
+class C  {
+	- anIntArray : Integer[*]
+	# aShortArray : Short[*]
+	~ anArrayOfLongArray : Long[*]
+	+ anArrayOfByteArray : Byte[*]
+	- aFloatList : Float[*] {readOnly}
+	# {static} aListOfDoubleList : Double[*]
+	~ {static} aSetOfCharacter : Char[*] {readOnly}
+	+ {static} aSetOfBooleanList : Boolean[*] {readOnly}
+	~ <<Create>> C()
+	- anIntArrayFunction(anIntArrayParam : Integer[*]) : Integer[*]
+	# aShortArrayFunction(aShortArrayParam : Short[*]) : Short[*]
+	~ aLong3DArrayFunction(someLongs : Long[*]) : Long[*]
+	+ aByte5DArrayFunction(someBytes : Byte[*]) : Byte[*]
+	- aFloatListFunction(aFloatListParam : Float[*]) : Float[*]
+	# aListOfDoubleListFunction(someDoubles : Double[*]) : Double[*]
+	~ aCharacterSetFunction(aCharacterSetParam : Char[*]) : Char[*]
+	+ aSetOfBooleanListFunction(someBooleans : Boolean[*]) : Boolean[*]
+}
+
+
+class D  {
+	~ <<Create>> D()
+	- aFunction(a0 : A , a1 : A[*] , a2 : A[*] , a3 : A[*]) : A
+	~ bFunction(b0 : B , b1 : B[*] , b2 : B[*] , b3 : B[*]) : B[*]
+	# {abstract} cFunction(c0 : C , c1 : C[*] , c2 : C[*] , c3 : C[*]) : C[*]
+	+ {static} dFunction(d0 : D , d1 : D[*] , d2 : D[*] , d3 : D[*] , d4 : D[*]) : D[*]
+}
+
+D --> "\t1\n\t- a\n" A
+D --> "\t*\n\t~ bs\n" B
+D --> "\t*\n\t# cs\n" C
+D --> "\t*\n\t<u>+  ds</u>\n" D
+
+class E  {
+	- mapOfInt : Integer[*]
+	~ mapOfDoubleArray : Double[*]
+	~ <<Create>> E()
+	- mapOfIntFunction(a0 : Integer[*] , a1 : Integer[*] , a2 : Integer[*] , a3 : Integer[*]) : Integer[*]
+	~ {abstract} mapOfDoubleArrayFunction(a0 : Double[*] , a1 : Double[*] , a2 : Double[*] , a3 : Double[*]) : Double[*]
+	# mapOfAFunction(a0 : A[*] , a1 : A[*] , a2 : A[*] , a3 : [*]) : A[*]
+	+ {static} mapOfArrayOfAFunction(a0 : A[*] , a1 : A[*] , a2 : A[*] , a3 : [*]) : A[*]
+}
+
+E --> "\t*\n\t# mapOfA\n" A
+E --> "\t*\n\t+ mapOfArrayOfA\n" A
+
+
+@enduml

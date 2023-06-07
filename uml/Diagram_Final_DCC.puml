@@ -1,0 +1,248 @@
+@startuml
+'https://plantuml.com/class-diagram
+skinparam classAttributeIconSize 0
+skinparam classFontStyle Bold
+skinparam style strictuml
+hide empty members
+
+class pumlFromJava.CreateMethodElement  {
+	+ <<Create>> CreateMethodElement(element : Element)
+	+ getModifiers() : Modifier[*]
+	+ getAnnotation() : AnnotationMirror[*]
+	+ getStringElement() : String
+	+ getStringParametre() : String
+	+ getStringRetour() : String
+	+ getStringAnnotation() : String
+}
+
+pumlFromJava.CreateMethodElement --> "\t*\n\t- modifiers\n" javax.lang.model.element.Modifier
+pumlFromJava.CreateMethodElement --> "\t*\n\t- annotationMirrors\n"  javax.lang.model.element.AnnotationMirror
+pumlFromJava.CreateMethodElement --> "\t1\n\t- executableElement\n" javax.lang.model.element.ExecutableElement
+
+class pumlFromJava.CreateConstructorElement  {
+	+ <<Create>> CreateConstructorElement(element : Element)
+	+ getName() : String
+	+ getModifiers() : Modifier[*]
+	+ getConstructor() : String
+	+ getStringParametre() : String
+}
+
+pumlFromJava.CreateConstructorElement --> "\t*\n\t- modifiers\n" javax.lang.model.element.Modifier
+pumlFromJava.CreateConstructorElement --> "\t*\n\t- annotationMirrors\n"  javax.lang.model.element.AnnotationMirror
+pumlFromJava.CreateConstructorElement --> "\t1\n\t- executableElement\n" javax.lang.model.element.ExecutableElement
+
+class pumlFromJava.FirstDoclet  implements jdk.javadoc.doclet.Doclet{
+	+ <<Create>> FirstDoclet()
+	+ init(locale : Locale , reporter : Reporter) {redefines Object::init}
+	+ getName() : String {redefines Object::getName}
+	+ getSupportedOptions() : Option[*] {redefines Object::getSupportedOptions}
+	+ getSupportedSourceVersion() : SourceVersion {redefines Object::getSupportedSourceVersion}
+	+ run(environment : DocletEnvironment) : Boolean {redefines Object::run}
+	- dumpElement(element : Element)
+}
+
+
+class pumlFromJava.PumlDoclet  implements jdk.javadoc.doclet.Doclet{
+	- out : String
+	- d : String
+	- dca : Boolean
+	+ <<Create>> PumlDoclet()
+	+ init(locale : Locale , reporter : Reporter) {redefines Object::init}
+	+ getName() : String {redefines Object::getName}
+	+ getSupportedOptions() : Option[*] {redefines Object::getSupportedOptions}
+	+ getSupportedSourceVersion() : SourceVersion {redefines Object::getSupportedSourceVersion}
+	+ run(environment : DocletEnvironment) : Boolean {redefines Object::run}
+}
+
+pumlFromJava.PumlDoclet --> "\t*\n\t- options\n" pumlFromJava.PumlDoclet.Option
+
+class pumlFromJava.CreateImpleElement  {
+	- isImplements : Boolean
+	+ <<Create>> CreateImpleElement(element : Element)
+	- setIsImplements()
+	+ getIsImplementVal() : Boolean
+	- setinterfacesImplements()
+	+ getinterfacesImplements() : TypeMirror[*]
+	+ getStringImplements() : String
+	+ getStringExtendsInterface() : String
+}
+
+pumlFromJava.CreateImpleElement --> "\t1\n\t- typeElement\n" javax.lang.model.element.TypeElement
+pumlFromJava.CreateImpleElement --> "\t*\n\t- interfacesImplements\n" javax.lang.model.type.TypeMirror
+
+class pumlFromJava.CreateEnumElement extends pumlFromJava.ElementDefault {
+	- AttributEnum : String[*]
+	+ <<Create>> CreateEnumElement(element : Element)
+	+ getStringElementStart() : String
+	+ getStringElementEnd() : String
+	+ getStringElementStartEnd() : String
+	+ getStringElementAll() : String
+	+ getAttributEnum() : String[*]
+	+ getStringAttributEnum() : String
+}
+
+
+class pumlFromJava.CreateInterElement extends pumlFromJava.ElementDefault {
+	+ <<Create>> CreateInterElement(element : Element)
+	+ getStringElementStart() : String
+	+ getStringElementEnd() : String
+	+ getStringElementStartEnd() : String
+	+ getStringElementAllPlus() : String
+	+ getStringElementFromBool(val : Boolean) : String
+	+ getStringElementDCC() : String
+	+ getStringElementDCA() : String
+	+ getMethods() : CreateMethodElement[*]
+	+ getStringMethods() : String
+}
+
+pumlFromJava.CreateInterElement --> "\t*\n\t- methods\n" pumlFromJava.CreateMethodElement
+pumlFromJava.CreateInterElement --> "\t1\n\t- impleElement\n" pumlFromJava.CreateImpleElement
+
+class pumlFromJava.CreateFieldSpecialElement extends pumlFromJava.ElementDefault {
+	- elementFirst : String
+	- elementSecond : String
+	- elementSecondIsArray : Boolean
+	- elementSecndIsStatic : Boolean
+	- elementSecondIsMap : Boolean
+	+ <<Create>> CreateFieldSpecialElement(element : Element)
+	+ getElementFirst() : String
+	+ getElementSecond() : String
+	+ getElementSecondIsArray() : Boolean
+	+ setElementFirst()
+	+ setElementSecond()
+	+ setElementSecondIsMap()
+	+ setElementSecondIsArray()
+	+ setElementSecondIsStatic()
+	+ getModifiers() : Modifier[*]
+	+ getStringElementFromBool(val : Boolean) : String
+	+ getStringElementDCC() : String
+	+ getStringElementDCA() : String
+	+ getStringCardinal() : String
+	+ getStringCardinalAndName() : String
+	+ getAnnotation() : AnnotationMirror[*]
+	+ getStringIfAggrégationOrComposition() : String
+	+ getStringIfAssociation() : String
+}
+
+pumlFromJava.CreateFieldSpecialElement --> "\t*\n\t- modifiers\n" javax.lang.model.element.Modifier
+pumlFromJava.CreateFieldSpecialElement --> "\t*\n\t- annotationMirrors\n"  javax.lang.model.element.AnnotationMirror
+
+class pumlFromJava.CreateFirstElement extends pumlFromJava.ElementDefault {
+	- buildUml : String
+	- dca : Boolean
+	+ <<Create>> CreateFirstElement(element : Element , isDCA : Boolean)
+	+ run()
+	+ getBuildUml() : String
+}
+
+
+class pumlFromJava.Helper  {
+	- {static} classPrimitiveForObjectType : String {readOnly}
+	- {static} classArrayForObjectType : String {readOnly}
+	- {static} classMapForObjectType : String {readOnly}
+	+ <<Create>> Helper()
+	+ {static} isPrimitiveObject(type_test : TypeMirror) : Boolean
+	+ {static} isArrayObject(type_test : TypeMirror) : Boolean
+	+ {static} isMapObject(type_test : TypeMirror) : Boolean
+	+ {static} isOtherObject(type_test : TypeMirror) : Boolean
+	+ {static} isMapPrimitive(type_test : TypeMirror) : Boolean
+	+ {static} stringPrimitveObject(type_test : TypeMirror) : String
+	+ {static} stringArrayObject(type_test : TypeMirror) : String
+	+ {static} stringMapObject(type_test : TypeMirror) : String
+	+ {static} stringOtherObject(type_test : TypeMirror) : String
+	+ {static} upperFirstChar(string : String) : String
+	+ {static} getStringType(type_test : TypeMirror) : String
+	+ {static} getStringModifier(modifiers : Modifier[*]) : String
+}
+
+
+class pumlFromJava.ElementDefault  {
+	- name : String
+	- enclosing : String
+	+ <<Create>> ElementDefault(element : Element)
+	+ getElement() : Element
+	+ getName() : String
+	+ getEnclosing() : String
+	+ getNameAndEnclosing() : String
+	+ getElementEnclosed() : Element[*]
+}
+
+pumlFromJava.ElementDefault --> "\t1\n\t- element\n" javax.lang.model.element.Element
+pumlFromJava.ElementDefault --> "\t*\n\t- elementEnclosed\n"  javax.lang.model.element.Element
+
+class pumlFromJava.CreateClassElement extends pumlFromJava.ElementDefault {
+	+ <<Create>> CreateClassElement(element : Element)
+	+ getStringElementStart() : String
+	+ getStringElementStartWithExtends() : String
+	+ getStringElementEnd() : String
+	+ getStringElementStartEnd() : String
+	+ getStringElementAllPlus() : String
+	+ getStringElementFromBool(val : Boolean) : String
+	+ getStringElementDCC() : String
+	+ getStringElementDCA() : String
+	+ getFields() : CreateFieldElement[*]
+	+ getConstructor() : CreateConstructorElement[*]
+	+ getMethods() : CreateMethodElement[*]
+	+ getStringFieldsPrimitive() : String
+	+ getStringFieldsPrimitiveForDCA() : String
+	+ getStringFieldsNotPrimitive(val : Boolean) : String
+	+ getStringMethods() : String
+	+ getStringConstructors() : String
+}
+
+pumlFromJava.CreateClassElement --> "\t*\n\t- fields\n" pumlFromJava.CreateFieldElement
+pumlFromJava.CreateClassElement --> "\t*\n\t- constructors\n" pumlFromJava.CreateConstructorElement
+pumlFromJava.CreateClassElement --> "\t*\n\t- methods\n" pumlFromJava.CreateMethodElement
+pumlFromJava.CreateClassElement --> "\t1\n\t- extendsElement\n" pumlFromJava.CreateExtendsElement
+pumlFromJava.CreateClassElement --> "\t1\n\t- impleElement\n" pumlFromJava.CreateImpleElement
+
+class pumlFromJava.Java2Puml  {
+	+ <<Create>> Java2Puml()
+	+ {static} main(args : String[*])
+}
+
+
+class pumlFromJava.CreateExtendsElement  {
+	- {static} objectClass : String {readOnly}
+	- isExtends : Boolean
+	- nameExtends : String
+	+ <<Create>> CreateExtendsElement(element : Element)
+	- setIsExtends()
+	+ getIsExtendsVal() : Boolean
+	- setNameExtends()
+	+ getNameExtends() : String
+	+ getStringExtends() : String
+}
+
+pumlFromJava.CreateExtendsElement --> "\t1\n\t- typeElement\n" javax.lang.model.element.TypeElement
+
+class pumlFromJava.CreateFieldElement extends pumlFromJava.ElementDefault {
+	- isPrimitive : Boolean
+	+ <<Create>> CreateFieldElement(element : Element)
+	+ CheckPrimitiveAndMap()
+	+ getModifiers() : Modifier[*]
+	+ getIsPrimitive() : Boolean
+	+ getFieldPrimitive() : String
+	+ getFieldPrimitiveForDCA() : String
+	+ setFieldNotPrimitive()
+	+ getFieldNotPrimitive(val : Boolean) : String
+}
+
+pumlFromJava.CreateFieldElement --> "\t*\n\t- modifiers\n" javax.lang.model.element.Modifier
+pumlFromJava.CreateFieldElement --> "\t1\n\t- fieldSpecialElement\n" pumlFromJava.CreateFieldSpecialElement
+
+class pumlFromJava.PumlDiagram  {
+	+ <<Create>> PumlDiagram()
+	- {static} createFile(name_file : String , dir_file : String)
+	+ {static} genereStart(name_file : String , dir_file : String)
+	+ {static} generePrincipal(element_string : String)
+	+ {static} genereEnd()
+}
+
+pumlFromJava.PumlDiagram --> "\t1\n\t<u>-  file</u>\n" java.io.FileWriter
+
+note "Launch javadoc to PumlDoclet with args" as N2
+Java2Puml .. N2
+N2 .. PumlDoclet
+
+@enduml

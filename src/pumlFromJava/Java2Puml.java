@@ -23,17 +23,20 @@ public class Java2Puml
         String[] perso_args = new String[]{
         "-private",
         "-sourcepath",
-        "./exemples/P21_Western/src/",
+        //"./exemples/P21_Western/src/",
+        "./src/",
         "-doclet",
         "pumlFromJava.PumlDoclet",
         "-d",
         "./",
         "-out",
-        "Diagram_test5_DCC",
+        "Diagram_Test_DCC",
         //"--dca",
         "-docletpath",
         "",
-        "western",
+        //"western",
+        //"./exemples/Test_dir/Java2PumlTest1.java",
+        "pumlFromJava",
     };
 
         ToolProvider toolProvider = ToolProvider.findFirst("javadoc").get();

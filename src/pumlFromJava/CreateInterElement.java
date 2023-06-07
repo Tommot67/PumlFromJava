@@ -54,7 +54,7 @@ public class CreateInterElement extends ElementDefault{
     public String getStringMethods(){
         String temp = "";
         for (CreateMethodElement methodElement: this.getMethods()) {
-            temp += methodElement.getMethod();
+            temp += methodElement.getStringElement();
         }
         return temp;
     }

@@ -27,7 +27,7 @@ public class CreateMethodElement {
         return annotationMirrors;
     }
 
-    public String getMethod(){
+    public String getStringElement(){
         String temp = "\t";
         temp += Helper.getStringModifier(this.getModifiers());
         temp += this.executableElement.getSimpleName() + "(";

@@ -43,7 +43,7 @@ public class CreateFieldSpecialElement extends ElementDefault{
     }
     public void setElementSecond(){
         if (this.elementSecondIsMap){
-            this.elementSecond = Helper.stringMapObject(super.getElement().asType() , this.getEnclosing().substring(0 , this.getEnclosing().indexOf('.')));
+            this.elementSecond = Helper.stringMapObject(super.getElement().asType());
         }
         else if(this.elementSecondIsArray) {
             this.elementSecond = Helper.stringArrayObject(super.getElement().asType());
@@ -53,7 +53,7 @@ public class CreateFieldSpecialElement extends ElementDefault{
         }
     }
     public void setElementSecondIsMap() {
-        this.elementSecondIsMap =  Helper.isMapObject(super.getElement().asType());
+        this.elementSecondIsMap = Helper.isMapObject(super.getElement().asType());
     }
     public void setElementSecondIsArray(){
         this.elementSecondIsArray =  Helper.isArrayObject(super.getElement().asType());
@@ -98,6 +98,9 @@ public class CreateFieldSpecialElement extends ElementDefault{
         if(this.elementSecondIsArray){
             temp += "\"\\t*\\n\\t";
         }
+        else if(this.elementSecondIsMap){
+            temp += "\"\\t*\\n\\t";
+        }
         else{
             temp += "\"\\t1\\n\\t";
         }
@@ -108,6 +111,9 @@ public class CreateFieldSpecialElement extends ElementDefault{
     {
         String temp = "";
         if(this.elementSecondIsArray){
+            temp += "\"\\t*\\n\\t";
+        }
+        else if(this.elementSecondIsMap){
             temp += "\"\\t*\\n\\t";
         }
         else{

@@ -30,7 +30,12 @@ public abstract class ElementDefault {
         return this.enclosing;
     }
     public String getNameAndEnclosing(){
-        return this.enclosing + "." + this.name;
+        if(this.enclosing.contains("unnamed package")){
+            return this.name;
+        }
+        else {
+            return this.enclosing + "." + this.name;
+        }
     }
     public List<? extends Element> getElementEnclosed() {
         return elementEnclosed;

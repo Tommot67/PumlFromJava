@@ -2,6 +2,10 @@ package pumlFromJava;
 
 import javax.lang.model.element.Element;
 import javax.lang.model.element.Modifier;
+import javax.lang.model.element.TypeElement;
+import javax.lang.model.element.VariableElement;
+import javax.lang.model.type.ArrayType;
+import javax.lang.model.type.DeclaredType;
 import javax.lang.model.type.TypeKind;
 import java.util.HashSet;
 import java.util.List;
@@ -17,11 +21,32 @@ public class CreateFieldElement extends ElementDefault{
     }
     public void CheckPrimitiveAndMap(){
         boolean verif1 = false;
-        if(this.getElement().asType().getKind() != TypeKind.DECLARED){
+        if (this.getElement().asType().getKind() == TypeKind.ARRAY){
+            ArrayType arrayType = (ArrayType) this.getElement().asType();
+            while (arrayType.getComponentType().getKind() == TypeKind.ARRAY) {
+                arrayType = (ArrayType) arrayType.getComponentType();
+            }
+            if (arrayType.getComponentType().getKind() == TypeKind.DECLARED && !Helper.isPrimitiveObject(arrayType.getComponentType())) {
+                this.setFieldNotPrimitive();
+                verif1 = false;
+            } else {
+                verif1 = true;
+            }
+        }
+        else if(this.getElement().asType().getKind() != TypeKind.DECLARED){
             verif1 = true;
         }
         else if(Helper.isPrimitiveObject(this.getElement().asType())){
             verif1 = true;
+        }
+        else if(Helper.isMapObject(this.getElement().asType())){
+            if(Helper.isMapPrimitive(this.getElement().asType())){
+                verif1 = true;
+            }
+            else {
+                verif1 = false;
+                this.setFieldNotPrimitive();
+            }
         }
         else {
             this.setFieldNotPrimitive();

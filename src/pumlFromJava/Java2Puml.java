@@ -30,7 +30,7 @@ public class Java2Puml
         "-d",
         "./",
         "-out",
-        "Diagram_Test_DCC",
+        "Diagram_test_DCC",
         //"--dca",
         "-docletpath",
         "",
